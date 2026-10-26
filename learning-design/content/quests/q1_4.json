@@ -1,0 +1,38 @@
+{
+  "quest_id": "q1_4",
+  "title": "Ask the way to the library",
+  "level": 1,
+  "topic_id": "asking_the_way",
+  "objective": "Ask where a place is, and understand 'go straight'.",
+  "quick_hint": "Say the place first, then ellide?",
+  "steps": [
+    {
+      "step_id": "q1_4_a",
+      "type": "respond",
+      "task": "Ask Manjunatha where the library is.",
+      "accepted": [
+        {
+          "answer_id": "a_library",
+          "kanglish": "Library ellide?",
+          "kannada": "ಲೈಬ್ರರಿ ಎಲ್ಲಿದೆ?",
+          "english": "Where is the library?"
+        }
+      ],
+      "anticipated_errors": [],
+      "full_example": {
+        "kannada": "ಲೈಬ್ರರಿ ಎಲ್ಲಿದೆ?",
+        "kanglish": "Library ellide?",
+        "english": "Where is the library?"
+      },
+      "target_words": [
+        "w_ellide"
+      ],
+      "npc_reply": {
+        "speaker": "manjunatha",
+        "kannada": "ಮುಂದೆ ಹೋಗಿ.",
+        "kanglish": "Munde hogi.",
+        "english": "Go straight."
+      }
+    }
+  ]
+}

@@ -1,0 +1,94 @@
+{
+  "quest_id": "q1_2",
+  "title": "Order tea",
+  "level": 1,
+  "topic_id": "ordering_at_shop",
+  "objective": "Ask for something with Nanage ___ beku, and answer a yes/no offer.",
+  "quick_hint": "Start with Nanage when saying 'I want…'",
+  "steps": [
+    {
+      "step_id": "q1_2_a",
+      "type": "respond",
+      "speaker": "manjunatha",
+      "npc_line": {
+        "kannada": "ನಿಮಗೆ ಏನು ಬೇಕು?",
+        "kanglish": "Nimage enu beku?",
+        "english": "What do you want?"
+      },
+      "accepted": [
+        {
+          "answer_id": "a_tea",
+          "kanglish": "Nanage chaha beku",
+          "kannada": "ನನಗೆ ಚಹಾ ಬೇಕು",
+          "english": "I want tea",
+          "also_accepted": [
+            "Chaha beku"
+          ]
+        }
+      ],
+      "anticipated_errors": [
+        {
+          "answer_id": "e_beda",
+          "kanglish": "Nanage chaha beda",
+          "english": "I don't want tea",
+          "error_category": "beku_beda_mixup",
+          "kannada": "ನನಗೆ ಚಹಾ ಬೇಡ",
+          "reaction_id": "r_manjunatha_shrug"
+        }
+      ],
+      "full_example": {
+        "kannada": "ನನಗೆ ಚಹಾ ಬೇಕು.",
+        "kanglish": "Nanage chaha beku.",
+        "english": "I want tea."
+      },
+      "target_words": [
+        "w_nanage",
+        "w_chaha",
+        "w_beku"
+      ]
+    },
+    {
+      "step_id": "q1_2_b",
+      "type": "respond",
+      "speaker": "manjunatha",
+      "npc_line": {
+        "kannada": "ನೀರು ಬೇಕಾ?",
+        "kanglish": "Neeru beka?",
+        "english": "Do you want water?"
+      },
+      "accepted": [
+        {
+          "answer_id": "a_yes",
+          "kanglish": "Haudu, beku",
+          "kannada": "ಹೌದು, ಬೇಕು",
+          "english": "Yes, I do"
+        },
+        {
+          "answer_id": "a_no",
+          "kanglish": "Illa, beda",
+          "kannada": "ಇಲ್ಲ, ಬೇಡ",
+          "english": "No, I don't"
+        }
+      ],
+      "anticipated_errors": [],
+      "full_example": {
+        "kannada": "ಹೌದು, ಬೇಕು.",
+        "kanglish": "Haudu, beku.",
+        "english": "Yes, I do."
+      },
+      "target_words": [
+        "w_haudu",
+        "w_illa",
+        "w_beku",
+        "w_beda"
+      ]
+    },
+    {
+      "step_id": "q1_2_c",
+      "type": "read_word",
+      "optional": true,
+      "task": "Bonus: tap the word ಚಹಾ on the stall's menu board — the first word read in Kannada script.",
+      "word_id": "w_chaha"
+    }
+  ]
+}

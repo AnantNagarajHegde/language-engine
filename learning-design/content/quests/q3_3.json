@@ -1,0 +1,86 @@
+{
+  "quest_id": "q3_3",
+  "title": "Pay for lunch",
+  "level": 3,
+  "topic_id": "numbers_money",
+  "objective": "Ask a price and recognise aivattu (50).",
+  "quick_hint": "Eshtu means how much.",
+  "steps": [
+    {
+      "step_id": "q3_3_a",
+      "type": "respond",
+      "task": "Ask Shanthakka the price.",
+      "accepted": [
+        {
+          "answer_id": "a_price",
+          "kanglish": "Eshtu rupayi?",
+          "kannada": "ಎಷ್ಟು ರೂಪಾಯಿ?",
+          "english": "How many rupees?"
+        }
+      ],
+      "anticipated_errors": [],
+      "full_example": {
+        "kannada": "ಎಷ್ಟು ರೂಪಾಯಿ?",
+        "kanglish": "Eshtu rupayi?",
+        "english": "How many rupees?"
+      },
+      "target_words": [
+        "w_eshtu",
+        "w_rupayi"
+      ],
+      "npc_reply": {
+        "speaker": "shanthakka",
+        "kannada": "ಐವತ್ತು ರೂಪಾಯಿ.",
+        "kanglish": "Aivattu rupayi.",
+        "english": "Fifty rupees.",
+        "english_keywords": [
+          "fifty",
+          "rupees"
+        ]
+      }
+    },
+    {
+      "step_id": "q3_3_b",
+      "type": "respond",
+      "task": "Pay Shanthakka. Type the amount she asked for.",
+      "accepted": [
+        {
+          "answer_id": "a_50",
+          "kanglish": "Aivattu",
+          "kannada": "ಐವತ್ತು",
+          "english": "50",
+          "also_accepted": [
+            "50",
+            "Aivattu rupayi"
+          ]
+        }
+      ],
+      "anticipated_errors": [
+        {
+          "answer_id": "e_10",
+          "kanglish": "Hattu",
+          "kannada": "ಹತ್ತು",
+          "english": "10",
+          "error_category": "wrong_number",
+          "reaction_id": "r_shanthakka_illa_aivattu"
+        },
+        {
+          "answer_id": "e_20",
+          "kanglish": "Ippattu",
+          "kannada": "ಇಪ್ಪತ್ತು",
+          "english": "20",
+          "error_category": "wrong_number",
+          "reaction_id": "r_shanthakka_illa_aivattu"
+        }
+      ],
+      "full_example": {
+        "kannada": "ಐವತ್ತು",
+        "kanglish": "Aivattu",
+        "english": "50"
+      },
+      "target_words": [
+        "w_aivattu"
+      ]
+    }
+  ]
+}

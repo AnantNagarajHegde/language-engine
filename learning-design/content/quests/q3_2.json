@@ -1,0 +1,51 @@
+{
+  "quest_id": "q3_2",
+  "title": "Say \"enough\"",
+  "level": 3,
+  "topic_id": "food_at_mess",
+  "objective": "Say 'enough' with saaku.",
+  "quick_hint": "Not 'I don't want' — the word for 'enough'.",
+  "steps": [
+    {
+      "step_id": "q3_2_a",
+      "type": "respond",
+      "speaker": "shanthakka",
+      "npc_line": {
+        "kannada": "ಇನ್ನೂ ಸಾರು?",
+        "kanglish": "Innu saaru?",
+        "english": "More rasam?",
+        "english_keywords": [
+          "more",
+          "rasam?"
+        ]
+      },
+      "topic_highlight": [
+        "w_saaku"
+      ],
+      "accepted": [
+        {
+          "answer_id": "a_saaku",
+          "kanglish": "Saaku!",
+          "kannada": "ಸಾಕು!",
+          "english": "Enough!"
+        },
+        {
+          "answer_id": "a_beda",
+          "kanglish": "Beda",
+          "kannada": "ಬೇಡ",
+          "english": "Don't want",
+          "reaction_id": "r_shanthakka_say_saaku"
+        }
+      ],
+      "anticipated_errors": [],
+      "full_example": {
+        "kannada": "ಸಾಕು!",
+        "kanglish": "Saaku!",
+        "english": "Enough!"
+      },
+      "target_words": [
+        "w_saaku"
+      ]
+    }
+  ]
+}

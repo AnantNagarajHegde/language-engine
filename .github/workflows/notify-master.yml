@@ -1,0 +1,32 @@
+name: Notify master repository
+
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+
+jobs:
+  dispatch-update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Dispatch component update event
+        env:
+          GH_TOKEN: ${{ secrets.MASTER_REPO_DISPATCH_TOKEN }}
+          COMPONENT: language-engine
+          COMMIT_SHA: ${{ github.sha }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "::error::Add the MASTER_REPO_DISPATCH_TOKEN Actions secret to this repository."
+            exit 1
+          fi
+          payload=$(printf '{"event_type":"component-updated","client_payload":{"component":"%s","sha":"%s"}}' "$COMPONENT" "$COMMIT_SHA")
+          curl --fail-with-body --silent --show-error \
+            --request POST \
+            --url https://api.github.com/repos/AnantNagarajHegde/paridhwani/dispatches \
+            --header "Accept: application/vnd.github+json" \
+            --header "Authorization: Bearer ${GH_TOKEN}" \
+            --header "X-GitHub-Api-Version: 2022-11-28" \
+            --data "$payload"

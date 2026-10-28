@@ -1,0 +1,179 @@
+row_id,step_id,quest_id,topic_id,speaker,player,input_text,input_form,expected_outcome,answer_id,error_category,correction_type,reaction_id,source,rule,group_id,split,decision_id,verified,note
+R00014,q1_1_a,q1_1,greetings_thanks,conductor,any,"DHANYAVADA, NAMASKARA",kanglish,accepted,a_thanks,,,,format_variant,upper_case,q1_1_a:0027,test,,yes,"variant of: Dhanyavada, namaskara"
+R00015,q1_1_a,q1_1,greetings_thanks,conductor,any,"Dhanyavaada, namaskara",kanglish,accepted,a_thanks,,,,spelling_variant,manual_extra,q1_1_a:0027,test,,yes,"variant of: Dhanyavada, namaskara"
+R00016,q1_1_a,q1_1,greetings_thanks,conductor,any,"Dhanyavada, namaskara",kanglish,accepted,a_thanks,,,,drafted,,q1_1_a:0027,test,,yes,
+R00017,q1_1_a,q1_1,greetings_thanks,conductor,any,"Dhanyawada, namaskara",kanglish,accepted,a_thanks,,,,spelling_variant,v_to_w,q1_1_a:0027,test,,yes,"variant of: Dhanyavada, namaskara"
+R00021,q1_1_a,q1_1,greetings_thanks,conductor,any,Thank you dhanyavada,mixed,accepted,a_thanks,,,,drafted,,q1_1_a:0030,test,,yes,
+R00028,q1_1_a,q1_1,greetings_thanks,conductor,any,Haudu,kanglish,not_accepted,,wrong_word,,r_puzzled,drafted,,q1_1_a:0033,test,,yes,"real Kannada, wrong moment"
+R00029,q1_1_a,q1_1,greetings_thanks,conductor,any,Houdu,kanglish,not_accepted,,wrong_word,,r_puzzled,spelling_variant,au_to_ou,q1_1_a:0033,test,,yes,variant of: Haudu
+R00033,q1_1_a,q1_1,greetings_thanks,conductor,any,Nanage chaha bekku,kanglish,not_accepted,,wrong_word,,r_puzzled,spelling_variant,k_doubled,q1_1_a:0036,test,,yes,variant of: Nanage chaha beku
+R00034,q1_1_a,q1_1,greetings_thanks,conductor,any,Nanage chaha beku,kanglish,not_accepted,,wrong_word,,r_puzzled,drafted,,q1_1_a:0036,test,,yes,"real Kannada, wrong moment"
+R00035,q1_1_a,q1_1,greetings_thanks,conductor,any,Nanage chai beku,kanglish,not_accepted,,wrong_word,,r_puzzled,spelling_variant,manual_extra,q1_1_a:0036,test,,yes,variant of: Nanage chaha beku
+R00042,q1_1_a,q1_1,greetings_thanks,conductor,aditi,Nana hesaru Aditi,kanglish,not_accepted,,wrong_word,,r_puzzled,spelling_variant,double_consonant_single,q1_1_a:0039,test,,yes,variant of: Nanna hesaru Aditi
+R00043,q1_1_a,q1_1,greetings_thanks,conductor,aditi,Nanna hesaru Aditi,kanglish,not_accepted,,wrong_word,,r_puzzled,drafted,,q1_1_a:0039,test,,yes,
+R00044,q1_1_a,q1_1,greetings_thanks,conductor,aditi,Nanna hesru Aditi,kanglish,not_accepted,,wrong_word,,r_puzzled,spelling_variant,manual_extra,q1_1_a:0039,test,,yes,variant of: Nanna hesaru Aditi
+R00047,q1_1_a,q1_1,greetings_thanks,conductor,any,Thank you very much,english,not_accepted,,english_only,,r_puzzled,drafted,,q1_1_a:0042,test,,yes,
+R00065,q1_2_a,q1_2,ordering_at_shop,manjunatha,any,Nange chaha beeku,kanglish,accepted,a_tea,,,,spelling_variant,e_lengthened,q1_2_a:0053,test,D10,yes,variant of: Nange chaha beku
+R00066,q1_2_a,q1_2,ordering_at_shop,manjunatha,any,Nange chaha beku,kanglish,accepted,a_tea,,,,drafted,,q1_2_a:0053,test,D10,yes,colloquial nange - confirm with native speaker
+R00067,q1_2_a,q1_2,ordering_at_shop,manjunatha,any,Nange chaha beku!,kanglish,accepted,a_tea,,,,format_variant,add_excl,q1_2_a:0053,test,D10,yes,variant of: Nange chaha beku
+R00068,q1_2_a,q1_2,ordering_at_shop,manjunatha,any,Nange chaha bekuu,kanglish,accepted,a_tea,,,,spelling_variant,manual_extra,q1_2_a:0053,test,D10,yes,variant of: Nange chaha beku
+R00077,q1_2_a,q1_2,ordering_at_shop,manjunatha,any,CHAHA KODI,kanglish,accepted,a_tea,,,,format_variant,upper_case,q1_2_a:0056,test,D2,yes,variant of: Chaha kodi
+R00078,q1_2_a,q1_2,ordering_at_shop,manjunatha,any,Chaa kodi,kanglish,accepted,a_tea,,,,spelling_variant,manual_extra,q1_2_a:0056,test,D2,yes,variant of: Chaha kodi
+R00079,q1_2_a,q1_2,ordering_at_shop,manjunatha,any,Chaha kodi,kanglish,accepted,a_tea,,,,drafted,,q1_2_a:0056,test,D2,yes,kodi is taught later (Level 3) but natural here
+R00080,q1_2_a,q1_2,ordering_at_shop,manjunatha,any,Chahaa kodi,kanglish,accepted,a_tea,,,,spelling_variant,manual_extra,q1_2_a:0056,test,D2,yes,variant of: Chaha kodi
+R00089,q1_2_a,q1_2,ordering_at_shop,manjunatha,any,Kaapi  beku,kanglish,accepted,a_tea,,,,format_variant,extra_space,q1_2_a:0059,test,D1,yes,variant of: Kaapi beku
+R00090,q1_2_a,q1_2,ordering_at_shop,manjunatha,any,Kaapi bekku,kanglish,accepted,a_tea,,,,spelling_variant,k_doubled,q1_2_a:0059,test,D1,yes,variant of: Kaapi beku
+R00091,q1_2_a,q1_2,ordering_at_shop,manjunatha,any,Kaapi beku,kanglish,accepted,a_tea,,,,drafted,,q1_2_a:0059,test,D1,yes,valid request for another item; relabel if only tea is valid
+R00092,q1_2_a,q1_2,ordering_at_shop,manjunatha,any,Kaapi bekuu,kanglish,accepted,a_tea,,,,spelling_variant,manual_extra,q1_2_a:0059,test,D1,yes,variant of: Kaapi beku
+R00110,q1_2_a,q1_2,ordering_at_shop,manjunatha,any,Naanu chaha beeku,kanglish,not_accepted,,pronoun_mixup,,r_puzzled,spelling_variant,e_lengthened,q1_2_a:0065,test,,yes,variant of: Naanu chaha beku
+R00111,q1_2_a,q1_2,ordering_at_shop,manjunatha,any,Naanu chaha beku,kanglish,not_accepted,,pronoun_mixup,,r_puzzled,drafted,,q1_2_a:0065,test,,yes,"copies NPC's nimage, or naanu for nanage"
+R00112,q1_2_a,q1_2,ordering_at_shop,manjunatha,any,Naanu chaha bekuu,kanglish,not_accepted,,pronoun_mixup,,r_puzzled,spelling_variant,manual_extra,q1_2_a:0065,test,,yes,variant of: Naanu chaha beku
+R00120,q1_2_a,q1_2,ordering_at_shop,manjunatha,arun,Nana hesaru Arun,kanglish,not_accepted,,wrong_meaning,,r_puzzled,spelling_variant,double_consonant_single,q1_2_a:0069,test,,yes,variant of: Nanna hesaru Arun
+R00121,q1_2_a,q1_2,ordering_at_shop,manjunatha,arun,Nanna hesaru Arun,kanglish,not_accepted,,wrong_meaning,,r_puzzled,drafted,,q1_2_a:0069,test,,yes,misheard the question
+R00122,q1_2_a,q1_2,ordering_at_shop,manjunatha,arun,Nanna hesru Arun,kanglish,not_accepted,,wrong_meaning,,r_puzzled,spelling_variant,manual_extra,q1_2_a:0069,test,,yes,variant of: Nanna hesaru Arun
+R00128,q1_2_a,q1_2,ordering_at_shop,manjunatha,any,One tea,english,not_accepted,,english_only,,r_puzzled,drafted,,q1_2_a:0073,test,,yes,
+R00131,q1_2_a,q1_2,ordering_at_shop,manjunatha,any,Ek chai,hindi_roman,not_accepted,,hindi_word,,r_puzzled,drafted,,q1_2_a:0076,test,,yes,
+R00149,q1_2_b,q1_2,ordering_at_shop,manjunatha,any,Nanage bekku,kanglish,accepted,a_yes,,,,spelling_variant,k_doubled,q1_2_b:0083,test,,yes,variant of: Nanage beku
+R00150,q1_2_b,q1_2,ordering_at_shop,manjunatha,any,Nanage beku,kanglish,accepted,a_yes,,,,drafted,,q1_2_b:0083,test,,yes,
+R00151,q1_2_b,q1_2,ordering_at_shop,manjunatha,any,Nanage beku!,kanglish,accepted,a_yes,,,,format_variant,add_excl,q1_2_b:0083,test,,yes,variant of: Nanage beku
+R00152,q1_2_b,q1_2,ordering_at_shop,manjunatha,any,Nange beku,kanglish,accepted,a_yes,,,,spelling_variant,manual_extra,q1_2_b:0083,test,,yes,variant of: Nanage beku
+R00161,q1_2_b,q1_2,ordering_at_shop,manjunatha,any,ILLA,kanglish,accepted,a_no,,,,format_variant,upper_case,q1_2_b:0086,test,,yes,variant of: Illa
+R00162,q1_2_b,q1_2,ordering_at_shop,manjunatha,any,Ila,kanglish,accepted,a_no,,,,spelling_variant,double_consonant_single,q1_2_b:0086,test,,yes,variant of: Illa
+R00163,q1_2_b,q1_2,ordering_at_shop,manjunatha,any,Illa,kanglish,accepted,a_no,,,,drafted,,q1_2_b:0086,test,,yes,
+R00172,q1_2_b,q1_2,ordering_at_shop,manjunatha,any,"Ila, nanage beda",kanglish,accepted,a_no,,,,spelling_variant,double_consonant_single,q1_2_b:0089,test,,yes,"variant of: Illa, nanage beda"
+R00173,q1_2_b,q1_2,ordering_at_shop,manjunatha,any,"Illa, nanage beda",kanglish,accepted,a_no,,,,drafted,,q1_2_b:0089,test,,yes,
+R00174,q1_2_b,q1_2,ordering_at_shop,manjunatha,any,"Illa, nanage bedaa",kanglish,accepted,a_no,,,,spelling_variant,manual_extra,q1_2_b:0089,test,,yes,"variant of: Illa, nanage beda"
+R00175,q1_2_b,q1_2,ordering_at_shop,manjunatha,any,"illa, nanage beda",kanglish,accepted,a_no,,,,format_variant,lower_case,q1_2_b:0089,test,,yes,"variant of: Illa, nanage beda"
+R00184,q1_2_b,q1_2,ordering_at_shop,manjunatha,any,Haudu ila,kanglish,not_accepted,,unclear,,r_ask_clarify,spelling_variant,double_consonant_single,q1_2_b:0093,test,D13,yes,variant of: Haudu illa
+R00185,q1_2_b,q1_2,ordering_at_shop,manjunatha,any,Haudu illa,kanglish,not_accepted,,unclear,,r_ask_clarify,drafted,,q1_2_b:0093,test,D13,yes,contradictory - ask for clarification
+R00186,q1_2_b,q1_2,ordering_at_shop,manjunatha,any,Houdu illa,kanglish,not_accepted,,unclear,,r_ask_clarify,spelling_variant,au_to_ou,q1_2_b:0093,test,D13,yes,variant of: Haudu illa
+R00196,q1_2_b,q1_2,ordering_at_shop,manjunatha,arun,Nana hesaru Arun,kanglish,not_accepted,,wrong_meaning,,r_puzzled,spelling_variant,double_consonant_single,q1_2_b:0097,test,,yes,variant of: Nanna hesaru Arun
+R00197,q1_2_b,q1_2,ordering_at_shop,manjunatha,arun,Nanna hesaru Arun,kanglish,not_accepted,,wrong_meaning,,r_puzzled,drafted,,q1_2_b:0097,test,,yes,
+R00198,q1_2_b,q1_2,ordering_at_shop,manjunatha,arun,Nanna hesru Arun,kanglish,not_accepted,,wrong_meaning,,r_puzzled,spelling_variant,manual_extra,q1_2_b:0097,test,,yes,variant of: Nanna hesaru Arun
+R00204,q1_2_b,q1_2,ordering_at_shop,manjunatha,any,Yes please,english,not_accepted,,english_only,,r_puzzled,drafted,,q1_2_b:0101,test,,yes,
+R00207,q1_2_b,q1_2,ordering_at_shop,manjunatha,any,No I don't,english,not_accepted,,english_only,,r_puzzled,drafted,,q1_2_b:0104,test,,yes,
+R00210,q1_2_b,q1_2,ordering_at_shop,manjunatha,any,Nahi chahiye,hindi_roman,not_accepted,,hindi_word,,r_puzzled,drafted,,q1_2_b:0107,test,,yes,
+R00233,q1_3_a,q1_3,introducing_yourself,manjunatha,any,NANNA HESARU RAVI,kanglish,accepted,a_name,,,,format_variant,upper_case,q1_3_a:0118,test,D6,yes,variant of: Nanna hesaru Ravi
+R00234,q1_3_a,q1_3,introducing_yourself,manjunatha,any,Nana hesaru Ravi,kanglish,accepted,a_name,,,,spelling_variant,double_consonant_single,q1_3_a:0118,test,D6,yes,variant of: Nanna hesaru Ravi
+R00235,q1_3_a,q1_3,introducing_yourself,manjunatha,any,Nanna hesaru Ravi,kanglish,accepted,a_name,,,,drafted,,q1_3_a:0118,test,D6,yes,any name accepted? Ravi is the notebook example
+R00236,q1_3_a,q1_3,introducing_yourself,manjunatha,any,Nanna hesru Ravi,kanglish,accepted,a_name,,,,spelling_variant,manual_extra,q1_3_a:0118,test,D6,yes,variant of: Nanna hesaru Ravi
+R00249,q1_3_a,q1_3,introducing_yourself,manjunatha,arun,Nimage hesaru Arun,kanglish,not_accepted,,pronoun_mixup,,r_puzzled,drafted,,q1_3_a:0123,test,,yes,copies NPC's nimma/nimage
+R00250,q1_3_a,q1_3,introducing_yourself,manjunatha,arun,Nimage hesru Arun,kanglish,not_accepted,,pronoun_mixup,,r_puzzled,spelling_variant,manual_extra,q1_3_a:0123,test,,yes,variant of: Nimage hesaru Arun
+R00256,q1_3_a,q1_3,introducing_yourself,manjunatha,aditi,Naanu hesaru Aditi,kanglish,not_accepted,,pronoun_mixup,,r_puzzled,drafted,,q1_3_a:0126,test,,yes,
+R00257,q1_3_a,q1_3,introducing_yourself,manjunatha,aditi,Naanu hesru Aditi,kanglish,not_accepted,,pronoun_mixup,,r_puzzled,spelling_variant,manual_extra,q1_3_a:0126,test,,yes,variant of: Naanu hesaru Aditi
+R00258,q1_3_a,q1_3,introducing_yourself,manjunatha,aditi,Nanu hesaru Aditi,kanglish,not_accepted,,pronoun_mixup,,r_puzzled,spelling_variant,long_aa_shortened,q1_3_a:0126,test,,yes,variant of: Naanu hesaru Aditi
+R00264,q1_3_a,q1_3,introducing_yourself,manjunatha,any,Nanage cha beku,kanglish,not_accepted,,wrong_meaning,,r_puzzled,spelling_variant,manual_extra,q1_3_a:0129,test,,yes,variant of: Nanage chaha beku
+R00265,q1_3_a,q1_3,introducing_yourself,manjunatha,any,Nanage chaha bekku,kanglish,not_accepted,,wrong_meaning,,r_puzzled,spelling_variant,k_doubled,q1_3_a:0129,test,,yes,variant of: Nanage chaha beku
+R00266,q1_3_a,q1_3,introducing_yourself,manjunatha,any,Nanage chaha beku,kanglish,not_accepted,,wrong_meaning,,r_puzzled,drafted,,q1_3_a:0129,test,,yes,
+R00272,q1_3_a,q1_3,introducing_yourself,manjunatha,any,Nana,kanglish,not_accepted,,incomplete_answer,,r_puzzled,spelling_variant,double_consonant_single,q1_3_a:0132,test,,yes,variant of: Nanna
+R00273,q1_3_a,q1_3,introducing_yourself,manjunatha,any,Nanna,kanglish,not_accepted,,incomplete_answer,,r_puzzled,drafted,,q1_3_a:0132,test,,yes,name missing
+R00276,q1_3_a,q1_3,introducing_yourself,manjunatha,arun,I am Arun,english,not_accepted,,english_only,,r_puzzled,drafted,,q1_3_a:0135,test,,yes,
+R00279,q1_3_a,q1_3,introducing_yourself,manjunatha,aditi,Name Aditi,english,not_accepted,,english_only,,r_puzzled,drafted,,q1_3_a:0138,test,,yes,
+R00282,q1_3_a,q1_3,introducing_yourself,manjunatha,arun,Mera naam Arun hai,hindi_roman,not_accepted,,hindi_word,,r_puzzled,drafted,,q1_3_a:0141,test,,yes,
+R00285,q1_3_a,q1_3,introducing_yourself,manjunatha,aditi,Main Aditi,hindi_roman,not_accepted,,hindi_word,,r_puzzled,drafted,,q1_3_a:0144,test,,yes,
+R00299,q1_4_a,q1_4,asking_the_way,manjunatha,any,DAYAVITTU LIBRARY ELLIDE?,kanglish,accepted,a_library,,,,format_variant,upper_case,q1_4_a:0149,test,,yes,variant of: Dayavittu library ellide?
+R00300,q1_4_a,q1_4,asking_the_way,manjunatha,any,Dayavithu library ellide?,kanglish,accepted,a_library,,,,spelling_variant,double_tt_to_th,q1_4_a:0149,test,,yes,variant of: Dayavittu library ellide?
+R00301,q1_4_a,q1_4,asking_the_way,manjunatha,any,Dayavittu library ellide?,kanglish,accepted,a_library,,,,drafted,,q1_4_a:0149,test,,yes,
+R00302,q1_4_a,q1_4,asking_the_way,manjunatha,any,Dayavittu library yellide?,kanglish,accepted,a_library,,,,spelling_variant,initial_e_to_ye,q1_4_a:0149,test,,yes,variant of: Dayavittu library ellide?
+R00321,q1_4_a,q1_4,asking_the_way,manjunatha,any,Mane elide?,kanglish,not_accepted,,wrong_word,,r_puzzled,spelling_variant,double_consonant_single,q1_4_a:0155,test,,yes,variant of: Mane ellide?
+R00322,q1_4_a,q1_4,asking_the_way,manjunatha,any,Mane ellide?,kanglish,not_accepted,,wrong_word,,r_puzzled,drafted,,q1_4_a:0155,test,,yes,asks about a different place
+R00323,q1_4_a,q1_4,asking_the_way,manjunatha,any,Mane yellide?,kanglish,not_accepted,,wrong_word,,r_puzzled,spelling_variant,initial_e_to_ye,q1_4_a:0155,test,,yes,variant of: Mane ellide?
+R00335,q1_4_a,q1_4,asking_the_way,manjunatha,any,Where library,english,not_accepted,,english_only,,r_puzzled,drafted,,q1_4_a:0162,test,,yes,
+R00350,q2_1_a,q2_1,polite_to_elders,somanna,any,Naanu archivist,kanglish,accepted,a_intro,,,,drafted,,q2_1_a:0169,test,,yes,
+R00351,q2_1_a,q2_1,polite_to_elders,somanna,any,Nanu archivist,kanglish,accepted,a_intro,,,,spelling_variant,long_aa_shortened,q2_1_a:0169,test,,yes,variant of: Naanu archivist
+R00352,q2_1_a,q2_1,polite_to_elders,somanna,any,naanu archivist,kanglish,accepted,a_intro,,,,format_variant,lower_case,q2_1_a:0169,test,,yes,variant of: Naanu archivist
+R00365,q2_1_a,q2_1,polite_to_elders,somanna,arun,"Namaskaara, nanna hesaru Arun",kanglish,accepted_with_correction,a_intro,,use_target_pattern,,spelling_variant,manual_extra,q2_1_a:0173,test,D7,yes,"variant of: Namaskara, nanna hesaru Arun"
+R00366,q2_1_a,q2_1,polite_to_elders,somanna,arun,"Namaskara, nanna hesaru Arun",kanglish,accepted_with_correction,a_intro,,use_target_pattern,,drafted,,q2_1_a:0173,test,D7,yes,
+R00367,q2_1_a,q2_1,polite_to_elders,somanna,arun,"Namaskara, nanna hesru Arun",kanglish,accepted_with_correction,a_intro,,use_target_pattern,,spelling_variant,manual_extra,q2_1_a:0173,test,D7,yes,"variant of: Namaskara, nanna hesaru Arun"
+R00368,q2_1_a,q2_1,polite_to_elders,somanna,arun,"namaskara, nanna hesaru arun",kanglish,accepted_with_correction,a_intro,,use_target_pattern,,format_variant,lower_case,q2_1_a:0173,test,D7,yes,"variant of: Namaskara, nanna hesaru Arun"
+R00389,q2_1_a,q2_1,polite_to_elders,somanna,any,Nanage chaha beeku,kanglish,not_accepted,,wrong_word,,r_puzzled,spelling_variant,e_lengthened,q2_1_a:0182,test,,yes,variant of: Nanage chaha beku
+R00390,q2_1_a,q2_1,polite_to_elders,somanna,any,Nanage chaha bekku,kanglish,not_accepted,,wrong_word,,r_puzzled,spelling_variant,k_doubled,q2_1_a:0182,test,,yes,variant of: Nanage chaha beku
+R00391,q2_1_a,q2_1,polite_to_elders,somanna,any,Nanage chaha beku,kanglish,not_accepted,,wrong_word,,r_puzzled,drafted,,q2_1_a:0182,test,,yes,
+R00394,q2_1_a,q2_1,polite_to_elders,somanna,any,Hello,english,not_accepted,,english_only,,r_somanna_ignores,drafted,,q2_1_a:0185,test,,yes,
+R00412,q2_1_b,q2_1,polite_to_elders,somanna,any,DAYAVITTU SVALPA BAGILU TEGEYIRI,kanglish,accepted,a_open,,,,format_variant,upper_case,q2_1_b:0194,test,,yes,variant of: Dayavittu svalpa bagilu tegeyiri
+R00413,q2_1_b,q2_1,polite_to_elders,somanna,any,Dayavithu svalpa bagilu tegeyiri,kanglish,accepted,a_open,,,,spelling_variant,double_tt_to_th,q2_1_b:0194,test,,yes,variant of: Dayavittu svalpa bagilu tegeyiri
+R00414,q2_1_b,q2_1,polite_to_elders,somanna,any,Dayavittu svalpa bagilu tegeyiri,kanglish,accepted,a_open,,,,drafted,,q2_1_b:0194,test,,yes,
+R00415,q2_1_b,q2_1,polite_to_elders,somanna,any,Dayavittu svalpaa bagilu tegeyiri,kanglish,accepted,a_open,,,,spelling_variant,manual_extra,q2_1_b:0194,test,,yes,variant of: Dayavittu svalpa bagilu tegeyiri
+R00428,q2_1_b,q2_1,polite_to_elders,somanna,any,Dayavittu bagilu tegi,kanglish,not_accepted,,impolite_form,,r_somanna_frowns,drafted,,q2_1_b:0199,test,,yes,
+R00429,q2_1_b,q2_1,polite_to_elders,somanna,any,Dayavitu bagilu tegi,kanglish,not_accepted,,impolite_form,,r_somanna_frowns,spelling_variant,double_tt_single,q2_1_b:0199,test,,yes,variant of: Dayavittu bagilu tegi
+R00430,q2_1_b,q2_1,polite_to_elders,somanna,any,Dayawittu bagilu tegi,kanglish,not_accepted,,impolite_form,,r_somanna_frowns,spelling_variant,v_to_w,q2_1_b:0199,test,,yes,variant of: Dayavittu bagilu tegi
+R00436,q2_1_b,q2_1,polite_to_elders,somanna,any,Bagilu kodi,kanglish,not_accepted,,wrong_word,,r_puzzled,drafted,,q2_1_b:0202,test,,yes,
+R00441,q2_1_b,q2_1,polite_to_elders,somanna,any,Open gate please,english,not_accepted,,english_only,,r_somanna_ignores,drafted,,q2_1_b:0206,test,,yes,
+R00461,q2_2_a,q2_2,who_is_here,somanna,any,Ananya  hatra keeli ide,kanglish,accepted,a_ananya,,,,format_variant,extra_space,q2_2_a:0217,test,,yes,variant of: Ananya hatra keeli ide
+R00462,q2_2_a,q2_2,who_is_here,somanna,any,Ananya hatra keeli ide,kanglish,accepted,a_ananya,,,,drafted,,q2_2_a:0217,test,,yes,
+R00463,q2_2_a,q2_2,who_is_here,somanna,any,Ananya hatra kili ide,kanglish,accepted,a_ananya,,,,spelling_variant,long_ee_to_i,q2_2_a:0217,test,,yes,variant of: Ananya hatra keeli ide
+R00468,q2_2_a,q2_2,who_is_here,somanna,any,Ila,kanglish,not_accepted,,wrong_meaning,,r_puzzled,spelling_variant,double_consonant_single,q2_2_a:0221,test,,yes,variant of: Illa
+R00469,q2_2_a,q2_2,who_is_here,somanna,any,Illa,kanglish,not_accepted,,wrong_meaning,,r_puzzled,drafted,,q2_2_a:0221,test,,yes,misunderstood who has the key
+R00472,q2_2_a,q2_2,who_is_here,somanna,any,Bagilu,kanglish,not_accepted,,wrong_meaning,,r_puzzled,drafted,,q2_2_a:0224,test,,yes,misunderstood who has the key
+R00475,q2_2_a,q2_2,who_is_here,somanna,any,Manjunatha,kanglish,not_accepted,,wrong_meaning,,r_puzzled,drafted,,q2_2_a:0227,test,,yes,misunderstood who has the key
+R00500,q2_3_b,q2_3,asking_the_way,somanna,any,Dayavittu keeli ellide!,kanglish,accepted,a_keeli,,,,format_variant,add_excl,q2_3_b:0239,test,,yes,variant of: Dayavittu keeli ellide?
+R00501,q2_3_b,q2_3,asking_the_way,somanna,any,Dayavittu keeli ellide?,kanglish,accepted,a_keeli,,,,drafted,,q2_3_b:0239,test,,yes,
+R00502,q2_3_b,q2_3,asking_the_way,somanna,any,Dayavitu keeli ellide?,kanglish,accepted,a_keeli,,,,spelling_variant,double_tt_single,q2_3_b:0239,test,,yes,variant of: Dayavittu keeli ellide?
+R00503,q2_3_b,q2_3,asking_the_way,somanna,any,Dayawittu keeli ellide?,kanglish,accepted,a_keeli,,,,spelling_variant,v_to_w,q2_3_b:0239,test,,yes,variant of: Dayavittu keeli ellide?
+R00518,q2_3_b,q2_3,asking_the_way,somanna,any,Keeli beku,kanglish,not_accepted,,wrong_word,,r_puzzled,drafted,,q2_3_b:0244,test,,yes,
+R00519,q2_3_b,q2_3,asking_the_way,somanna,any,Keeli bekuu,kanglish,not_accepted,,wrong_word,,r_puzzled,spelling_variant,manual_extra,q2_3_b:0244,test,,yes,variant of: Keeli beku
+R00520,q2_3_b,q2_3,asking_the_way,somanna,any,Kili beku,kanglish,not_accepted,,wrong_word,,r_puzzled,spelling_variant,long_ee_to_i,q2_3_b:0244,test,,yes,variant of: Keeli beku
+R00533,q2_3_b,q2_3,asking_the_way,somanna,any,Key where,english,not_accepted,,english_only,,r_somanna_ignores,drafted,,q2_3_b:0251,test,,yes,
+R00555,q3_1_a,q3_1,food_at_mess,shanthakka,any,Nanage oota beku,kanglish,accepted,a_meal,,,,drafted,,q3_1_a:0260,test,,yes,
+R00556,q3_1_a,q3_1,food_at_mess,shanthakka,any,Nanage oota beku!,kanglish,accepted,a_meal,,,,format_variant,add_excl,q3_1_a:0260,test,,yes,variant of: Nanage oota beku
+R00557,q3_1_a,q3_1,food_at_mess,shanthakka,any,Nanage oota bekuu,kanglish,accepted,a_meal,,,,spelling_variant,manual_extra,q3_1_a:0260,test,,yes,variant of: Nanage oota beku
+R00558,q3_1_a,q3_1,food_at_mess,shanthakka,any,Nanege oota beku,kanglish,accepted,a_meal,,,,spelling_variant,manual_extra,q3_1_a:0260,test,,yes,variant of: Nanage oota beku
+R00566,q3_1_a,q3_1,food_at_mess,shanthakka,any,Idli kodi,kanglish,accepted,a_meal,,,,drafted,,q3_1_a:0263,test,D1,yes,valid order for a specific dish (in topic food_at_mess)
+R00567,q3_1_a,q3_1,food_at_mess,shanthakka,any,Idli kodi!,kanglish,accepted,a_meal,,,,format_variant,add_excl,q3_1_a:0263,test,D1,yes,variant of: Idli kodi
+R00580,q3_1_a,q3_1,food_at_mess,shanthakka,any,"Illa, beda",kanglish,not_accepted,,valid_other_answer,,r_shanthakka_offers_again,drafted,,q3_1_a:0268,test,D8,yes,a polite refusal is valid Kannada but does not progress the quest
+R00581,q3_1_a,q3_1,food_at_mess,shanthakka,any,"Illa, bedaa",kanglish,not_accepted,,valid_other_answer,,r_shanthakka_offers_again,spelling_variant,manual_extra,q3_1_a:0268,test,D8,yes,"variant of: Illa, beda"
+R00582,q3_1_a,q3_1,food_at_mess,shanthakka,any,"Illa, beeda",kanglish,not_accepted,,valid_other_answer,,r_shanthakka_offers_again,spelling_variant,e_lengthened,q3_1_a:0268,test,D8,yes,"variant of: Illa, beda"
+R00595,q3_1_a,q3_1,food_at_mess,shanthakka,any,Eshtu rupaayi?,kanglish,not_accepted,,valid_other_answer,,r_puzzled,spelling_variant,manual_extra,q3_1_a:0273,test,,yes,variant of: Eshtu rupayi?
+R00596,q3_1_a,q3_1,food_at_mess,shanthakka,any,Eshtu rupayi?,kanglish,not_accepted,,valid_other_answer,,r_puzzled,drafted,,q3_1_a:0273,test,,yes,asks price before ordering
+R00597,q3_1_a,q3_1,food_at_mess,shanthakka,any,Estu rupayi?,kanglish,not_accepted,,valid_other_answer,,r_puzzled,spelling_variant,manual_extra,q3_1_a:0273,test,,yes,variant of: Eshtu rupayi?
+R00607,q3_1_a,q3_1,food_at_mess,shanthakka,any,Namaskaara,kanglish,not_accepted,,wrong_word,,r_puzzled,spelling_variant,manual_extra,q3_1_a:0277,test,,yes,variant of: Namaskara
+R00608,q3_1_a,q3_1,food_at_mess,shanthakka,any,Namaskar,kanglish,not_accepted,,wrong_word,,r_puzzled,spelling_variant,manual_extra,q3_1_a:0277,test,,yes,variant of: Namaskara
+R00609,q3_1_a,q3_1,food_at_mess,shanthakka,any,Namaskara,kanglish,not_accepted,,wrong_word,,r_puzzled,drafted,,q3_1_a:0277,test,,yes,
+R00612,q3_1_a,q3_1,food_at_mess,shanthakka,any,"Yes, a meal please",english,not_accepted,,english_only,,r_puzzled,drafted,,q3_1_a:0280,test,,yes,
+R00617,q3_1_a,q3_1,food_at_mess,shanthakka,any,Khana chahiye,hindi_roman,not_accepted,,hindi_word,,r_puzzled,drafted,,q3_1_a:0285,test,,yes,
+R00637,q3_2_a,q3_2,food_at_mess,shanthakka,any,Saakku saaku,kanglish,accepted,a_saaku,,,,spelling_variant,k_doubled,q3_2_a:0293,test,,yes,variant of: Saaku saaku
+R00638,q3_2_a,q3_2,food_at_mess,shanthakka,any,Saaku saakku,kanglish,accepted,a_saaku,,,,spelling_variant,k_doubled,q3_2_a:0293,test,,yes,variant of: Saaku saaku
+R00639,q3_2_a,q3_2,food_at_mess,shanthakka,any,Saaku saaku,kanglish,accepted,a_saaku,,,,drafted,,q3_2_a:0293,test,,yes,
+R00640,q3_2_a,q3_2,food_at_mess,shanthakka,any,Saaku saaku!,kanglish,accepted,a_saaku,,,,format_variant,add_excl,q3_2_a:0293,test,,yes,variant of: Saaku saaku
+R00657,q3_2_a,q3_2,food_at_mess,shanthakka,any,"Ila, beda",kanglish,accepted_with_correction,a_beda,,saaku_vs_beda,r_shanthakka_say_saaku,spelling_variant,double_consonant_single,q3_2_a:0298,test,,yes,"variant of: Illa, beda"
+R00658,q3_2_a,q3_2,food_at_mess,shanthakka,any,"Illa, beda",kanglish,accepted_with_correction,a_beda,,saaku_vs_beda,r_shanthakka_say_saaku,drafted,,q3_2_a:0298,test,,yes,
+R00659,q3_2_a,q3_2,food_at_mess,shanthakka,any,"Illa, bedaa",kanglish,accepted_with_correction,a_beda,,saaku_vs_beda,r_shanthakka_say_saaku,spelling_variant,manual_extra,q3_2_a:0298,test,,yes,"variant of: Illa, beda"
+R00660,q3_2_a,q3_2,food_at_mess,shanthakka,any,"illa, beda",kanglish,accepted_with_correction,a_beda,,saaku_vs_beda,r_shanthakka_say_saaku,format_variant,lower_case,q3_2_a:0298,test,,yes,"variant of: Illa, beda"
+R00669,q3_2_a,q3_2,food_at_mess,shanthakka,any,"Haudu, innu beeku",kanglish,not_accepted,,valid_other_answer,,r_puzzled,spelling_variant,e_lengthened,q3_2_a:0302,test,,yes,"variant of: Haudu, innu beku"
+R00670,q3_2_a,q3_2,food_at_mess,shanthakka,any,"Haudu, innu beku",kanglish,not_accepted,,valid_other_answer,,r_puzzled,drafted,,q3_2_a:0302,test,,yes,asks for more - valid but not 'enough'
+R00671,q3_2_a,q3_2,food_at_mess,shanthakka,any,"Haudu, inu beku",kanglish,not_accepted,,valid_other_answer,,r_puzzled,spelling_variant,double_consonant_single,q3_2_a:0302,test,,yes,"variant of: Haudu, innu beku"
+R00677,q3_2_a,q3_2,food_at_mess,shanthakka,any,No thanks,english,not_accepted,,english_only,,r_puzzled,drafted,,q3_2_a:0306,test,,yes,
+R00681,q3_2_a,q3_2,food_at_mess,shanthakka,any,Nahi chahiye,hindi_roman,not_accepted,,hindi_word,,r_puzzled,drafted,,q3_2_a:0310,test,,yes,
+R00702,q3_3_a,q3_3,numbers_money,shanthakka,any,Oota eshtu?,kanglish,accepted,a_price,,,,drafted,,q3_3_a:0318,test,,yes,
+R00703,q3_3_a,q3_3,numbers_money,shanthakka,any,Oota yestu?,kanglish,accepted,a_price,,,,spelling_variant,manual_extra,q3_3_a:0318,test,,yes,variant of: Oota eshtu?
+R00704,q3_3_a,q3_3,numbers_money,shanthakka,any,Uta eshtu?,kanglish,accepted,a_price,,,,spelling_variant,long_oo_to_u,q3_3_a:0318,test,,yes,variant of: Oota eshtu?
+R00705,q3_3_a,q3_3,numbers_money,shanthakka,any,oota eshtu?,kanglish,accepted,a_price,,,,format_variant,lower_case,q3_3_a:0318,test,,yes,variant of: Oota eshtu?
+R00724,q3_3_a,q3_3,numbers_money,shanthakka,any,Nanage oota beku,kanglish,not_accepted,,wrong_word,,r_puzzled,drafted,,q3_3_a:0324,test,,yes,states a price instead of asking
+R00725,q3_3_a,q3_3,numbers_money,shanthakka,any,Nanage uta beku,kanglish,not_accepted,,wrong_word,,r_puzzled,spelling_variant,long_oo_to_u,q3_3_a:0324,test,,yes,variant of: Nanage oota beku
+R00726,q3_3_a,q3_3,numbers_money,shanthakka,any,Nange oota beku,kanglish,not_accepted,,wrong_word,,r_puzzled,spelling_variant,manual_extra,q3_3_a:0324,test,,yes,variant of: Nanage oota beku
+R00729,q3_3_a,q3_3,numbers_money,shanthakka,any,What is the price?,english,not_accepted,,english_only,,r_puzzled,drafted,,q3_3_a:0327,test,,yes,
+R00732,q3_3_a,q3_3,numbers_money,shanthakka,any,Kitna hua?,hindi_roman,not_accepted,,hindi_word,,r_puzzled,drafted,,q3_3_a:0330,test,,yes,
+R00757,q3_3_b,q3_3,numbers_money,shanthakka,any,₹50,digits,accepted,a_50,,,,drafted,,q3_3_b:0343,test,,yes,
+R00763,q3_3_b,q3_3,numbers_money,shanthakka,any,Aravattu,kanglish,not_accepted,,wrong_number,,r_shanthakka_illa_aivattu,drafted,,q3_3_b:0347,test,,yes,
+R00764,q3_3_b,q3_3,numbers_money,shanthakka,any,Aravatu,kanglish,not_accepted,,wrong_number,,r_shanthakka_illa_aivattu,spelling_variant,double_tt_single,q3_3_b:0347,test,,yes,variant of: Aravattu
+R00765,q3_3_b,q3_3,numbers_money,shanthakka,any,Arawattu,kanglish,not_accepted,,wrong_number,,r_shanthakka_illa_aivattu,spelling_variant,v_to_w,q3_3_b:0347,test,,yes,variant of: Aravattu
+R00772,q3_3_b,q3_3,numbers_money,shanthakka,any,Nooru,kanglish,not_accepted,,wrong_number,,r_shanthakka_illa_aivattu,drafted,,q3_3_b:0350,test,,yes,
+R00773,q3_3_b,q3_3,numbers_money,shanthakka,any,Noru,kanglish,not_accepted,,wrong_number,,r_shanthakka_illa_aivattu,spelling_variant,long_oo_to_o,q3_3_b:0350,test,,yes,variant of: Nooru
+R00774,q3_3_b,q3_3,numbers_money,shanthakka,any,Nuru,kanglish,not_accepted,,wrong_number,,r_shanthakka_illa_aivattu,spelling_variant,long_oo_to_u,q3_3_b:0350,test,,yes,variant of: Nooru
+R00780,q3_3_b,q3_3,numbers_money,shanthakka,any,10,digits,not_accepted,,wrong_number,,r_shanthakka_illa_aivattu,drafted,,q3_3_b:0353,test,,yes,
+R00783,q3_3_b,q3_3,numbers_money,shanthakka,any,100,digits,not_accepted,,wrong_number,,r_shanthakka_illa_aivattu,drafted,,q3_3_b:0356,test,,yes,
+R00808,q3_4_a,q3_4,asking_the_way,shanthakka,any,Dayavittu  Ananya elli?,kanglish,accepted,a_where,,,,format_variant,extra_space,q3_4_a:0368,test,,yes,variant of: Dayavittu Ananya elli?
+R00809,q3_4_a,q3_4,asking_the_way,shanthakka,any,Dayavittu Ananya eli?,kanglish,accepted,a_where,,,,spelling_variant,double_consonant_single,q3_4_a:0368,test,,yes,variant of: Dayavittu Ananya elli?
+R00810,q3_4_a,q3_4,asking_the_way,shanthakka,any,Dayavittu Ananya elli?,kanglish,accepted,a_where,,,,drafted,,q3_4_a:0368,test,,yes,
+R00811,q3_4_a,q3_4,asking_the_way,shanthakka,any,Dayavitu Ananya elli?,kanglish,accepted,a_where,,,,spelling_variant,double_tt_single,q3_4_a:0368,test,,yes,variant of: Dayavittu Ananya elli?
+R00822,q3_4_a,q3_4,asking_the_way,shanthakka,any,Keeli eli?,kanglish,not_accepted,,wrong_word,,r_puzzled,spelling_variant,double_consonant_single,q3_4_a:0372,test,,yes,variant of: Keeli elli?
+R00823,q3_4_a,q3_4,asking_the_way,shanthakka,any,Keeli elli?,kanglish,not_accepted,,wrong_word,,r_puzzled,drafted,,q3_4_a:0372,test,,yes,asks about someone/something else
+R00824,q3_4_a,q3_4,asking_the_way,shanthakka,any,Kili elli?,kanglish,not_accepted,,wrong_word,,r_puzzled,spelling_variant,long_ee_to_i,q3_4_a:0372,test,,yes,variant of: Keeli elli?
+R00836,q3_4_a,q3_4,asking_the_way,shanthakka,any,Ananya where,english,not_accepted,,english_only,,r_puzzled,drafted,,q3_4_a:0379,test,,yes,
+R00841,ALL,ALL,,,any,zzzz,noise,not_accepted,,unclear,,r_puzzled,shared,,ALL:0002,test,,yes,gibberish / non-language; applies to every step (except digits on q3_3_b)
+R00844,ALL,ALL,,,any,hmm,noise,not_accepted,,unclear,,r_puzzled,shared,,ALL:0005,test,,yes,gibberish / non-language; applies to every step (except digits on q3_3_b)
+R00847,ALL,ALL,,,any,ok,noise,not_accepted,,unclear,,r_puzzled,shared,,ALL:0008,test,,yes,gibberish / non-language; applies to every step (except digits on q3_3_b)
+R00850,ALL,ALL,,,any,<SPACES>,noise,not_accepted,,unclear,,r_puzzled,shared,,ALL:0011,test,,yes,gibberish / non-language; applies to every step (except digits on q3_3_b)
+R00853,ALL,ALL,,,any,idk,english,not_accepted,,unclear,,r_puzzled,shared,,ALL:0014,test,,yes,treat as a request for a hint; applies to every step (except digits on q3_3_b)
+R00856,ALL,ALL,,,any,hint,english,not_accepted,,unclear,,r_puzzled,shared,,ALL:0017,test,,yes,treat as a request for a hint; applies to every step (except digits on q3_3_b)
+R00859,ALL,ALL,,,any,this is difficult,english,not_accepted,,english_only,,r_puzzled,shared,,ALL:0020,test,,yes,English sentence; applies to every step (except digits on q3_3_b)

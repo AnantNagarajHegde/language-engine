@@ -1,0 +1,305 @@
+kanglish,kannada,type,source,ref_id,verified
+namaskara,ನಮಸ್ಕಾರ,word,vocabulary,w_namaskara,yes
+dhanyavada,ಧನ್ಯವಾದ,word,vocabulary,w_dhanyavada,yes
+sari,ಸರಿ,word,vocabulary,w_sari,yes
+bantu,ಬಂತು,word,vocabulary,w_bantu,yes
+iliyiri,ಇಳಿಯಿರಿ,word,vocabulary,w_iliyiri,yes
+kalyanapura,ಕಲ್ಯಾಣಪುರ,word,vocabulary,w_kalyanapura,yes
+nimage,ನಿಮಗೆ,word,vocabulary,w_nimage,yes
+enu,ಏನು,word,vocabulary,w_enu,yes
+nanage,ನನಗೆ,word,vocabulary,w_nanage,yes
+chaha,ಚಹಾ,word,vocabulary,w_chaha,yes
+kaapi,ಕಾಫಿ,word,vocabulary,w_kaapi,yes
+neeru,ನೀರು,word,vocabulary,w_neeru,yes
+beku,ಬೇಕು,word,vocabulary,w_beku,yes
+beda,ಬೇಡ,word,vocabulary,w_beda,yes
+beka,ಬೇಕಾ,word,vocabulary,w_beka,yes
+haudu,ಹೌದು,word,vocabulary,w_haudu,yes
+illa,ಇಲ್ಲ,word,vocabulary,w_illa,yes
+nimma,ನಿಮ್ಮ,word,vocabulary,w_nimma,yes
+hesaru,ಹೆಸರು,word,vocabulary,w_hesaru,yes
+nanna,ನನ್ನ,word,vocabulary,w_nanna,yes
+naanu,ನಾನು,word,vocabulary,w_naanu,yes
+ravi,ರವಿ,word,vocabulary,w_ravi,yes
+elli,ಎಲ್ಲಿ,word,vocabulary,w_elli,yes
+ellide,ಎಲ್ಲಿದೆ,word,vocabulary,w_ellide,yes
+edakke,ಎಡಕ್ಕೆ,word,vocabulary,w_edakke,yes
+library,ಲೈಬ್ರರಿ,word,vocabulary,w_library,yes
+yaaru,ಯಾರು,word,vocabulary,w_yaaru,yes
+neevu,ನೀವು,word,vocabulary,w_neevu,yes
+neenu,ನೀನು,word,vocabulary,w_neenu,yes
+tegeyiri,ತೆಗೆಯಿರಿ,word,vocabulary,w_tegeyiri,yes
+tegi,ತೆಗಿ,word,vocabulary,w_tegi,yes
+archivist,ಆರ್ಕೈವಿಸ್ಟ್,word,vocabulary,w_archivist,yes
+bagilu,ಬಾಗಿಲು,word,vocabulary,w_bagilu,yes
+svalpa,ಸ್ವಲ್ಪ,word,vocabulary,w_svalpa,yes
+hosa,ಹೊಸ,word,vocabulary,w_hosa,yes
+ananya,ಅನನ್ಯ,word,vocabulary,w_ananya,yes
+ilvalla,ಇಲ್ವಲ್ಲಾ,word,vocabulary,w_ilvalla,yes
+keeli,ಕೀಲಿ,word,vocabulary,w_keeli,yes
+avala hatra,ಅವಳ ಹತ್ರ,word,vocabulary,w_avala_hatra,yes
+ide,ಇದೆ,word,vocabulary,w_ide,yes
+aamele,ಆಮೇಲೆ,word,vocabulary,w_aamele,yes
+banni,ಬನ್ನಿ,word,vocabulary,w_banni,yes
+oota,ಊಟ,word,vocabulary,w_oota,yes
+anna,ಅನ್ನ,word,vocabulary,w_anna,yes
+saaru,ಸಾರು,word,vocabulary,w_saaru,yes
+kodi,ಕೊಡಿ,word,vocabulary,w_kodi,yes
+innu,ಇನ್ನೂ,word,vocabulary,w_innu,yes
+saaku,ಸಾಕು,word,vocabulary,w_saaku,yes
+eshtu,ಎಷ್ಟು,word,vocabulary,w_eshtu,yes
+rupayi,ರೂಪಾಯಿ,word,vocabulary,w_rupayi,yes
+ondu,ಒಂದು,word,vocabulary,w_ondu,yes
+eradu,ಎರಡು,word,vocabulary,w_eradu,yes
+mooru,ಮೂರು,word,vocabulary,w_mooru,yes
+naalku,ನಾಲ್ಕು,word,vocabulary,w_naalku,yes
+aidu,ಐದು,word,vocabulary,w_aidu,yes
+aaru,ಆರು,word,vocabulary,w_aaru,yes
+elu,ಏಳು,word,vocabulary,w_elu,yes
+entu,ಎಂಟು,word,vocabulary,w_entu,yes
+ombattu,ಒಂಬತ್ತು,word,vocabulary,w_ombattu,yes
+hattu,ಹತ್ತು,word,vocabulary,w_hattu,yes
+hannondu,ಹನ್ನೊಂದು,word,vocabulary,w_hannondu,yes
+hanneradu,ಹನ್ನೆರಡು,word,vocabulary,w_hanneradu,yes
+hadimooru,ಹದಿಮೂರು,word,vocabulary,w_hadimooru,yes
+hadinaalku,ಹದಿನಾಲ್ಕು,word,vocabulary,w_hadinaalku,yes
+hadinaidu,ಹದಿನೈದು,word,vocabulary,w_hadinaidu,yes
+hadinaaru,ಹದಿನಾರು,word,vocabulary,w_hadinaaru,yes
+hadinelu,ಹದಿನೇಳು,word,vocabulary,w_hadinelu,yes
+hadinentu,ಹದಿನೆಂಟು,word,vocabulary,w_hadinentu,yes
+hattombattu,ಹತ್ತೊಂಬತ್ತು,word,vocabulary,w_hattombattu,yes
+ippattu,ಇಪ್ಪತ್ತು,word,vocabulary,w_ippattu,yes
+moovattu,ಮೂವತ್ತು,word,vocabulary,w_moovattu,yes
+nalavattu,ನಲವತ್ತು,word,vocabulary,w_nalavattu,yes
+aivattu,ಐವತ್ತು,word,vocabulary,w_aivattu,yes
+aravattu,ಅರವತ್ತು,word,vocabulary,w_aravattu,yes
+eppattu,ಎಪ್ಪತ್ತು,word,vocabulary,w_eppattu,yes
+embattu,ಎಂಬತ್ತು,word,vocabulary,w_embattu,yes
+tombattu,ತೊಂಬತ್ತು,word,vocabulary,w_tombattu,yes
+nooru,ನೂರು,word,vocabulary,w_nooru,yes
+innooru,ಇನ್ನೂರು,word,vocabulary,w_innooru,yes
+munnooru,ಮುನ್ನೂರು,word,vocabulary,w_munnooru,yes
+naanooru,ನಾನೂರು,word,vocabulary,w_naanooru,yes
+ainooru,ಐನೂರು,word,vocabulary,w_ainooru,yes
+saavira,ಸಾವಿರ,word,vocabulary,w_saavira,yes
+basavaraju,ಬಸವರಾಜು,word,vocabulary,w_basavaraju,yes
+angadi,ಅಂಗಡಿ,word,vocabulary,w_angadi,yes
+menadabatti,ಮೇಣದಬತ್ತಿ,word,vocabulary,w_menadabatti,yes
+battery,ಬ್ಯಾಟರಿ,word,vocabulary,w_battery,yes
+onahannu,ಒಣಹಣ್ಣು,word,vocabulary,w_onahannu,yes
+idu,ಇದು,word,vocabulary,w_idu,yes
+list,ಲಿಸ್ಟ್,word,vocabulary,w_list,yes
+kshamisi,ಕ್ಷಮಿಸಿ,word,vocabulary,w_kshamisi,yes
+dayavittu,ದಯವಿಟ್ಟು,word,vocabulary,w_dayavittu,yes
+thindi,ತಿಂಡಿ,word,vocabulary,w_thindi,yes
+geleya,ಗೆಳೆಯ,word,vocabulary,w_geleya,yes
+gelathi,ಗೆಳತಿ,word,vocabulary,w_gelathi,yes
+illi,ಇಲ್ಲಿ,word,vocabulary,w_illi,yes
+alli,ಅಲ್ಲಿ,word,vocabulary,w_alli,yes
+munde,ಮುಂದೆ,word,vocabulary,w_munde,yes
+hinde,ಹಿಂದೆ,word,vocabulary,w_hinde,yes
+balakke,ಬಲಕ್ಕೆ,word,vocabulary,w_balakke,yes
+neravaagi,ನೇರವಾಗಿ,word,vocabulary,w_neravaagi,yes
+thirugi,ತಿರುಗಿ,word,vocabulary,w_thirugi,yes
+hogi,ಹೋಗಿ,word,vocabulary,w_hogi,yes
+nilli,ನಿಲ್ಲಿ,word,vocabulary,w_nilli,yes
+daati,ದಾಟಿ,word,vocabulary,w_daati,yes
+hattira,ಹತ್ತಿರ,word,vocabulary,w_hattira,yes
+doora,ದೂರ,word,vocabulary,w_doora,yes
+pakkadalli,ಪಕ್ಕದಲ್ಲಿ,word,vocabulary,w_pakkadalli,yes
+eduru,ಎದುರು,word,vocabulary,w_eduru,yes
+daari,ದಾರಿ,word,vocabulary,w_daari,yes
+raste,ರಸ್ತೆ,word,vocabulary,w_raste,yes
+bus nildana,ಬಸ್ ನಿಲ್ದಾಣ,word,vocabulary,w_bus_nildana,yes
+shaale,ಶಾಲೆ,word,vocabulary,w_shaale,yes
+aaspatre,ಆಸ್ಪತ್ರೆ,word,vocabulary,w_aaspatre,yes
+granthalaya,ಗ್ರಂಥಾಲಯ,word,vocabulary,w_granthalaya,yes
+kulithukolli,ಕುಳಿತುಕೊಳ್ಳಿ,word,vocabulary,w_kulithukolli,yes
+heli,ಹೇಳಿ,word,vocabulary,w_heli,yes
+kaayiri,ಕಾಯಿರಿ,word,vocabulary,w_kaayiri,yes
+sahaaya,ಸಹಾಯ,word,vocabulary,w_sahaaya,yes
+avanu,ಅವನು,word,vocabulary,w_avanu,yes
+avalu,ಅವಳು,word,vocabulary,w_avalu,yes
+avaru,ಅವರು,word,vocabulary,w_avaru,yes
+mane,ಮನೆ,word,vocabulary,w_mane,yes
+pustaka,ಪುಸ್ತಕ,word,vocabulary,w_pustaka,yes
+cheela,ಚೀಲ,word,vocabulary,w_cheela,yes
+idli,ಇಡ್ಲಿ,word,vocabulary,w_idli,yes
+dose,ದೋಸೆ,word,vocabulary,w_dose,yes
+chapati,ಚಪಾತಿ,word,vocabulary,w_chapati,yes
+rotti,ರೊಟ್ಟಿ,word,vocabulary,w_rotti,yes
+sambar,ಸಾಂಬಾರ್,word,vocabulary,w_sambar,yes
+palya,ಪಲ್ಯ,word,vocabulary,w_palya,yes
+mosaru,ಮೊಸರು,word,vocabulary,w_mosaru,yes
+balehannu,ಬಾಳೆಹಣ್ಣು,word,vocabulary,w_balehannu,yes
+haalu,ಹಾಲು,word,vocabulary,w_haalu,yes
+ruchi,ರುಚಿ,word,vocabulary,w_ruchi,yes
+eradu saavira,ಎರಡು ಸಾವಿರ,word,vocabulary,w_eradu_saavira,yes
+kadime,ಕಡಿಮೆ,word,vocabulary,w_kadime,yes
+hechchu,ಹೆಚ್ಚು,word,vocabulary,w_hechchu,yes
+dubaari,ದುಬಾರಿ,word,vocabulary,w_dubaari,yes
+agga,ಅಗ್ಗ,word,vocabulary,w_agga,yes
+Ravi elli?,ರವಿ ಎಲ್ಲಿ?,sentence,topic:asking_the_way,s_ravi_elli,yes
+Ananya elli?,ಅನನ್ಯ ಎಲ್ಲಿ?,sentence,topic:asking_the_way,s_ananya_elli,yes
+Bus nildana ellide?,ಬಸ್ ನಿಲ್ದಾಣ ಎಲ್ಲಿದೆ?,sentence,topic:asking_the_way,s_bus_nildana_ellide,yes
+Shaale ellide?,ಶಾಲೆ ಎಲ್ಲಿದೆ?,sentence,topic:asking_the_way,s_shaale_ellide,yes
+Aaspatre ellide?,ಆಸ್ಪತ್ರೆ ಎಲ್ಲಿದೆ?,sentence,topic:asking_the_way,s_aaspatre_ellide,yes
+Angadi ellide?,ಅಂಗಡಿ ಎಲ್ಲಿದೆ?,sentence,topic:asking_the_way,s_angadi_ellide,yes
+Illi banni.,ಇಲ್ಲಿ ಬನ್ನಿ.,sentence,topic:asking_the_way,s_illi_banni,yes
+Neravaagi hogi.,ನೇರವಾಗಿ ಹೋಗಿ.,sentence,topic:asking_the_way,s_neravaagi_hogi,yes
+Edakke thirugi.,ಎಡಕ್ಕೆ ತಿರುಗಿ.,sentence,topic:asking_the_way,s_edakke_thirugi,yes
+Balakke thirugi.,ಬಲಕ್ಕೆ ತಿರುಗಿ.,sentence,topic:asking_the_way,s_balakke_thirugi,yes
+Munde hogi.,ಮುಂದೆ ಹೋಗಿ.,sentence,topic:asking_the_way,s_munde_hogi,yes
+Illi nilli.,ಇಲ್ಲಿ ನಿಲ್ಲಿ.,sentence,topic:asking_the_way,s_illi_nilli,yes
+Raste daati.,ರಸ್ತೆ ದಾಟಿ.,sentence,topic:asking_the_way,s_raste_daati,yes
+Shaaleya hattira ide.,ಶಾಲೆಯ ಹತ್ತಿರ ಇದೆ.,sentence,topic:asking_the_way,s_shaaleya_hattira_ide,yes
+Angadiya pakkadalli ide.,ಅಂಗಡಿಯ ಪಕ್ಕದಲ್ಲಿ ಇದೆ.,sentence,topic:asking_the_way,s_angadiya_pakkadalli_ide,yes
+Aaspatre eduru ide.,ಆಸ್ಪತ್ರೆ ಎದುರು ಇದೆ.,sentence,topic:asking_the_way,s_aaspatre_eduru_ide,yes
+Adu tumba doora ide.,ಅದು ತುಂಬಾ ದೂರ ಇದೆ.,sentence,topic:asking_the_way,s_adu_tumba_doora_ide,yes
+Daari yaavudu?,ದಾರಿ ಯಾವುದು?,sentence,topic:asking_the_way,s_daari_yaavudu,yes
+Nanage oota beku.,ನನಗೆ ಊಟ ಬೇಕು.,sentence,topic:food_at_mess,s_nanage_oota_beku,yes
+Anna kodi.,ಅನ್ನ ಕೊಡಿ.,sentence,topic:food_at_mess,s_anna_kodi,yes
+Idli kodi.,ಇಡ್ಲಿ ಕೊಡಿ.,sentence,topic:food_at_mess,s_idli_kodi,yes
+Dose kodi.,ದೋಸೆ ಕೊಡಿ.,sentence,topic:food_at_mess,s_dose_kodi,yes
+Eradu chapati kodi.,ಎರಡು ಚಪಾತಿ ಕೊಡಿ.,sentence,topic:food_at_mess,s_eradu_chapati_kodi,yes
+Svalpa saaru kodi.,ಸ್ವಲ್ಪ ಸಾರು ಕೊಡಿ.,sentence,topic:food_at_mess,s_svalpa_saaru_kodi,yes
+Sambar kodi.,ಸಾಂಬಾರ್ ಕೊಡಿ.,sentence,topic:food_at_mess,s_sambar_kodi,yes
+Svalpa palya kodi.,ಸ್ವಲ್ಪ ಪಲ್ಯ ಕೊಡಿ.,sentence,topic:food_at_mess,s_svalpa_palya_kodi,yes
+Mosaru kodi.,ಮೊಸರು ಕೊಡಿ.,sentence,topic:food_at_mess,s_mosaru_kodi,yes
+Ondu balehannu kodi.,ಒಂದು ಬಾಳೆಹಣ್ಣು ಕೊಡಿ.,sentence,topic:food_at_mess,s_ondu_balehannu_kodi,yes
+Neeru kodi.,ನೀರು ಕೊಡಿ.,sentence,topic:food_at_mess,s_neeru_kodi,yes
+Nanage innu anna beku.,ನನಗೆ ಇನ್ನೂ ಅನ್ನ ಬೇಕು.,sentence,topic:food_at_mess,s_nanage_innu_anna_beku,yes
+Innu svalpa kodi.,ಇನ್ನೂ ಸ್ವಲ್ಪ ಕೊಡಿ.,sentence,topic:food_at_mess,s_innu_svalpa_kodi,yes
+Nanage saaru beda.,ನನಗೆ ಸಾರು ಬೇಡ.,sentence,topic:food_at_mess,s_nanage_saaru_beda,yes
+"Saaku, dhanyavada.","ಸಾಕು, ಧನ್ಯವಾದ.",sentence,topic:food_at_mess,s_saaku_dhanyavada,yes
+Oota chennagide.,ಊಟ ಚೆನ್ನಾಗಿದೆ.,sentence,topic:food_at_mess,s_oota_chennagide,yes
+Chaha beku.,ಚಹಾ ಬೇಕು.,sentence,topic:food_at_mess,s_chaha_beku,yes
+Haalu beda.,ಹಾಲು ಬೇಡ.,sentence,topic:food_at_mess,s_haalu_beda,yes
+Namaskara!,ನಮಸ್ಕಾರ!,sentence,topic:greetings_thanks,s_namaskara,yes
+Shubhodaya!,ಶುಭೋದಯ!,sentence,topic:greetings_thanks,s_shubhodaya,yes
+Dhanyavada!,ಧನ್ಯವಾದ!,sentence,topic:greetings_thanks,s_dhanyavada,yes
+Tumba dhanyavada.,ತುಂಬಾ ಧನ್ಯವಾದ.,sentence,topic:greetings_thanks,s_tumba_dhanyavada,yes
+Sari.,ಸರಿ.,sentence,topic:greetings_thanks,s_sari,yes
+"Haudu, sari.","ಹೌದು, ಸರಿ.",sentence,topic:greetings_thanks,s_haudu_sari,yes
+Kshamisi.,ಕ್ಷಮಿಸಿ.,sentence,topic:greetings_thanks,s_kshamisi,yes
+Dayavittu sahaaya maadi.,ದಯವಿಟ್ಟು ಸಹಾಯ ಮಾಡಿ.,sentence,topic:greetings_thanks,s_dayavittu_sahaaya_maadi,yes
+Chennagide.,ಚೆನ್ನಾಗಿದೆ.,sentence,topic:greetings_thanks,s_chennagide,yes
+Matte sigona.,ಮತ್ತೆ ಸಿಗೋಣ.,sentence,topic:greetings_thanks,s_matte_sigona,yes
+Vidaaya.,ವಿದಾಯ.,sentence,topic:greetings_thanks,s_vidaaya,yes
+Nanna hesaru Ravi.,ನನ್ನ ಹೆಸರು ರವಿ.,sentence,topic:introducing_yourself,s_nanna_hesaru_ravi,yes
+Nanna hesaru Ananya.,ನನ್ನ ಹೆಸರು ಅನನ್ಯ.,sentence,topic:introducing_yourself,s_nanna_hesaru_ananya,yes
+Nimma hesaru enu?,ನಿಮ್ಮ ಹೆಸರು ಏನು?,sentence,topic:introducing_yourself,s_nimma_hesaru_enu,yes
+Neevu yaaru?,ನೀವು ಯಾರು?,sentence,topic:introducing_yourself,s_neevu_yaaru,yes
+Naanu Ravi.,ನಾನು ರವಿ.,sentence,topic:introducing_yourself,s_naanu_ravi,yes
+Naanu Ananya.,ನಾನು ಅನನ್ಯ.,sentence,topic:introducing_yourself,s_naanu_ananya,yes
+Nimmannu bhetiyaagi santoshavaayitu.,ನಿಮ್ಮನ್ನು ಭೇಟಿಯಾಗಿ ಸಂತೋಷವಾಯಿತು.,sentence,topic:introducing_yourself,s_nimmannu_bhetiyaagi_santoshavaayitu,yes
+Dhanyavada.,ಧನ್ಯವಾದ.,sentence,topic:introducing_yourself,s_dhanyavada,yes
+Idu eshtu?,ಇದು ಎಷ್ಟು?,sentence,topic:numbers_money,s_idu_eshtu,yes
+Chaha eshtu?,ಚಹಾ ಎಷ್ಟು?,sentence,topic:numbers_money,s_chaha_eshtu,yes
+Kaapi eshtu?,ಕಾಫಿ ಎಷ್ಟು?,sentence,topic:numbers_money,s_kaapi_eshtu,yes
+Hattu rupayi.,ಹತ್ತು ರೂಪಾಯಿ.,sentence,topic:numbers_money,s_hattu_rupayi,yes
+Ippattu rupayi.,ಇಪ್ಪತ್ತು ರೂಪಾಯಿ.,sentence,topic:numbers_money,s_ippattu_rupayi,yes
+Aivattu rupayi.,ಐವತ್ತು ರೂಪಾಯಿ.,sentence,topic:numbers_money,s_aivattu_rupayi,yes
+Nooru rupayi.,ನೂರು ರೂಪಾಯಿ.,sentence,topic:numbers_money,s_nooru_rupayi,yes
+Innooru rupayi.,ಇನ್ನೂರು ರೂಪಾಯಿ.,sentence,topic:numbers_money,s_innooru_rupayi,yes
+Ainooru rupayi.,ಐನೂರು ರೂಪಾಯಿ.,sentence,topic:numbers_money,s_ainooru_rupayi,yes
+Saavira rupayi.,ಸಾವಿರ ರೂಪಾಯಿ.,sentence,topic:numbers_money,s_saavira_rupayi,yes
+Eradu saavira rupayi.,ಎರಡು ಸಾವಿರ ರೂಪಾಯಿ.,sentence,topic:numbers_money,s_eradu_saavira_rupayi,yes
+Ondu chaha kodi.,ಒಂದು ಚಹಾ ಕೊಡಿ.,sentence,topic:numbers_money,s_ondu_chaha_kodi,yes
+Eradu kaapi kodi.,ಎರಡು ಕಾಫಿ ಕೊಡಿ.,sentence,topic:numbers_money,s_eradu_kaapi_kodi,yes
+Idu tumba dubaari.,ಇದು ತುಂಬಾ ದುಬಾರಿ.,sentence,topic:numbers_money,s_idu_tumba_dubaari,yes
+Idu aggavaagide.,ಇದು ಅಗ್ಗವಾಗಿದೆ.,sentence,topic:numbers_money,s_idu_aggavaagide,yes
+Svalpa kadime maadi.,ಸ್ವಲ್ಪ ಕಡಿಮೆ ಮಾಡಿ.,sentence,topic:numbers_money,s_svalpa_kadime_maadi,yes
+Innu eshtu?,ಇನ್ನೂ ಎಷ್ಟು?,sentence,topic:numbers_money,s_innu_eshtu,yes
+Nanage chaha beku.,ನನಗೆ ಚಹಾ ಬೇಕು.,sentence,topic:ordering_at_shop,s_nanage_chaha_beku,yes
+Nanage kaapi beku.,ನನಗೆ ಕಾಫಿ ಬೇಕು.,sentence,topic:ordering_at_shop,s_nanage_kaapi_beku,yes
+Nanage neeru beku.,ನನಗೆ ನೀರು ಬೇಕು.,sentence,topic:ordering_at_shop,s_nanage_neeru_beku,yes
+Nanage thindi beku.,ನನಗೆ ತಿಂಡಿ ಬೇಕು.,sentence,topic:ordering_at_shop,s_nanage_thindi_beku,yes
+Nanage chaha beda.,ನನಗೆ ಚಹಾ ಬೇಡ.,sentence,topic:ordering_at_shop,s_nanage_chaha_beda,yes
+Nimage kaapi beka?,ನಿಮಗೆ ಕಾಫಿ ಬೇಕಾ?,sentence,topic:ordering_at_shop,s_nimage_kaapi_beka,yes
+"Haudu, beku.","ಹೌದು, ಬೇಕು.",sentence,topic:ordering_at_shop,s_haudu_beku,yes
+"Beda, dhanyavada.","ಬೇಡ, ಧನ್ಯವಾದ.",sentence,topic:ordering_at_shop,s_beda_dhanyavada,yes
+Svalpa neeru kodi.,ಸ್ವಲ್ಪ ನೀರು ಕೊಡಿ.,sentence,topic:ordering_at_shop,s_svalpa_neeru_kodi,yes
+Ashte saaku.,ಅಷ್ಟೇ ಸಾಕು.,sentence,topic:ordering_at_shop,s_ashte_saaku,yes
+Svalpa bagilu tegeyiri.,ಸ್ವಲ್ಪ ಬಾಗಿಲು ತೆಗೆಯಿರಿ.,sentence,topic:polite_to_elders,s_svalpa_bagilu_tegeyiri,yes
+Olage banni.,ಒಳಗೆ ಬನ್ನಿ.,sentence,topic:polite_to_elders,s_olage_banni,yes
+Illi kulithukolli.,ಇಲ್ಲಿ ಕುಳಿತುಕೊಳ್ಳಿ.,sentence,topic:polite_to_elders,s_illi_kulithukolli,yes
+Dayavittu heli.,ದಯವಿಟ್ಟು ಹೇಳಿ.,sentence,topic:polite_to_elders,s_dayavittu_heli,yes
+Nimage sahaaya beka?,ನಿಮಗೆ ಸಹಾಯ ಬೇಕಾ?,sentence,topic:polite_to_elders,s_nimage_sahaaya_beka,yes
+Svalpa kaayiri.,ಸ್ವಲ್ಪ ಕಾಯಿರಿ.,sentence,topic:polite_to_elders,s_svalpa_kaayiri,yes
+Dayavittu illi banni.,ದಯವಿಟ್ಟು ಇಲ್ಲಿ ಬನ್ನಿ.,sentence,topic:polite_to_elders,s_dayavittu_illi_banni,yes
+Dayavittu kulithukolli.,ದಯವಿಟ್ಟು ಕುಳಿತುಕೊಳ್ಳಿ.,sentence,topic:polite_to_elders,s_dayavittu_kulithukolli,yes
+Keeli ellide?,ಕೀಲಿ ಎಲ್ಲಿದೆ?,sentence,topic:who_is_here,s_keeli_ellide,yes
+Keeli illi ide.,ಕೀಲಿ ಇಲ್ಲಿ ಇದೆ.,sentence,topic:who_is_here,s_keeli_illi_ide,yes
+Keeli alli ide.,ಕೀಲಿ ಅಲ್ಲಿ ಇದೆ.,sentence,topic:who_is_here,s_keeli_alli_ide,yes
+Keeli illa.,ಕೀಲಿ ಇಲ್ಲ.,sentence,topic:who_is_here,s_keeli_illa,yes
+Avanu illi iddaane.,ಅವನು ಇಲ್ಲಿ ಇದ್ದಾನೆ.,sentence,topic:who_is_here,s_avanu_illi_iddaane,yes
+Avalu illi iddaale.,ಅವಳು ಇಲ್ಲಿ ಇದ್ದಾಳೆ.,sentence,topic:who_is_here,s_avalu_illi_iddaale,yes
+Avaru illi iddaare.,ಅವರು ಇಲ್ಲಿ ಇದ್ದಾರೆ.,sentence,topic:who_is_here,s_avaru_illi_iddaare,yes
+Avala hattira keeli ide.,ಅವಳ ಹತ್ತಿರ ಕೀಲಿ ಇದೆ.,sentence,topic:who_is_here,s_avala_hattira_keeli_ide,yes
+Nanna pustaka ellide?,ನನ್ನ ಪುಸ್ತಕ ಎಲ್ಲಿದೆ?,sentence,topic:who_is_here,s_nanna_pustaka_ellide,yes
+Cheela alli ide.,ಚೀಲ ಅಲ್ಲಿ ಇದೆ.,sentence,topic:who_is_here,s_cheela_alli_ide,yes
+Bagilu teredide.,ಬಾಗಿಲು ತೆರೆದಿದೆ.,sentence,topic:who_is_here,s_bagilu_teredide,yes
+Pustaka mejina mele ide.,ಪುಸ್ತಕ ಮೇಜಿನ ಮೇಲೆ ಇದೆ.,sentence,topic:who_is_here,s_pustaka_mejina_mele_ide,yes
+Avanu maneyalliddaane.,ಅವನು ಮನೆಯಲ್ಲಿದ್ದಾನೆ.,sentence,topic:who_is_here,s_avanu_maneyalliddaane,yes
+Kalyanapura bantu! Iliyiri!,ಕಲ್ಯಾಣಪುರ ಬಂತು! ಇಳಿಯಿರಿ!,sentence,quest:q1_1,q1_1_a:npc_line,yes
+Nimage enu beku?,ನಿಮಗೆ ಏನು ಬೇಕು?,sentence,quest:q1_2,q1_2_a:npc_line,yes
+Nanage chaha beku,ನನಗೆ ಚಹಾ ಬೇಕು,sentence,quest:q1_2,q1_2_a:a_tea,yes
+Nanage chaha beda,ನನಗೆ ಚಹಾ ಬೇಡ,sentence,quest:q1_2,q1_2_a:e_beda,yes
+Neeru beka?,ನೀರು ಬೇಕಾ?,sentence,quest:q1_2,q1_2_b:npc_line,yes
+"Haudu, beku","ಹೌದು, ಬೇಕು",sentence,quest:q1_2,q1_2_b:a_yes,yes
+"Illa, beda","ಇಲ್ಲ, ಬೇಡ",sentence,quest:q1_2,q1_2_b:a_no,yes
+Nanna hesaru Arun,ನನ್ನ ಹೆಸರು ಅರುಣ್,sentence,quest:q1_3,q1_3_a:a_name,yes
+Nanna hesaru Aditi,ನನ್ನ ಹೆಸರು ಅದಿತಿ,sentence,quest:q1_3,q1_3_a:a_name,yes
+Library ellide?,ಲೈಬ್ರರಿ ಎಲ್ಲಿದೆ?,sentence,quest:q1_4,q1_4_a:a_library,yes
+Yaaru?,ಯಾರು?,sentence,quest:q2_1,q2_1_a:npc_line,yes
+"Namaskara, naanu hosa archivist","ನಮಸ್ಕಾರ, ನಾನು ಹೊಸ ಆರ್ಕೈವಿಸ್ಟ್",sentence,quest:q2_1,q2_1_a:a_intro,yes
+Svalpa bagilu tegeyiri,ಸ್ವಲ್ಪ ಬಾಗಿಲು ತೆಗೆಯಿರಿ,sentence,quest:q2_1,q2_1_b:a_open,yes
+Bagilu tegi,ಬಾಗಿಲು ತೆಗಿ,sentence,quest:q2_1,q2_1_b:e_tegi,yes
+Ananya ilvalla! Keeli avala hatra ide.,ಅನನ್ಯ ಇಲ್ವಲ್ಲಾ! ಕೀಲಿ ಅವಳ ಹತ್ರ ಇದೆ.,sentence,quest:q2_2,q2_2_a:npc_line,yes
+Banni! Oota beka?,ಬನ್ನಿ! ಊಟ ಬೇಕಾ?,sentence,quest:q3_1,q3_1_a:npc_line,yes
+"Haudu, oota kodi","ಹೌದು, ಊಟ ಕೊಡಿ",sentence,quest:q3_1,q3_1_a:a_meal,yes
+Innu saaru?,ಇನ್ನೂ ಸಾರು?,sentence,quest:q3_2,q3_2_a:npc_line,yes
+Saaku!,ಸಾಕು!,sentence,quest:q3_2,q3_2_a:a_saaku,yes
+Eshtu rupayi?,ಎಷ್ಟು ರೂಪಾಯಿ?,sentence,quest:q3_3,q3_3_a:a_price,yes
+namaskaara,ನಮಸ್ಕಾರ,variant_word,spelling_variants,w_namaskara,yes
+namaskar,ನಮಸ್ಕಾರ,variant_word,spelling_variants,w_namaskara,yes
+dhanyawada,ಧನ್ಯವಾದ,variant_word,spelling_variants,w_dhanyavada,yes
+danyavada,ಧನ್ಯವಾದ,variant_word,spelling_variants,w_dhanyavada,yes
+dhanyavaada,ಧನ್ಯವಾದ,variant_word,spelling_variants,w_dhanyavada,yes
+dhanyavadagalu,ಧನ್ಯವಾದ,variant_word,spelling_variants,w_dhanyavada,yes
+dhanyavad,ಧನ್ಯವಾದ,variant_word,spelling_variants,w_dhanyavada,yes
+nange,ನನಗೆ,variant_word,spelling_variants,w_nanage,yes
+nanege,ನನಗೆ,variant_word,spelling_variants,w_nanage,yes
+chai,ಚಹಾ,variant_word,spelling_variants,w_chaha,yes
+chaa,ಚಹಾ,variant_word,spelling_variants,w_chaha,yes
+cha,ಚಹಾ,variant_word,spelling_variants,w_chaha,yes
+chahaa,ಚಹಾ,variant_word,spelling_variants,w_chaha,yes
+beeku,ಬೇಕು,variant_word,spelling_variants,w_beku,yes
+bekku,ಬೇಕು,variant_word,spelling_variants,w_beku,yes
+bekuu,ಬೇಕು,variant_word,spelling_variants,w_beku,yes
+beeda,ಬೇಡ,variant_word,spelling_variants,w_beda,yes
+bedaa,ಬೇಡ,variant_word,spelling_variants,w_beda,yes
+houdu,ಹೌದು,variant_word,spelling_variants,w_haudu,yes
+ila,ಇಲ್ಲ,variant_word,spelling_variants,w_illa,yes
+hesru,ಹೆಸರು,variant_word,spelling_variants,w_hesaru,yes
+nana,ನನ್ನ,variant_word,spelling_variants,w_nanna,yes
+nanu,ನಾನು,variant_word,spelling_variants,w_naanu,yes
+eli,ಎಲ್ಲಿ,variant_word,spelling_variants,w_elli,yes
+yelli,ಎಲ್ಲಿ,variant_word,spelling_variants,w_elli,yes
+elide,ಎಲ್ಲಿದೆ,variant_word,spelling_variants,w_ellide,yes
+yellide,ಎಲ್ಲಿದೆ,variant_word,spelling_variants,w_ellide,yes
+tegiyiri,ತೆಗೆಯಿರಿ,variant_word,spelling_variants,w_tegeyiri,yes
+tegeyri,ತೆಗೆಯಿರಿ,variant_word,spelling_variants,w_tegeyiri,yes
+swalpa,ಸ್ವಲ್ಪ,variant_word,spelling_variants,w_svalpa,yes
+svalpaa,ಸ್ವಲ್ಪ,variant_word,spelling_variants,w_svalpa,yes
+kili,ಕೀಲಿ,variant_word,spelling_variants,w_keeli,yes
+uta,ಊಟ,variant_word,spelling_variants,w_oota,yes
+saku,ಸಾಕು,variant_word,spelling_variants,w_saaku,yes
+saakku,ಸಾಕು,variant_word,spelling_variants,w_saaku,yes
+sakku,ಸಾಕು,variant_word,spelling_variants,w_saaku,yes
+yeshtu,ಎಷ್ಟು,variant_word,spelling_variants,w_eshtu,yes
+estu,ಎಷ್ಟು,variant_word,spelling_variants,w_eshtu,yes
+yestu,ಎಷ್ಟು,variant_word,spelling_variants,w_eshtu,yes
+rupai,ರೂಪಾಯಿ,variant_word,spelling_variants,w_rupayi,yes
+rupaayi,ರೂಪಾಯಿ,variant_word,spelling_variants,w_rupayi,yes

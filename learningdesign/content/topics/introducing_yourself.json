@@ -1,0 +1,111 @@
+{
+  "topic_id": "introducing_yourself",
+  "title": "Introducing Yourself",
+  "first_opens_in": "q1_3",
+  "introduction": "Learn how to say your name, introduce yourself and ask another person their name. These phrases are useful when meeting a new character, a shopkeeper or someone in town.",
+  "words": [
+    {
+      "word_id": "w_naanu"
+    },
+    {
+      "word_id": "w_nanna"
+    },
+    {
+      "word_id": "w_hesaru"
+    },
+    {
+      "word_id": "w_nimma",
+      "english": "Your, polite"
+    },
+    {
+      "word_id": "w_neevu",
+      "english": "You, polite"
+    },
+    {
+      "word_id": "w_yaaru"
+    },
+    {
+      "word_id": "w_enu"
+    },
+    {
+      "word_id": "w_geleya"
+    },
+    {
+      "word_id": "w_gelathi"
+    },
+    {
+      "word_id": "w_haudu"
+    },
+    {
+      "word_id": "w_illa",
+      "english": "No"
+    },
+    {
+      "word_id": "w_namaskara"
+    },
+    {
+      "word_id": "w_dhanyavada"
+    }
+  ],
+  "sentences": [
+    {
+      "sentence_id": "s_nanna_hesaru_ravi",
+      "kannada": "ನನ್ನ ಹೆಸರು ರವಿ.",
+      "kanglish": "Nanna hesaru Ravi.",
+      "english": "My name is Ravi."
+    },
+    {
+      "sentence_id": "s_nanna_hesaru_ananya",
+      "kannada": "ನನ್ನ ಹೆಸರು ಅನನ್ಯ.",
+      "kanglish": "Nanna hesaru Ananya.",
+      "english": "My name is Ananya."
+    },
+    {
+      "sentence_id": "s_nimma_hesaru_enu",
+      "kannada": "ನಿಮ್ಮ ಹೆಸರು ಏನು?",
+      "kanglish": "Nimma hesaru enu?",
+      "english": "What is your name?"
+    },
+    {
+      "sentence_id": "s_neevu_yaaru",
+      "kannada": "ನೀವು ಯಾರು?",
+      "kanglish": "Neevu yaaru?",
+      "english": "Who are you?"
+    },
+    {
+      "sentence_id": "s_naanu_ravi",
+      "kannada": "ನಾನು ರವಿ.",
+      "kanglish": "Naanu Ravi.",
+      "english": "I am Ravi."
+    },
+    {
+      "sentence_id": "s_naanu_ananya",
+      "kannada": "ನಾನು ಅನನ್ಯ.",
+      "kanglish": "Naanu Ananya.",
+      "english": "I am Ananya."
+    },
+    {
+      "sentence_id": "s_namaskara",
+      "kannada": "ನಮಸ್ಕಾರ!",
+      "kanglish": "Namaskara!",
+      "english": "Hello!"
+    },
+    {
+      "sentence_id": "s_nimmannu_bhetiyaagi_santoshavaayitu",
+      "kannada": "ನಿಮ್ಮನ್ನು ಭೇಟಿಯಾಗಿ ಸಂತೋಷವಾಯಿತು.",
+      "kanglish": "Nimmannu bhetiyaagi santoshavaayitu.",
+      "english": "Nice to meet you."
+    },
+    {
+      "sentence_id": "s_dhanyavada",
+      "kannada": "ಧನ್ಯವಾದ.",
+      "kanglish": "Dhanyavada.",
+      "english": "Thank you."
+    }
+  ],
+  "remember": [
+    "Nanna means \"my\"; nimma means \"your\" in a polite form.",
+    "Hesaru means \"name.\"",
+    "Replace the example name with your own name to introduce yourself."
+  ]
+}

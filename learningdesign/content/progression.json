@@ -1,0 +1,90 @@
+{
+  "answer_modes": [
+    "type_kanglish"
+  ],
+  "levels": [
+    {
+      "level": 1,
+      "name": "Bus Stand & Tea Stall",
+      "quests": [
+        "q1_1",
+        "q1_2",
+        "q1_3",
+        "q1_4"
+      ],
+      "english_shown": "full",
+      "learns": [
+        "greetings",
+        "ordering",
+        "introducing yourself",
+        "asking the way"
+      ]
+    },
+    {
+      "level": 2,
+      "name": "Library",
+      "quests": [
+        "q2_1",
+        "q2_2",
+        "q2_3"
+      ],
+      "english_shown": "full",
+      "exceptions": {
+        "q2_2": "English hidden; the player works out the meaning."
+      },
+      "learns": [
+        "speaking politely",
+        "understanding without English"
+      ]
+    },
+    {
+      "level": 3,
+      "name": "Shanthakka's Mess",
+      "quests": [
+        "q3_1",
+        "q3_2",
+        "q3_3",
+        "q3_4"
+      ],
+      "english_shown": "keywords",
+      "player_can_switch_full_english_on": true,
+      "learns": [
+        "food",
+        "money",
+        "asking where a person is"
+      ]
+    }
+  ],
+  "help": {
+    "levels": [
+      {
+        "help": "quick_hint",
+        "shows": "The quest's quick_hint: meaning of a key word or a reminder of the pattern."
+      },
+      {
+        "help": "open_topic",
+        "shows": "The quest's notebook topic: vocabulary, sentence patterns, meanings, examples."
+      },
+      {
+        "help": "full_example",
+        "shows": "The step's full_example: a complete response to use as a reference."
+      }
+    ],
+    "quick_hint_appears_after_wrong_answers": 2,
+    "full_example_offered_after_wrong_answers": 3,
+    "player_can_always_continue": true,
+    "player_chooses_how_much_help": true
+  },
+  "notebook": {
+    "opens_to": "The quest's topic only, never the whole syllabus.",
+    "first_time_a_topic_opens": "Show the whole page.",
+    "when_reopened": "Show the page and highlight the step's topic_highlight.",
+    "new_topic_tab": "A topic gets its tab when it first opens.",
+    "remembered_stamp": "When the player recalls a phrase without opening the notebook, stamp it 'Remembered!'."
+  },
+  "word_learned": {
+    "rule": "A word is learned when the player uses it correctly without opening the notebook in two different quests.",
+    "applies_to_role": "say",
+    "different_quests_needed": 2
+  }
+}

@@ -1,0 +1,165 @@
+{
+  "topic_id": "who_is_here",
+  "title": "Who Is Here?",
+  "first_opens_in": "q2_2",
+  "introduction": "Learn how to ask where someone is, find objects and explain whether something is here or somewhere else. These phrases are useful when looking for a character, a key or another important object.",
+  "words": [
+    {
+      "word_id": "w_yaaru"
+    },
+    {
+      "word_id": "w_elli"
+    },
+    {
+      "word_id": "w_illi"
+    },
+    {
+      "word_id": "w_alli"
+    },
+    {
+      "word_id": "w_ide",
+      "english": "Is / exists / is located"
+    },
+    {
+      "word_id": "w_illa",
+      "english": "No / is not / not available"
+    },
+    {
+      "word_id": "w_avanu"
+    },
+    {
+      "word_id": "w_avalu"
+    },
+    {
+      "word_id": "w_avaru"
+    },
+    {
+      "word_id": "w_hattira",
+      "english": "Near / with"
+    },
+    {
+      "word_id": "w_avala_hatra",
+      "english": "With her (spoken)"
+    },
+    {
+      "word_id": "w_keeli"
+    },
+    {
+      "word_id": "w_bagilu"
+    },
+    {
+      "word_id": "w_nanna"
+    },
+    {
+      "word_id": "w_nimma",
+      "english": "Your, polite"
+    },
+    {
+      "word_id": "w_mane"
+    },
+    {
+      "word_id": "w_pustaka"
+    },
+    {
+      "word_id": "w_cheela"
+    }
+  ],
+  "sentences": [
+    {
+      "sentence_id": "s_ravi_elli",
+      "kannada": "ರವಿ ಎಲ್ಲಿ?",
+      "kanglish": "Ravi elli?",
+      "english": "Where is Ravi?"
+    },
+    {
+      "sentence_id": "s_ananya_elli",
+      "kannada": "ಅನನ್ಯ ಎಲ್ಲಿ?",
+      "kanglish": "Ananya elli?",
+      "english": "Where is Ananya?"
+    },
+    {
+      "sentence_id": "s_keeli_ellide",
+      "kannada": "ಕೀಲಿ ಎಲ್ಲಿದೆ?",
+      "kanglish": "Keeli ellide?",
+      "english": "Where is the key?"
+    },
+    {
+      "sentence_id": "s_keeli_illi_ide",
+      "kannada": "ಕೀಲಿ ಇಲ್ಲಿ ಇದೆ.",
+      "kanglish": "Keeli illi ide.",
+      "english": "The key is here."
+    },
+    {
+      "sentence_id": "s_keeli_alli_ide",
+      "kannada": "ಕೀಲಿ ಅಲ್ಲಿ ಇದೆ.",
+      "kanglish": "Keeli alli ide.",
+      "english": "The key is there."
+    },
+    {
+      "sentence_id": "s_keeli_illa",
+      "kannada": "ಕೀಲಿ ಇಲ್ಲ.",
+      "kanglish": "Keeli illa.",
+      "english": "The key is not here / is unavailable."
+    },
+    {
+      "sentence_id": "s_avanu_illi_iddaane",
+      "kannada": "ಅವನು ಇಲ್ಲಿ ಇದ್ದಾನೆ.",
+      "kanglish": "Avanu illi iddaane.",
+      "english": "He is here."
+    },
+    {
+      "sentence_id": "s_avalu_illi_iddaale",
+      "kannada": "ಅವಳು ಇಲ್ಲಿ ಇದ್ದಾಳೆ.",
+      "kanglish": "Avalu illi iddaale.",
+      "english": "She is here."
+    },
+    {
+      "sentence_id": "s_avaru_illi_iddaare",
+      "kannada": "ಅವರು ಇಲ್ಲಿ ಇದ್ದಾರೆ.",
+      "kanglish": "Avaru illi iddaare.",
+      "english": "They are here / he or she is here, respectfully."
+    },
+    {
+      "sentence_id": "s_avala_hattira_keeli_ide",
+      "kannada": "ಅವಳ ಹತ್ತಿರ ಕೀಲಿ ಇದೆ.",
+      "kanglish": "Avala hattira keeli ide.",
+      "english": "She has the key."
+    },
+    {
+      "sentence_id": "s_nanna_pustaka_ellide",
+      "kannada": "ನನ್ನ ಪುಸ್ತಕ ಎಲ್ಲಿದೆ?",
+      "kanglish": "Nanna pustaka ellide?",
+      "english": "Where is my book?"
+    },
+    {
+      "sentence_id": "s_cheela_alli_ide",
+      "kannada": "ಚೀಲ ಅಲ್ಲಿ ಇದೆ.",
+      "kanglish": "Cheela alli ide.",
+      "english": "The bag is there."
+    },
+    {
+      "sentence_id": "s_bagilu_teredide",
+      "kannada": "ಬಾಗಿಲು ತೆರೆದಿದೆ.",
+      "kanglish": "Bagilu teredide.",
+      "english": "The door is open."
+    },
+    {
+      "sentence_id": "s_pustaka_mejina_mele_ide",
+      "kannada": "ಪುಸ್ತಕ ಮೇಜಿನ ಮೇಲೆ ಇದೆ.",
+      "kanglish": "Pustaka mejina mele ide.",
+      "english": "The book is on the table."
+    },
+    {
+      "sentence_id": "s_avanu_maneyalliddaane",
+      "kannada": "ಅವನು ಮನೆಯಲ್ಲಿದ್ದಾನೆ.",
+      "kanglish": "Avanu maneyalliddaane.",
+      "english": "He is at home."
+    }
+  ],
+  "remember": [
+    "Illi means \"here\"; alli means \"there.\"",
+    "Ide indicates that something exists or is present.",
+    "Illa can mean \"no,\" \"not here\" or \"does not exist,\" depending on context.",
+    "Avalu, avanu and avaru refer to people."
+  ]
+}

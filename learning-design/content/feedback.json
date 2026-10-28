@@ -1,0 +1,230 @@
+{
+  "answer_rules": {
+    "outcomes": {
+      "accepted": "The meaning and form are right. The quest moves on.",
+      "accepted_with_correction": "The meaning is clear but the form is off. Accept the answer, move the quest on and show the correction tip.",
+      "not_accepted": "The NPC reacts, then the quest's quick_hint appears as the tip."
+    },
+    "accept_meaning": "Accept the meaning, not exact words. 'Chaha beku' and 'Nanage chaha beku' are both right.",
+    "accept_any_spelling": {
+      "rule": "Accept any spelling. Common alternative spellings are listed as variants in vocabulary.json; the NLP part handles other spellings by rule.",
+      "examples": [
+        [
+          "beku",
+          "beeku"
+        ],
+        [
+          "neeru",
+          "niru"
+        ],
+        [
+          "oota",
+          "uta"
+        ]
+      ]
+    },
+    "english_mixed_in": {
+      "rule": "English mixed into a Kanglish answer is accepted when the answer contains a key Kannada word of the step (one of its target_words). An answer in English only is not accepted (english_only).",
+      "accepted_examples": [
+        "Thanks, dhanyavada",
+        "tea beku"
+      ],
+      "not_accepted_examples": [
+        "Thank you",
+        "Fifty",
+        "Where is the library?"
+      ]
+    },
+    "global_rules": {
+      "rule": "These apply to every step and need no entry in the quest files. An entry in a step takes priority over them.",
+      "unclear": "Nonsense, empty input, 'idk' and similar.",
+      "english_only": "An answer in English only.",
+      "hindi_word": "Hindi typed instead of Kannada, e.g. 'Chai chahiye'."
+    },
+    "placeholders": {
+      "{player_name}": "Any name the player types. It is not matched strictly against Arun or Aditi.",
+      "{item}": "Any word listed in item_words (food and drink)."
+    },
+    "item_words": [
+      "w_chaha",
+      "w_kaapi",
+      "w_neeru",
+      "w_thindi",
+      "w_haalu",
+      "w_oota",
+      "w_anna",
+      "w_idli",
+      "w_dose",
+      "w_chapati",
+      "w_rotti",
+      "w_saaru",
+      "w_sambar",
+      "w_palya",
+      "w_mosaru",
+      "w_balehannu"
+    ],
+    "never_show_wrong": "Never show 'Wrong'. The NPC reacts naturally, then one short tip appears.",
+    "tip": "For a not accepted answer the tip is the quest's quick_hint. For an answer accepted with correction it is the tip of its correction_type.",
+    "default_reaction": "If an answer is not accepted and has no reaction_id, the step's speaker uses r_puzzled — except Somanna, who uses r_somanna_ignores for English."
+  },
+  "error_categories": [
+    {
+      "error_category": "wrong_word",
+      "description": "Real Kannada, but not what this moment needs (e.g. 'Beku' instead of 'Dhanyavada')."
+    },
+    {
+      "error_category": "beku_beda_mixup",
+      "description": "Want and don't-want mixed up (e.g. 'Nanage chaha beda' when ordering)."
+    },
+    {
+      "error_category": "impolite_form",
+      "description": "Blunt form used with an elder (e.g. 'Bagilu tegi' instead of 'Svalpa bagilu tegeyiri')."
+    },
+    {
+      "error_category": "english_only",
+      "description": "Answered in English only."
+    },
+    {
+      "error_category": "wrong_meaning",
+      "description": "Misunderstood what the NPC said (e.g. naming the wrong person in Quest 2.2)."
+    },
+    {
+      "error_category": "wrong_number",
+      "description": "Misunderstood a number (e.g. typing 'Hattu' when Shanthakka asks for 'aivattu')."
+    },
+    {
+      "error_category": "unclear",
+      "description": "The answer can't be understood."
+    },
+    {
+      "error_category": "pronoun_mixup",
+      "description": "Wrong pronoun, usually copied from the NPC's line (nimage/nimma) or naanu for nanage, e.g. 'Nimage chaha beku'."
+    },
+    {
+      "error_category": "hindi_word",
+      "description": "Hindi typed instead of Kannada, e.g. 'Chai chahiye', 'Shukriya'."
+    },
+    {
+      "error_category": "incomplete_answer",
+      "description": "Relevant but a required part is missing, e.g. 'Library' with no question word, 'Namaskara' with no name."
+    },
+    {
+      "error_category": "valid_other_answer",
+      "description": "Good Kannada, but not the answer this step needs, e.g. refusing the meal with 'Illa, beda'."
+    }
+  ],
+  "correction_types": [
+    {
+      "correction_type": "missing_verb",
+      "description": "Meaning clear, the verb is missing (e.g. 'Nanage chaha').",
+      "tip": "Add the verb at the end, e.g. beku (want) or kodi (please give)."
+    },
+    {
+      "correction_type": "missing_object",
+      "description": "Polite verb, but no object (e.g. 'Tegeyiri').",
+      "tip": "Say what to open: Svalpa bagilu tegeyiri."
+    },
+    {
+      "correction_type": "missing_possessive",
+      "description": "'Hesaru {player_name}' instead of 'Nanna hesaru {player_name}'.",
+      "tip": "Start with Nanna (my)."
+    },
+    {
+      "correction_type": "elli_vs_ellide",
+      "description": "elli for a place or thing, or ellide for a person.",
+      "tip": "Places and things use ellide. People use elli."
+    },
+    {
+      "correction_type": "word_order",
+      "description": "Question word placed before the place or thing (e.g. 'Ellide library?').",
+      "tip": "Say the place or thing first, then the question word."
+    },
+    {
+      "correction_type": "saaku_vs_beda",
+      "description": "Beda where saaku (enough) is wanted. Keeps the reaction r_shanthakka_say_saaku.",
+      "tip": "Use saaku for 'enough'."
+    },
+    {
+      "correction_type": "use_target_pattern",
+      "description": "Meaning accepted, but not the pattern this step teaches (e.g. 'Nanna hesaru {player_name}' in q2_1_a).",
+      "tip": "Try: Namaskara, naanu hosa archivist."
+    },
+    {
+      "correction_type": "use_haudu",
+      "description": "'Sari' (okay) typed instead of 'haudu' (yes).",
+      "tip": "Haudu is the usual yes."
+    }
+  ],
+  "reactions": [
+    {
+      "reaction_id": "r_puzzled",
+      "speaker": "any",
+      "action": "looks puzzled",
+      "kannada": "ಏನು?",
+      "kanglish": "Enu?",
+      "english": "What?",
+      "english_keywords": [
+        "what?"
+      ]
+    },
+    {
+      "reaction_id": "r_manjunatha_shrug",
+      "speaker": "manjunatha",
+      "action": "shrugs and turns away",
+      "kannada": "ಬೇಡ? ಸರಿ…",
+      "kanglish": "Beda? Sari…",
+      "english": "Don't want it? Okay…"
+    },
+    {
+      "reaction_id": "r_somanna_frowns",
+      "speaker": "somanna",
+      "action": "frowns and turns away until asked politely"
+    },
+    {
+      "reaction_id": "r_somanna_ignores",
+      "speaker": "somanna",
+      "action": "ignores the player"
+    },
+    {
+      "reaction_id": "r_shanthakka_say_saaku",
+      "speaker": "shanthakka",
+      "action": "stops and laughs",
+      "english": "Say saaku!"
+    },
+    {
+      "reaction_id": "r_shanthakka_illa_aivattu",
+      "speaker": "shanthakka",
+      "action": "shakes her head",
+      "kannada": "ಇಲ್ಲ, ಐವತ್ತು!",
+      "kanglish": "Illa, aivattu!",
+      "english": "No, fifty!",
+      "english_keywords": [
+        "no",
+        "fifty"
+      ]
+    },
+    {
+      "reaction_id": "r_shanthakka_offers_again",
+      "speaker": "shanthakka",
+      "action": "offers the meal again",
+      "kannada": "ಸ್ವಲ್ಪ ಊಟ ಮಾಡಿ!",
+      "kanglish": "Svalpa oota maadi!",
+      "english": "Do eat a little!",
+      "english_keywords": [
+        "eat",
+        "a little"
+      ]
+    },
+    {
+      "reaction_id": "r_ask_clarify",
+      "speaker": "any",
+      "action": "tilts head and waits",
+      "kannada": "ಹೌದಾ, ಇಲ್ವಾ?",
+      "kanglish": "Haudaa, ilvaa?",
+      "english": "Yes or no?",
+      "english_keywords": [
+        "yes or no?"
+      ]
+    }
+  ]
+}

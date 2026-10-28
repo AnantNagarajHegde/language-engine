@@ -1,0 +1,124 @@
+{
+  "quest_id": "q2_1",
+  "title": "Wake Somanna politely",
+  "level": 2,
+  "topic_id": "polite_to_elders",
+  "objective": "Greet an elder, say who you are, and make a polite request.",
+  "quick_hint": "He is an elder. Polite requests end in -iri.",
+  "steps": [
+    {
+      "step_id": "q2_1_a",
+      "type": "respond",
+      "speaker": "somanna",
+      "npc_line": {
+        "kannada": "ಯಾರು?",
+        "kanglish": "Yaaru?",
+        "english": "Who's there?"
+      },
+      "accepted": [
+        {
+          "answer_id": "a_intro",
+          "kanglish": "Namaskara, naanu hosa archivist",
+          "kannada": "ನಮಸ್ಕಾರ, ನಾನು ಹೊಸ ಆರ್ಕೈವಿಸ್ಟ್",
+          "english": "Hello, I am the new archivist",
+          "accepted_with_correction": [
+            {
+              "kanglish": "Nanna hesaru {player_name}",
+              "correction_type": "use_target_pattern"
+            },
+            {
+              "kanglish": "Namaskara, nanna hesaru {player_name}",
+              "correction_type": "use_target_pattern"
+            }
+          ]
+        }
+      ],
+      "anticipated_errors": [
+        {
+          "answer_id": "e_nanage",
+          "kanglish": "Nanage hosa archivist",
+          "kannada": "ನನಗೆ ಹೊಸ ಆರ್ಕೈವಿಸ್ಟ್",
+          "english": "To me new archivist",
+          "error_category": "pronoun_mixup",
+          "reaction_id": "r_puzzled"
+        },
+        {
+          "answer_id": "e_greeting_only",
+          "kanglish": "Namaskara",
+          "kannada": "ನಮಸ್ಕಾರ",
+          "english": "Hello (does not say who)",
+          "error_category": "incomplete_answer",
+          "reaction_id": "r_puzzled",
+          "also_matches": [
+            "Naanu hosa"
+          ]
+        }
+      ],
+      "full_example": {
+        "kannada": "ನಮಸ್ಕಾರ, ನಾನು ಹೊಸ ಆರ್ಕೈವಿಸ್ಟ್.",
+        "kanglish": "Namaskara, naanu hosa archivist.",
+        "english": "Hello, I am the new archivist."
+      },
+      "target_words": [
+        "w_namaskara",
+        "w_naanu",
+        "w_hosa"
+      ]
+    },
+    {
+      "step_id": "q2_1_b",
+      "type": "respond",
+      "speaker": "somanna",
+      "task": "Ask Somanna politely to open the gate.",
+      "accepted": [
+        {
+          "answer_id": "a_open",
+          "kanglish": "Svalpa bagilu tegeyiri",
+          "kannada": "ಸ್ವಲ್ಪ ಬಾಗಿಲು ತೆಗೆಯಿರಿ",
+          "english": "Please open the door",
+          "accepted_with_correction": [
+            {
+              "kanglish": "Tegeyiri",
+              "correction_type": "missing_object"
+            }
+          ]
+        }
+      ],
+      "anticipated_errors": [
+        {
+          "answer_id": "e_tegi",
+          "kanglish": "Bagilu tegi",
+          "english": "Open the door (rude short form)",
+          "error_category": "impolite_form",
+          "kannada": "ಬಾಗಿಲು ತೆಗಿ",
+          "reaction_id": "r_somanna_frowns",
+          "also_matches": [
+            "Tegi",
+            "Svalpa bagilu tegi"
+          ]
+        },
+        {
+          "answer_id": "e_object_only",
+          "kanglish": "Bagilu",
+          "kannada": "ಬಾಗಿಲು",
+          "english": "Door (no request)",
+          "error_category": "incomplete_answer",
+          "reaction_id": "r_puzzled",
+          "also_matches": [
+            "Svalpa"
+          ]
+        }
+      ],
+      "full_example": {
+        "kannada": "ಸ್ವಲ್ಪ ಬಾಗಿಲು ತೆಗೆಯಿರಿ.",
+        "kanglish": "Svalpa bagilu tegeyiri.",
+        "english": "Please open the door."
+      },
+      "target_words": [
+        "w_svalpa",
+        "w_bagilu",
+        "w_tegeyiri"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,139 @@
+{
+  "topic_id": "polite_to_elders",
+  "title": "Speaking Politely to Elders",
+  "first_opens_in": "q2_1",
+  "introduction": "Learn how to make respectful requests when speaking to elders or people you do not know well. Practise polite forms for asking for help, requesting an item, inviting someone in and asking someone to wait.",
+  "words": [
+    {
+      "word_id": "w_neevu",
+      "english": "You, polite"
+    },
+    {
+      "word_id": "w_neenu",
+      "english": "You, informal"
+    },
+    {
+      "word_id": "w_nimma",
+      "english": "Your, polite"
+    },
+    {
+      "word_id": "w_nimage",
+      "english": "To you, polite"
+    },
+    {
+      "word_id": "w_dayavittu"
+    },
+    {
+      "word_id": "w_svalpa"
+    },
+    {
+      "word_id": "w_bagilu"
+    },
+    {
+      "word_id": "w_tegeyiri",
+      "english": "Please open"
+    },
+    {
+      "word_id": "w_kodi"
+    },
+    {
+      "word_id": "w_banni",
+      "english": "Please come"
+    },
+    {
+      "word_id": "w_kulithukolli"
+    },
+    {
+      "word_id": "w_heli"
+    },
+    {
+      "word_id": "w_kaayiri"
+    },
+    {
+      "word_id": "w_sahaaya"
+    },
+    {
+      "word_id": "w_neeru"
+    }
+  ],
+  "sentences": [
+    {
+      "sentence_id": "s_dayavittu_sahaaya_maadi",
+      "kannada": "ದಯವಿಟ್ಟು ಸಹಾಯ ಮಾಡಿ.",
+      "kanglish": "Dayavittu sahaaya maadi.",
+      "english": "Please help me."
+    },
+    {
+      "sentence_id": "s_svalpa_bagilu_tegeyiri",
+      "kannada": "ಸ್ವಲ್ಪ ಬಾಗಿಲು ತೆಗೆಯಿರಿ.",
+      "kanglish": "Svalpa bagilu tegeyiri.",
+      "english": "Please open the door."
+    },
+    {
+      "sentence_id": "s_neeru_kodi",
+      "kannada": "ನೀರು ಕೊಡಿ.",
+      "kanglish": "Neeru kodi.",
+      "english": "Please give me water."
+    },
+    {
+      "sentence_id": "s_olage_banni",
+      "kannada": "ಒಳಗೆ ಬನ್ನಿ.",
+      "kanglish": "Olage banni.",
+      "english": "Please come inside."
+    },
+    {
+      "sentence_id": "s_illi_kulithukolli",
+      "kannada": "ಇಲ್ಲಿ ಕುಳಿತುಕೊಳ್ಳಿ.",
+      "kanglish": "Illi kulithukolli.",
+      "english": "Please sit here."
+    },
+    {
+      "sentence_id": "s_dayavittu_heli",
+      "kannada": "ದಯವಿಟ್ಟು ಹೇಳಿ.",
+      "kanglish": "Dayavittu heli.",
+      "english": "Please tell me."
+    },
+    {
+      "sentence_id": "s_nimma_hesaru_enu",
+      "kannada": "ನಿಮ್ಮ ಹೆಸರು ಏನು?",
+      "kanglish": "Nimma hesaru enu?",
+      "english": "What is your name?"
+    },
+    {
+      "sentence_id": "s_nimage_sahaaya_beka",
+      "kannada": "ನಿಮಗೆ ಸಹಾಯ ಬೇಕಾ?",
+      "kanglish": "Nimage sahaaya beka?",
+      "english": "Do you need help?"
+    },
+    {
+      "sentence_id": "s_svalpa_kaayiri",
+      "kannada": "ಸ್ವಲ್ಪ ಕಾಯಿರಿ.",
+      "kanglish": "Svalpa kaayiri.",
+      "english": "Please wait a little."
+    },
+    {
+      "sentence_id": "s_dayavittu_illi_banni",
+      "kannada": "ದಯವಿಟ್ಟು ಇಲ್ಲಿ ಬನ್ನಿ.",
+      "kanglish": "Dayavittu illi banni.",
+      "english": "Please come here."
+    },
+    {
+      "sentence_id": "s_dayavittu_kulithukolli",
+      "kannada": "ದಯವಿಟ್ಟು ಕುಳಿತುಕೊಳ್ಳಿ.",
+      "kanglish": "Dayavittu kulithukolli.",
+      "english": "Please sit down."
+    },
+    {
+      "sentence_id": "s_svalpa_neeru_kodi",
+      "kannada": "ಸ್ವಲ್ಪ ನೀರು ಕೊಡಿ.",
+      "kanglish": "Svalpa neeru kodi.",
+      "english": "Please give me a little water."
+    }
+  ],
+  "remember": [
+    "Neevu is the polite form of \"you\"; neenu is informal.",
+    "Kodi, banni, heli and kaayiri are useful polite request forms.",
+    "Svalpa means \"a little\" and can soften a request.",
+    "Dayavittu can be placed before a request to make it more polite."
+  ]
+}

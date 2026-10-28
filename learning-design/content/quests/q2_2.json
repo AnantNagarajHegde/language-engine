@@ -1,0 +1,58 @@
+{
+  "quest_id": "q2_2",
+  "title": "Understand Somanna",
+  "level": 2,
+  "topic_id": "who_is_here",
+  "objective": "Understand a Kannada sentence without English.",
+  "quick_hint": "Illa means not here. Look at the locked gate.",
+  "steps": [
+    {
+      "step_id": "q2_2_a",
+      "type": "respond",
+      "speaker": "somanna",
+      "npc_line": {
+        "kannada": "ಅನನ್ಯ ಇಲ್ವಲ್ಲಾ! ಕೀಲಿ ಅವಳ ಹತ್ರ ಇದೆ.",
+        "kanglish": "Ananya ilvalla! Keeli avala hatra ide.",
+        "english": "Ananya isn't here! She has the key."
+      },
+      "english_hidden": true,
+      "task": "Somanna told you who has the key. Type the name.",
+      "accepted": [
+        {
+          "answer_id": "a_ananya",
+          "kanglish": "Ananya",
+          "kannada": "ಅನನ್ಯ",
+          "english": "Ananya",
+          "also_accepted": [
+            "Avala hatra",
+            "Ananya hatra ide"
+          ]
+        }
+      ],
+      "anticipated_errors": [
+        {
+          "answer_id": "e_other_name",
+          "kanglish": "Somanna",
+          "kannada": "ಸೋಮಣ್ಣ",
+          "english": "Somanna (wrong person)",
+          "error_category": "wrong_meaning",
+          "reaction_id": "r_puzzled",
+          "also_matches": [
+            "Ravi",
+            "Keeli"
+          ]
+        }
+      ],
+      "full_example": {
+        "kannada": "ಅನನ್ಯ",
+        "kanglish": "Ananya",
+        "english": "Ananya has the key."
+      },
+      "target_words": [
+        "w_illa",
+        "w_keeli",
+        "w_avala_hatra"
+      ]
+    }
+  ]
+}

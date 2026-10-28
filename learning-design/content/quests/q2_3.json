@@ -1,0 +1,71 @@
+{
+  "quest_id": "q2_3",
+  "title": "Find out where the key is",
+  "level": 2,
+  "topic_id": "asking_the_way",
+  "objective": "Reuse ellide? for a new object.",
+  "quick_hint": "You asked ellide? at the tea stall. What is the word for key?",
+  "steps": [
+    {
+      "step_id": "q2_3_a",
+      "type": "collect_word",
+      "task": "The noticeboard shows ಕೀಲಿ next to a picture of a key. Drag the word into the notebook.",
+      "word_id": "w_keeli"
+    },
+    {
+      "step_id": "q2_3_b",
+      "type": "respond",
+      "speaker": "somanna",
+      "task": "Ask Somanna where the key is.",
+      "topic_highlight": [
+        "w_ellide"
+      ],
+      "accepted": [
+        {
+          "answer_id": "a_keeli",
+          "kanglish": "Keeli ellide?",
+          "kannada": "ಕೀಲಿ ಎಲ್ಲಿದೆ?",
+          "english": "Where is the key?",
+          "accepted_with_correction": [
+            {
+              "kanglish": "Keeli elli?",
+              "correction_type": "elli_vs_ellide"
+            },
+            {
+              "kanglish": "Ellide keeli?",
+              "correction_type": "word_order"
+            }
+          ]
+        }
+      ],
+      "anticipated_errors": [
+        {
+          "answer_id": "e_object_only",
+          "kanglish": "Keeli",
+          "kannada": "ಕೀಲಿ",
+          "english": "Key (no question word)",
+          "error_category": "incomplete_answer",
+          "reaction_id": "r_puzzled",
+          "also_matches": [
+            "Ellide?"
+          ]
+        }
+      ],
+      "full_example": {
+        "kannada": "ಕೀಲಿ ಎಲ್ಲಿದೆ?",
+        "kanglish": "Keeli ellide?",
+        "english": "Where is the key?"
+      },
+      "target_words": [
+        "w_keeli",
+        "w_ellide"
+      ],
+      "npc_reply": {
+        "speaker": "somanna",
+        "kannada": "ಮುಂದೆ ಹೋಗಿ, ಆಮೇಲೆ ಎಡಕ್ಕೆ.",
+        "kanglish": "Munde hogi, aamele edakke.",
+        "english": "Go straight, then left."
+      }
+    }
+  ]
+}

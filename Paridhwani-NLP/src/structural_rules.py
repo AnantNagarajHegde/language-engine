@@ -1,5 +1,5 @@
 
-from normalizer import normalize_text
+from normalizer import normalize_text, canonical_words
 
 
 def match_structural_rule(quest_id, step_id, text):
@@ -24,49 +24,49 @@ def match_structural_rule(quest_id, step_id, text):
 
     # q1_1_a: thank-you expression
     if quest_id == "q1_1" and step_id == "q1_1_a":
-        thanks = {
+        thanks = canonical_words({
             "dhanyavada", "dhanyavaada", "dhanyavad",
             "dhanyavadagalu", "dhanyawada"
-        }
-        if words & {"thank", "thanks", "you"} and not words & thanks:
+        })
+        if words & canonical_words({"thank", "thanks", "you"}) and not words & thanks:
             return result("not_accepted", "", "english_only", "", "r_puzzled")
         if words & thanks:
             return result("accepted", "a_thanks")
-        if words & {
+        if words & canonical_words({
             "beku", "beeku", "bekku", "beda", "bedaa",
             "beeda", "namaskar", "namaskara"
-        }:
-            aid = "e_beku" if words & {"beku", "beeku", "bekku"} else ""
+        }):
+            aid = "e_beku" if words & canonical_words({"beku", "beeku", "bekku"}) else ""
             return result("not_accepted", aid, "wrong_word", "", "r_puzzled")
 
     # q1_2_a: request for a drink
     if quest_id == "q1_2" and step_id == "q1_2_a":
-        if words & {"beda", "bedaa", "beeda"}:
+        if words & canonical_words({"beda", "bedaa", "beeda"}):
             return result("not_accepted", "e_beda", "beku_beda_mixup", "", "r_manjunatha_shrug")
         if "nimage" in words:
             return result("not_accepted", "", "pronoun_mixup", "", "r_puzzled")
-        if words & {"naanu", "nanu"}:
+        if words & canonical_words({"naanu", "nanu"}):
             return result("not_accepted", "", "unclear", "", "r_puzzled")
 
-        drinks = {"chaha", "chaa", "chahaa", "cha", "chai", "tea", "kaapi", "coffee", "neeru", "niru", "neru"}
-        requests = {"beku", "beeku", "bekku", "bekuu"}
+        drinks = canonical_words({"chaha", "chaa", "chahaa", "cha", "chai", "tea", "kaapi", "coffee", "neeru", "niru", "neru"})
+        requests = canonical_words({"beku", "beeku", "bekku", "bekuu"})
         if words & drinks and words & requests:
             return result("accepted", "a_tea")
 
-        if text in {
+        if text in canonical_words({
             "nanage chaha", "nanage chai", "nanege chaha",
             "chaha", "chahaa", "chaa", "chai", "cha"
-        }:
+        }):
             return result("accepted_with_correction", "a_tea", "", "missing_verb", "")
-        if words & {"one", "ek"}:
+        if words & canonical_words({"one", "ek"}):
             return result("not_accepted", "", "unclear", "", "r_puzzled")
 
     # q1_2_b: yes/no response
     if quest_id == "q1_2" and step_id == "q1_2_b":
-        yes = {"haudu", "houdu"}
-        no = {"illa", "ila"}
-        want = {"beku", "beeku", "bekku", "bekuu"}
-        refuse = {"beda", "bedaa", "beeda"}
+        yes = canonical_words({"haudu", "houdu"})
+        no = canonical_words({"illa", "ila"})
+        want = canonical_words({"beku", "beeku", "bekku", "bekuu"})
+        refuse = canonical_words({"beda", "bedaa", "beeda"})
 
         if ((words & yes and words & (no | refuse))
                 or (words & no and words & want)):
@@ -75,61 +75,61 @@ def match_structural_rule(quest_id, step_id, text):
             return result("accepted", "a_yes")
         if words & no or words & refuse:
             return result("accepted", "a_no")
-        if text in {
+        if text in canonical_words({
             "beku", "beeku", "bekuu", "bekku",
             "nanage beku", "nange beku", "nanege beku", "nanage bekku"
-        }:
+        }):
             return result("accepted", "a_yes")
         if text == "sari":
             return result("accepted_with_correction", "a_yes", "", "use_haudu", "")
 
     # q1_3_a: state your name
     if quest_id == "q1_3" and step_id == "q1_3_a":
-        names = {"arun", "aditi", "ravi"}
-        if words & {"nima", "nimma", "nimage"}:
+        names = canonical_words({"arun", "aditi", "ravi"})
+        if words & canonical_words({"nima", "nimma", "nimage"}):
             return result("not_accepted", "", "pronoun_mixup", "", "r_puzzled")
-        if words & {"naanu", "nanu"} and words & {"hesaru", "hesru"}:
+        if words & canonical_words({"naanu", "nanu"}) and words & canonical_words({"hesaru", "hesru"}):
             return result("not_accepted", "", "pronoun_mixup", "", "r_puzzled")
-        if words & {"nanna", "nana"} and words & {"hesaru", "hesru"} and words & names:
+        if words & canonical_words({"nanna", "nana"}) and words & canonical_words({"hesaru", "hesru"}) and words & names:
             return result("accepted", "a_name")
-        if words & {"naanu", "nanu"} and words & names and not words & {"hesaru", "hesru"}:
+        if words & canonical_words({"naanu", "nanu"}) and words & names and not words & canonical_words({"hesaru", "hesru"}):
             return result("accepted", "a_name")
         if text in names:
             return result("accepted", "a_name")
-        if words & {"hesaru", "hesru"} and not words & names:
+        if words & canonical_words({"hesaru", "hesru"}) and not words & names:
             return result("not_accepted", "", "incomplete_answer", "", "r_puzzled")
 
     # q1_4_a: ask where the library is
     if quest_id == "q1_4" and step_id == "q1_4_a":
-        places = {"library", "granthalaya"}
-        location_words = {"ellide", "elide", "yellide", "elli", "yelli", "eli"}
-        if words & {"bus", "nildana", "aaspatre"}:
+        places = canonical_words({"library", "granthalaya"})
+        location_words = canonical_words({"ellide", "elide", "yellide", "elli", "yelli", "eli"})
+        if words & canonical_words({"bus", "nildana", "aaspatre"}):
             return result("not_accepted", "", "wrong_word", "", "r_puzzled")
         if words & places and words & location_words:
-            if words & {"ellide", "elide", "yellide"}:
+            if words & canonical_words({"ellide", "elide", "yellide"}):
                 return result("accepted", "a_library")
             return result("accepted_with_correction", "a_library", "", "elli_vs_ellide", "")
-        if text in {"library", "granthalaya"}:
+        if text in canonical_words({"library", "granthalaya"}):
             return result("not_accepted", "", "incomplete_answer", "", "r_puzzled")
 
     # q2_1_a: introduce yourself as an archivist
     if quest_id == "q2_1" and step_id == "q2_1_a":
-        if words & {"nanage", "nanege", "nange"}:
+        if words & canonical_words({"nanage", "nanege", "nange"}):
             return result("not_accepted", "", "pronoun_mixup", "", "r_puzzled")
         if "namaste" in words:
             return result("not_accepted", "", "hindi_word", "", "r_puzzled")
 
         # These are explicitly accepted in the training data.
-        if words & {"naanu", "nanu"} and "archivist" in words:
+        if words & canonical_words({"naanu", "nanu"}) and "archivist" in words:
             return result("accepted", "a_intro")
 
-        if words & {"nanna", "nana"} and words & {"hesaru", "hesru"} and words & {"arun", "aditi"}:
+        if words & canonical_words({"nanna", "nana"}) and words & canonical_words({"hesaru", "hesru"}) and words & canonical_words({"arun", "aditi"}):
             return result("accepted_with_correction", "a_intro", "", "use_target_pattern", "")
 
-        if words & {"namaskara", "namaskaara", "namaskar"}:
-            if words & {"naanu", "nanu"} and "archivist" in words:
+        if words & canonical_words({"namaskara", "namaskaara", "namaskar"}):
+            if words & canonical_words({"naanu", "nanu"}) and "archivist" in words:
                 return result("accepted", "a_intro")
-            if words & {"nanna", "nana"} and words & {"hesaru", "hesru"} and words & {"arun", "aditi"}:
+            if words & canonical_words({"nanna", "nana"}) and words & canonical_words({"hesaru", "hesru"}) and words & canonical_words({"arun", "aditi"}):
                 return result("accepted_with_correction", "a_intro", "", "use_target_pattern", "")
             if len(words) == 1:
                 return result("not_accepted", "", "incomplete_answer", "", "r_puzzled")
@@ -139,31 +139,31 @@ def match_structural_rule(quest_id, step_id, text):
         if "tegi" in words:
             return result("not_accepted", "e_tegi", "impolite_form", "", "r_puzzled")
         door = "bagilu" in words
-        polite_open = bool(words & {"tegeyiri", "tegeyri", "tegiyiri"})
+        polite_open = bool(words & canonical_words({"tegeyiri", "tegeyri", "tegiyiri"}))
         if door and polite_open:
             return result("accepted", "a_open")
         if polite_open and not door:
             return result("accepted_with_correction", "a_open", "", "missing_object", "")
-        if text in {"bagilu", "svalpa", "svalpaa", "swalpa"}:
+        if text in canonical_words({"bagilu", "svalpa", "svalpaa", "swalpa"}):
             return result("not_accepted", "", "incomplete_answer", "", "r_puzzled")
 
     # q2_2_a: identify Ananya as the person with the key
     if quest_id == "q2_2" and step_id == "q2_2_a":
-        person = {"ananya", "avala", "awala"}
-        if words & person and (words & {"ide", "keeli", "hatra"}):
+        person = canonical_words({"ananya", "avala", "awala"})
+        if words & person and (words & canonical_words({"ide", "keeli", "hatra"})):
             return result("accepted", "a_ananya")
-        if text in {"ananya", "avala", "awala"}:
+        if text in canonical_words({"ananya", "avala", "awala"}):
             return result("accepted", "a_ananya")
-        if words & {"somanna", "ravi", "basavaraju", "shanthakka"}:
+        if words & canonical_words({"somanna", "ravi", "basavaraju", "shanthakka"}):
             return result("not_accepted", "", "wrong_meaning", "", "r_puzzled")
-        if words & {"illa", "ila", "ilvala", "ilvalla", "ilwalla"}:
+        if words & canonical_words({"illa", "ila", "ilvala", "ilvalla", "ilwalla"}):
             return result("not_accepted", "", "wrong_meaning", "", "r_puzzled")
 
     # q3_2_a: say enough / no more
     if quest_id == "q3_2" and step_id == "q3_2_a":
-        saaku = {"saaku", "saakku", "sakku", "saku"}
-        beda = {"beda", "bedaa", "beeda"}
-        no = {"illa", "ila"}
+        saaku = canonical_words({"saaku", "saakku", "sakku", "saku"})
+        beda = canonical_words({"beda", "bedaa", "beeda"})
+        no = canonical_words({"illa", "ila"})
         if words & saaku:
             return result("accepted", "a_saaku")
         if words & beda or words & no:
@@ -172,34 +172,34 @@ def match_structural_rule(quest_id, step_id, text):
 
     # q2_3_b: ask where the key is
     if quest_id == "q2_3" and step_id == "q2_3_b":
-        key_words = {"keeli", "kili"}
-        location_words = {"ellide", "elide", "yellide"}
+        key_words = canonical_words({"keeli", "kili"})
+        location_words = canonical_words({"ellide", "elide", "yellide"})
 
-        if words & {"ananya", "bagilu"}:
+        if words & canonical_words({"ananya", "bagilu"}):
             return result("not_accepted", "", "wrong_word", "", "r_puzzled")
 
         if words & key_words and words & location_words:
             return result("accepted", "a_keeli")
 
-        if words & key_words and words & {"elli", "yelli"}:
+        if words & key_words and words & canonical_words({"elli", "yelli"}):
             return result(
                 "accepted_with_correction", "a_keeli",
                 "", "elli_vs_ellide", ""
             )
 
-        if words & {"keeli", "kili"} and len(words) == 1:
+        if words & canonical_words({"keeli", "kili"}) and len(words) == 1:
             return result(
                 "not_accepted", "", "incomplete_answer", "", "r_puzzled"
             )
 
     # q3_1_a: request a meal
     if quest_id == "q3_1" and step_id == "q3_1_a":
-        meal_words = {"oota", "uta", "anna", "ana", "idli"}
-        request_words = {"kodi", "beku", "beeku", "bekuu", "bekku"}
-        yes_words = {"haudu", "houdu"}
+        meal_words = canonical_words({"oota", "uta", "anna", "ana", "idli"})
+        request_words = canonical_words({"kodi", "beku", "beeku", "bekuu", "bekku"})
+        yes_words = canonical_words({"haudu", "houdu"})
 
         # Contradictory requests are rejected.
-        if words & yes_words and words & {"beda", "bedaa", "beeda"}:
+        if words & yes_words and words & canonical_words({"beda", "bedaa", "beeda"}):
             return result(
                 "not_accepted", "", "unclear", "", "r_ask_clarify"
             )
@@ -210,31 +210,31 @@ def match_structural_rule(quest_id, step_id, text):
         if words & yes_words and words & meal_words:
             return result("accepted", "a_meal")
 
-        if words & yes_words and words & {"oota", "uta"}:
+        if words & yes_words and words & canonical_words({"oota", "uta"}):
             return result("accepted", "a_meal")
 
         # "Haudu, oota" is a supported partial answer.
-        if words & yes_words and words & {"oota", "uta"}:
+        if words & yes_words and words & canonical_words({"oota", "uta"}):
             return result(
                 "accepted_with_correction", "a_meal",
                 "", "missing_verb", ""
             )
 
-        if words & meal_words and words & {"beda", "bedaa", "beeda"}:
+        if words & meal_words and words & canonical_words({"beda", "bedaa", "beeda"}):
             return result(
                 "not_accepted", "", "valid_other_answer", "", "r_puzzled"
             )
 
     # q3_3_a: ask how much something costs
     if quest_id == "q3_3" and step_id == "q3_3_a":
-        price_words = {"rupayi", "rupaayi", "rupai"}
-        how_many_words = {"eshtu", "estu", "yeshtu", "yestu"}
+        price_words = canonical_words({"rupayi", "rupaayi", "rupai"})
+        how_many_words = canonical_words({"eshtu", "estu", "yeshtu", "yestu"})
 
-        if words & {"aivathu", "aivattu", "aiwattu", "hattu", "hatu"}:
+        if words & canonical_words({"aivathu", "aivattu", "aiwattu", "hattu", "hatu"}):
             return result("not_accepted", "", "wrong_word", "", "r_puzzled")
 
         if words & how_many_words:
-            if words & {"idu", "oota", "uta", "rupayi", "rupaayi", "rupai"}:
+            if words & canonical_words({"idu", "oota", "uta", "rupayi", "rupaayi", "rupai"}):
                 return result("accepted", "a_price")
             if len(words) == 1:
                 return result("accepted", "a_price")
@@ -246,10 +246,10 @@ def match_structural_rule(quest_id, step_id, text):
 
     # q3_4_a: ask where Ananya is
     if quest_id == "q3_4" and step_id == "q3_4_a":
-        location_words = {"elli", "eli", "yelli"}
-        complete_location_words = {"ellide", "elide", "yellide"}
+        location_words = canonical_words({"elli", "eli", "yelli"})
+        complete_location_words = canonical_words({"ellide", "elide", "yellide"})
 
-        if words & {"basavaraju", "ravi"}:
+        if words & canonical_words({"basavaraju", "ravi"}):
             return result("not_accepted", "", "wrong_word", "", "r_puzzled")
 
         if "ananya" in words and words & location_words:
@@ -264,22 +264,22 @@ def match_structural_rule(quest_id, step_id, text):
 
     # q1_2_a fallback: accept common tea-request spelling variants
     if quest_id == "q1_2" and step_id == "q1_2_a":
-        if words & {"beda", "bedaa", "beeda"}:
+        if words & canonical_words({"beda", "bedaa", "beeda"}):
             return result(
                 "not_accepted", "e_beda",
                 "beku_beda_mixup", "", "r_manjunatha_shrug"
             )
-        if words & {"nimage", "nimge"}:
+        if words & canonical_words({"nimage", "nimge"}):
             return result(
                 "not_accepted", "", "pronoun_mixup", "", "r_puzzled"
             )
-        if words & {"naanu", "nanu"}:
+        if words & canonical_words({"naanu", "nanu"}):
             return result(
                 "not_accepted", "", "unclear", "", "r_puzzled"
             )
 
-        tea_words = {"chaha", "chaa", "chahaa", "cha", "chai"}
-        request_words = {"kodi", "beku", "beeku", "bekku", "bekuu"}
+        tea_words = canonical_words({"chaha", "chaa", "chahaa", "cha", "chai"})
+        request_words = canonical_words({"kodi", "beku", "beeku", "bekku", "bekuu"})
 
         if words & tea_words and words & request_words:
             return result("accepted", "a_tea")
@@ -306,178 +306,178 @@ def diagnose_unmatched_answer(quest_id, step_id, text):
 
     # Generic fallback examples.
     if q == "ALL" and s == "ALL":
-        if words & {
+        if words & canonical_words({
             "this", "is", "difficult", "hello", "thanks",
             "thank", "please", "where", "what", "price",
             "the", "meal", "open", "gate", "key", "my", "name"
-        }:
+        }):
             return diagnostic("english_only")
         return None
 
     # q1_1_a: thank-you expression.
     if (q, s) == ("q1_1", "q1_1_a"):
-        if words & {"shukriya", "shukria"}:
+        if words & canonical_words({"shukriya", "shukria"}):
             return diagnostic("hindi_word")
-        if words & {"thank", "thanks"}:
-            if words & {
+        if words & canonical_words({"thank", "thanks"}):
+            if words & canonical_words({
                 "dhanyavada", "dhanyavaada", "dhanyavad",
                 "dhanyavadagalu", "dhanyawada"
-            }:
+            }):
                 return None
             return diagnostic("english_only")
-        if words & {
+        if words & canonical_words({
             "naana", "nana", "nanna", "hesaru", "hesru",
             "aditi", "arun", "ravi"
-        }:
+        }):
             return diagnostic("wrong_word")
-        if words & {
+        if words & canonical_words({
             "haudu", "houdu", "illa", "ila", "sari",
             "beku", "beeku", "bekku", "beda", "bedaa",
             "beeda", "chaha", "cha", "chaa", "namaskara",
             "namaskar"
-        }:
-            aid = "e_beku" if words & {"beku", "beeku", "bekku"} else ""
+        }):
+            aid = "e_beku" if words & canonical_words({"beku", "beeku", "bekku"}) else ""
             return diagnostic("wrong_word", aid)
 
     # q1_2_a: request for a drink.
     if (q, s) == ("q1_2", "q1_2_a"):
-        if words & {"nimage", "nimge"}:
+        if words & canonical_words({"nimage", "nimge"}):
             return diagnostic("pronoun_mixup")
-        if words & {"beda", "bedaa", "beeda"}:
+        if words & canonical_words({"beda", "bedaa", "beeda"}):
             return diagnostic(
                 "beku_beda_mixup", "e_beda", "r_manjunatha_shrug"
             )
-        if words & {"haudu", "houdu", "illa", "ila"}:
+        if words & canonical_words({"haudu", "houdu", "illa", "ila"}):
             return diagnostic("wrong_meaning")
-        if words & {"nana", "nanna", "hesaru", "hesru", "arun"}:
+        if words & canonical_words({"nana", "nanna", "hesaru", "hesru", "arun"}):
             return diagnostic("wrong_meaning")
-        if words & {"i", "want", "tea", "please", "one"}:
+        if words & canonical_words({"i", "want", "tea", "please", "one"}):
             return diagnostic("english_only")
-        if words & {"ek", "mujhe", "chahiye", "chai"}:
+        if words & canonical_words({"ek", "mujhe", "chahiye", "chai"}):
             return diagnostic("hindi_word")
-        if words & {"naanu", "nanu"}:
+        if words & canonical_words({"naanu", "nanu"}):
             return diagnostic("pronoun_mixup")
-        if words & {"beka"}:
+        if words & canonical_words({"beka"}):
             return diagnostic("wrong_word")
 
     # q1_2_b: yes/no response.
     if (q, s) == ("q1_2", "q1_2_b"):
-        if words & {"haan", "nahi", "chahiye", "pani"}:
+        if words & canonical_words({"haan", "nahi", "chahiye", "pani"}):
             return diagnostic("hindi_word")
-        if words & {"yes", "no", "thanks", "thank", "please"}:
+        if words & canonical_words({"yes", "no", "thanks", "thank", "please"}):
             return diagnostic("english_only")
-        if words & {"nana", "nanna", "hesaru", "hesru", "arun"}:
+        if words & canonical_words({"nana", "nanna", "hesaru", "hesru", "arun"}):
             return diagnostic("wrong_meaning")
         if (
-            words & {"haudu", "houdu"}
-            and words & {"beda", "bedaa", "beeda", "illa", "ila"}
+            words & canonical_words({"haudu", "houdu"})
+            and words & canonical_words({"beda", "bedaa", "beeda", "illa", "ila"})
         ) or (
-            words & {"illa", "ila"}
-            and words & {"beku", "beeku", "bekku", "bekuu"}
+            words & canonical_words({"illa", "ila"})
+            and words & canonical_words({"beku", "beeku", "bekku", "bekuu"})
         ):
             return diagnostic("unclear", reaction="r_ask_clarify")
         if (
-            words & {"chaha", "chahaa", "cha", "chaa", "tea", "coffee", "kaapi"}
-            and words & {"beku", "beeku", "bekku", "bekuu"}
+            words & canonical_words({"chaha", "chahaa", "cha", "chaa", "tea", "coffee", "kaapi"})
+            and words & canonical_words({"beku", "beeku", "bekku", "bekuu"})
         ):
             return diagnostic("wrong_meaning")
 
     # q1_3_a: state your name.
     if (q, s) == ("q1_3", "q1_3_a"):
-        if words & {"my", "name", "am", "is"}:
+        if words & canonical_words({"my", "name", "am", "is"}):
             return diagnostic("english_only")
-        if words & {"mera", "naam", "main", "hai"}:
+        if words & canonical_words({"mera", "naam", "main", "hai"}):
             return diagnostic("hindi_word")
-        if words & {"nima", "nimma", "nimage", "nimge"}:
+        if words & canonical_words({"nima", "nimma", "nimage", "nimge"}):
             return diagnostic("pronoun_mixup")
-        if words & {"hesaru", "hesru"} and not words & {"arun", "aditi", "ravi"}:
+        if words & canonical_words({"hesaru", "hesru"}) and not words & canonical_words({"arun", "aditi", "ravi"}):
             return diagnostic("incomplete_answer")
-        if words & {"nana", "nanna"} and not words & {"hesaru", "hesru"}:
+        if words & canonical_words({"nana", "nanna"}) and not words & canonical_words({"hesaru", "hesru"}):
             return diagnostic("incomplete_answer")
-        if words & {"enu", "yenu"}:
+        if words & canonical_words({"enu", "yenu"}):
             return diagnostic("wrong_meaning")
-        if words & {"beku", "beeku", "bekku", "chaha", "cha"}:
+        if words & canonical_words({"beku", "beeku", "bekku", "chaha", "cha"}):
             return diagnostic("wrong_meaning")
 
     # q1_4_a: ask where the library is.
     if (q, s) == ("q1_4", "q1_4_a"):
-        if words & {"where", "library"}:
+        if words & canonical_words({"where", "library"}):
             return diagnostic("english_only")
-        if words & {"mane"}:
+        if words & canonical_words({"mane"}):
             return diagnostic("wrong_word")
 
     # q2_1_a: archivist introduction.
     if (q, s) == ("q2_1", "q2_1_a"):
-        if words & {"hello", "hi", "hey"}:
+        if words & canonical_words({"hello", "hi", "hey"}):
             return diagnostic("english_only")
-        if words & {"nanage", "nange"} and words & {
+        if words & canonical_words({"nanage", "nange"}) and words & canonical_words({
             "chaha", "cha", "beku", "beeku", "bekku"
-        }:
+        }):
             return diagnostic("wrong_word")
 
     # q2_1_b: gate-related step.
     if (q, s) == ("q2_1", "q2_1_b"):
-        if words & {"open", "gate", "please"}:
+        if words & canonical_words({"open", "gate", "please"}):
             return diagnostic("english_only")
-        if words & {"bagilu", "kodi"}:
+        if words & canonical_words({"bagilu", "kodi"}):
             return diagnostic("wrong_word")
 
     # q2_2_a: key-related step.
     if (q, s) == ("q2_2", "q2_2_a"):
-        if words & {"bagilu", "manjunatha"}:
+        if words & canonical_words({"bagilu", "manjunatha"}):
             return diagnostic("wrong_meaning")
 
     # q2_3_b: key location.
     if (q, s) == ("q2_3", "q2_3_b"):
-        if words & {"key", "where"}:
+        if words & canonical_words({"key", "where"}):
             return diagnostic("english_only")
-        if words & {"keeli", "kili"}:
+        if words & canonical_words({"keeli", "kili"}):
             return diagnostic("wrong_word")
 
     # q3_1_a: meal/order-related step.
     if (q, s) == ("q3_1", "q3_1_a"):
-        if words & {"namaskaara", "namaskar", "namaskara"}:
+        if words & canonical_words({"namaskaara", "namaskar", "namaskara"}):
             return diagnostic("wrong_word")
-        if words & {"yes", "meal", "please", "thanks", "thank"}:
+        if words & canonical_words({"yes", "meal", "please", "thanks", "thank"}):
             return diagnostic("english_only")
-        if words & {"khana", "chahiye"}:
+        if words & canonical_words({"khana", "chahiye"}):
             return diagnostic("hindi_word")
-        if words & {"rupayi", "rupaayi", "eshtu", "estu"}:
+        if words & canonical_words({"rupayi", "rupaayi", "eshtu", "estu"}):
             return diagnostic("valid_other_answer")
-        if words & {"illa"} and words & {"beda", "bedaa", "beeda"}:
+        if words & canonical_words({"illa"}) and words & canonical_words({"beda", "bedaa", "beeda"}):
             return diagnostic("valid_other_answer")
 
     # q3_2_a: additional-order step.
     if (q, s) == ("q3_2", "q3_2_a"):
-        if words & {"no", "thanks"}:
+        if words & canonical_words({"no", "thanks"}):
             return diagnostic("english_only")
-        if words & {"nahi", "chahiye"}:
+        if words & canonical_words({"nahi", "chahiye"}):
             return diagnostic("hindi_word")
-        if words & {"haudu"} and words & {"innu", "inu", "beku", "beeku"}:
+        if words & canonical_words({"haudu"}) and words & canonical_words({"innu", "inu", "beku", "beeku"}):
             return diagnostic("valid_other_answer")
 
     # q3_3_a: price question.
     if (q, s) == ("q3_3", "q3_3_a"):
-        if words & {"what", "is", "the", "price"}:
+        if words & canonical_words({"what", "is", "the", "price"}):
             return diagnostic("english_only")
-        if words & {"kitna", "hua"}:
+        if words & canonical_words({"kitna", "hua"}):
             return diagnostic("hindi_word")
-        if words & {"oota", "uta"}:
+        if words & canonical_words({"oota", "uta"}):
             return diagnostic("wrong_word")
 
     # q3_3_b: number/price response.
     if (q, s) == ("q3_3", "q3_3_b"):
-        if words & {
+        if words & canonical_words({
             "aravattu", "aravatu", "arawattu",
             "nooru", "noru", "nuru"
-        } or text in {"10", "100"}:
+        }) or text in canonical_words({"10", "100"}):
             return diagnostic("wrong_number")
 
     # q3_4_a: ask where Ananya is.
     if (q, s) == ("q3_4", "q3_4_a"):
-        if words & {"where"} and words & {"ananya"}:
+        if words & canonical_words({"where"}) and words & canonical_words({"ananya"}):
             return diagnostic("english_only")
-        if words & {"keeli", "kili"}:
+        if words & canonical_words({"keeli", "kili"}):
             return diagnostic("wrong_word")
 
     return None

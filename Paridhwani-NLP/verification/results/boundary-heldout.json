@@ -1,0 +1,3593 @@
+[
+  {
+    "row_id": "R00014",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000000",
+      "quest_id": "q1_1",
+      "step_id": "q1_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_thanks",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00015",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000001",
+      "quest_id": "q1_1",
+      "step_id": "q1_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_thanks",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00016",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000002",
+      "quest_id": "q1_1",
+      "step_id": "q1_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_thanks",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00017",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000003",
+      "quest_id": "q1_1",
+      "step_id": "q1_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_thanks",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00021",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000004",
+      "quest_id": "q1_1",
+      "step_id": "q1_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_thanks",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "english"
+      }
+    }
+  },
+  {
+    "row_id": "R00028",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000005",
+      "quest_id": "q1_1",
+      "step_id": "q1_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00029",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000006",
+      "quest_id": "q1_1",
+      "step_id": "q1_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00033",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000007",
+      "quest_id": "q1_1",
+      "step_id": "q1_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00034",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000008",
+      "quest_id": "q1_1",
+      "step_id": "q1_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00035",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000009",
+      "quest_id": "q1_1",
+      "step_id": "q1_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00042",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000000a",
+      "quest_id": "q1_1",
+      "step_id": "q1_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00043",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000000b",
+      "quest_id": "q1_1",
+      "step_id": "q1_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00044",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000000c",
+      "quest_id": "q1_1",
+      "step_id": "q1_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00047",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000000d",
+      "quest_id": "q1_1",
+      "step_id": "q1_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "english_only",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "english"
+      }
+    }
+  },
+  {
+    "row_id": "R00065",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000000e",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_tea",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "detected_form": "kanglish",
+        "confidence": 1.0
+      }
+    }
+  },
+  {
+    "row_id": "R00066",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000000f",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_tea",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "detected_form": "kanglish",
+        "confidence": 1.0
+      }
+    }
+  },
+  {
+    "row_id": "R00067",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000010",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_tea",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "detected_form": "kanglish",
+        "confidence": 1.0
+      }
+    }
+  },
+  {
+    "row_id": "R00068",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000011",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_tea",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "detected_form": "kanglish",
+        "confidence": 1.0
+      }
+    }
+  },
+  {
+    "row_id": "R00077",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000012",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_tea",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00078",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000013",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_tea",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00079",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000014",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_tea",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00080",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000015",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_tea",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00089",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000016",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_tea",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00090",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000017",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_tea",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00091",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000018",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_tea",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00092",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000019",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_tea",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00110",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000001a",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "pronoun_mixup",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00111",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000001b",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "pronoun_mixup",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00112",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000001c",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "pronoun_mixup",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00120",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000001d",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_meaning",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00121",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000001e",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_meaning",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00122",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000001f",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_meaning",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00128",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000020",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "english_only",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "english"
+      }
+    }
+  },
+  {
+    "row_id": "R00131",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000021",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "hindi_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.6,
+        "detected_form": "hindi_roman"
+      }
+    }
+  },
+  {
+    "row_id": "R00149",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000022",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_yes",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00150",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000023",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_yes",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00151",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000024",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_yes",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00152",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000025",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_yes",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00161",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000026",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_no",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00162",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000027",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_no",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00163",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000028",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_no",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00172",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000029",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_no",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00173",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000002a",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_no",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00174",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000002b",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_no",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00175",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000002c",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_no",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00184",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000002d",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "unclear",
+        "correction_type": "",
+        "reaction_id": "r_ask_clarify",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00185",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000002e",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "unclear",
+        "correction_type": "",
+        "reaction_id": "r_ask_clarify",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00186",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000002f",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "unclear",
+        "correction_type": "",
+        "reaction_id": "r_ask_clarify",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00196",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000030",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_meaning",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00197",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000031",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_meaning",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00198",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000032",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_meaning",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00204",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000033",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "english_only",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "english"
+      }
+    }
+  },
+  {
+    "row_id": "R00207",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000034",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "english_only",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "english"
+      }
+    }
+  },
+  {
+    "row_id": "R00210",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000035",
+      "quest_id": "q1_2",
+      "step_id": "q1_2_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "hindi_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "hindi_roman"
+      }
+    }
+  },
+  {
+    "row_id": "R00233",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000036",
+      "quest_id": "q1_3",
+      "step_id": "q1_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_name",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00234",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000037",
+      "quest_id": "q1_3",
+      "step_id": "q1_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_name",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00235",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000038",
+      "quest_id": "q1_3",
+      "step_id": "q1_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_name",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00236",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000039",
+      "quest_id": "q1_3",
+      "step_id": "q1_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_name",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00249",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000003a",
+      "quest_id": "q1_3",
+      "step_id": "q1_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "pronoun_mixup",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00250",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000003b",
+      "quest_id": "q1_3",
+      "step_id": "q1_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "pronoun_mixup",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00256",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000003c",
+      "quest_id": "q1_3",
+      "step_id": "q1_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "pronoun_mixup",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00257",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000003d",
+      "quest_id": "q1_3",
+      "step_id": "q1_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "pronoun_mixup",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00258",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000003e",
+      "quest_id": "q1_3",
+      "step_id": "q1_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "pronoun_mixup",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00264",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000003f",
+      "quest_id": "q1_3",
+      "step_id": "q1_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_meaning",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00265",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000040",
+      "quest_id": "q1_3",
+      "step_id": "q1_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_meaning",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00266",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000041",
+      "quest_id": "q1_3",
+      "step_id": "q1_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_meaning",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00272",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000042",
+      "quest_id": "q1_3",
+      "step_id": "q1_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "incomplete_answer",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00273",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000043",
+      "quest_id": "q1_3",
+      "step_id": "q1_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "incomplete_answer",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00276",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000044",
+      "quest_id": "q1_3",
+      "step_id": "q1_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "english_only",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "english"
+      }
+    }
+  },
+  {
+    "row_id": "R00279",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000045",
+      "quest_id": "q1_3",
+      "step_id": "q1_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "english_only",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "english"
+      }
+    }
+  },
+  {
+    "row_id": "R00282",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000046",
+      "quest_id": "q1_3",
+      "step_id": "q1_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "hindi_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "hindi_roman",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00285",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000047",
+      "quest_id": "q1_3",
+      "step_id": "q1_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "hindi_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "hindi_roman",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00299",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000048",
+      "quest_id": "q1_4",
+      "step_id": "q1_4_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_library",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00300",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000049",
+      "quest_id": "q1_4",
+      "step_id": "q1_4_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_library",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00301",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000004a",
+      "quest_id": "q1_4",
+      "step_id": "q1_4_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_library",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00302",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000004b",
+      "quest_id": "q1_4",
+      "step_id": "q1_4_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_library",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00321",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000004c",
+      "quest_id": "q1_4",
+      "step_id": "q1_4_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00322",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000004d",
+      "quest_id": "q1_4",
+      "step_id": "q1_4_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00323",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000004e",
+      "quest_id": "q1_4",
+      "step_id": "q1_4_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00335",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000004f",
+      "quest_id": "q1_4",
+      "step_id": "q1_4_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "english_only",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "english"
+      }
+    }
+  },
+  {
+    "row_id": "R00350",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000050",
+      "quest_id": "q2_1",
+      "step_id": "q2_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_intro",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00351",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000051",
+      "quest_id": "q2_1",
+      "step_id": "q2_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_intro",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00352",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000052",
+      "quest_id": "q2_1",
+      "step_id": "q2_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_intro",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00365",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000053",
+      "quest_id": "q2_1",
+      "step_id": "q2_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted_with_correction",
+        "answer_id": "a_intro",
+        "error_category": "",
+        "correction_type": "use_target_pattern",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00366",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000054",
+      "quest_id": "q2_1",
+      "step_id": "q2_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted_with_correction",
+        "answer_id": "a_intro",
+        "error_category": "",
+        "correction_type": "use_target_pattern",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00367",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000055",
+      "quest_id": "q2_1",
+      "step_id": "q2_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted_with_correction",
+        "answer_id": "a_intro",
+        "error_category": "",
+        "correction_type": "use_target_pattern",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00368",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000056",
+      "quest_id": "q2_1",
+      "step_id": "q2_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted_with_correction",
+        "answer_id": "a_intro",
+        "error_category": "",
+        "correction_type": "use_target_pattern",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00389",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000057",
+      "quest_id": "q2_1",
+      "step_id": "q2_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00390",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000058",
+      "quest_id": "q2_1",
+      "step_id": "q2_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00391",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000059",
+      "quest_id": "q2_1",
+      "step_id": "q2_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00394",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000005a",
+      "quest_id": "q2_1",
+      "step_id": "q2_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "english_only",
+        "correction_type": "",
+        "reaction_id": "r_somanna_ignores",
+        "confidence": 0.95,
+        "detected_form": "english"
+      }
+    }
+  },
+  {
+    "row_id": "R00412",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000005b",
+      "quest_id": "q2_1",
+      "step_id": "q2_1_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_open",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00413",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000005c",
+      "quest_id": "q2_1",
+      "step_id": "q2_1_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_open",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00414",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000005d",
+      "quest_id": "q2_1",
+      "step_id": "q2_1_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_open",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00415",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000005e",
+      "quest_id": "q2_1",
+      "step_id": "q2_1_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_open",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00428",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000005f",
+      "quest_id": "q2_1",
+      "step_id": "q2_1_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "impolite_form",
+        "correction_type": "",
+        "reaction_id": "r_somanna_frowns",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00429",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000060",
+      "quest_id": "q2_1",
+      "step_id": "q2_1_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "impolite_form",
+        "correction_type": "",
+        "reaction_id": "r_somanna_frowns",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00430",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000061",
+      "quest_id": "q2_1",
+      "step_id": "q2_1_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "impolite_form",
+        "correction_type": "",
+        "reaction_id": "r_somanna_frowns",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00436",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000062",
+      "quest_id": "q2_1",
+      "step_id": "q2_1_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00441",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000063",
+      "quest_id": "q2_1",
+      "step_id": "q2_1_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "english_only",
+        "correction_type": "",
+        "reaction_id": "r_somanna_ignores",
+        "confidence": 0.95,
+        "detected_form": "english"
+      }
+    }
+  },
+  {
+    "row_id": "R00461",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000064",
+      "quest_id": "q2_2",
+      "step_id": "q2_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_ananya",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00462",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000065",
+      "quest_id": "q2_2",
+      "step_id": "q2_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_ananya",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00463",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000066",
+      "quest_id": "q2_2",
+      "step_id": "q2_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_ananya",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00468",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000067",
+      "quest_id": "q2_2",
+      "step_id": "q2_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_meaning",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.0
+      }
+    }
+  },
+  {
+    "row_id": "R00469",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000068",
+      "quest_id": "q2_2",
+      "step_id": "q2_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_meaning",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.0
+      }
+    }
+  },
+  {
+    "row_id": "R00472",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000069",
+      "quest_id": "q2_2",
+      "step_id": "q2_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_meaning",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00475",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000006a",
+      "quest_id": "q2_2",
+      "step_id": "q2_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_meaning",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "noise",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00500",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000006b",
+      "quest_id": "q2_3",
+      "step_id": "q2_3_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_keeli",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00501",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000006c",
+      "quest_id": "q2_3",
+      "step_id": "q2_3_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_keeli",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00502",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000006d",
+      "quest_id": "q2_3",
+      "step_id": "q2_3_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_keeli",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00503",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000006e",
+      "quest_id": "q2_3",
+      "step_id": "q2_3_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_keeli",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00518",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000006f",
+      "quest_id": "q2_3",
+      "step_id": "q2_3_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00519",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000070",
+      "quest_id": "q2_3",
+      "step_id": "q2_3_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00520",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000071",
+      "quest_id": "q2_3",
+      "step_id": "q2_3_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00533",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000072",
+      "quest_id": "q2_3",
+      "step_id": "q2_3_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "english_only",
+        "correction_type": "",
+        "reaction_id": "r_somanna_ignores",
+        "confidence": 0.95,
+        "detected_form": "english"
+      }
+    }
+  },
+  {
+    "row_id": "R00555",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000073",
+      "quest_id": "q3_1",
+      "step_id": "q3_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_meal",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00556",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000074",
+      "quest_id": "q3_1",
+      "step_id": "q3_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_meal",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00557",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000075",
+      "quest_id": "q3_1",
+      "step_id": "q3_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_meal",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00558",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000076",
+      "quest_id": "q3_1",
+      "step_id": "q3_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_meal",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00566",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000077",
+      "quest_id": "q3_1",
+      "step_id": "q3_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_meal",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00567",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000078",
+      "quest_id": "q3_1",
+      "step_id": "q3_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_meal",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00580",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000079",
+      "quest_id": "q3_1",
+      "step_id": "q3_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "valid_other_answer",
+        "correction_type": "",
+        "reaction_id": "r_shanthakka_offers_again",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00581",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000007a",
+      "quest_id": "q3_1",
+      "step_id": "q3_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "valid_other_answer",
+        "correction_type": "",
+        "reaction_id": "r_shanthakka_offers_again",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00582",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000007b",
+      "quest_id": "q3_1",
+      "step_id": "q3_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "valid_other_answer",
+        "correction_type": "",
+        "reaction_id": "r_shanthakka_offers_again",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00595",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000007c",
+      "quest_id": "q3_1",
+      "step_id": "q3_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "valid_other_answer",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00596",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000007d",
+      "quest_id": "q3_1",
+      "step_id": "q3_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "valid_other_answer",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00597",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000007e",
+      "quest_id": "q3_1",
+      "step_id": "q3_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "valid_other_answer",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00607",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000007f",
+      "quest_id": "q3_1",
+      "step_id": "q3_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00608",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000080",
+      "quest_id": "q3_1",
+      "step_id": "q3_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00609",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000081",
+      "quest_id": "q3_1",
+      "step_id": "q3_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00612",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000082",
+      "quest_id": "q3_1",
+      "step_id": "q3_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "english_only",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "english"
+      }
+    }
+  },
+  {
+    "row_id": "R00617",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000083",
+      "quest_id": "q3_1",
+      "step_id": "q3_1_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "hindi_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "hindi_roman"
+      }
+    }
+  },
+  {
+    "row_id": "R00637",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000084",
+      "quest_id": "q3_2",
+      "step_id": "q3_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_saaku",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00638",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000085",
+      "quest_id": "q3_2",
+      "step_id": "q3_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_saaku",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00639",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000086",
+      "quest_id": "q3_2",
+      "step_id": "q3_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_saaku",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00640",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000087",
+      "quest_id": "q3_2",
+      "step_id": "q3_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_saaku",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00657",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000088",
+      "quest_id": "q3_2",
+      "step_id": "q3_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted_with_correction",
+        "answer_id": "a_beda",
+        "error_category": "",
+        "correction_type": "saaku_vs_beda",
+        "reaction_id": "r_shanthakka_say_saaku",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00658",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000089",
+      "quest_id": "q3_2",
+      "step_id": "q3_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted_with_correction",
+        "answer_id": "a_beda",
+        "error_category": "",
+        "correction_type": "saaku_vs_beda",
+        "reaction_id": "r_shanthakka_say_saaku",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00659",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000008a",
+      "quest_id": "q3_2",
+      "step_id": "q3_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted_with_correction",
+        "answer_id": "a_beda",
+        "error_category": "",
+        "correction_type": "saaku_vs_beda",
+        "reaction_id": "r_shanthakka_say_saaku",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00660",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000008b",
+      "quest_id": "q3_2",
+      "step_id": "q3_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted_with_correction",
+        "answer_id": "a_beda",
+        "error_category": "",
+        "correction_type": "saaku_vs_beda",
+        "reaction_id": "r_shanthakka_say_saaku",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00669",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000008c",
+      "quest_id": "q3_2",
+      "step_id": "q3_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "valid_other_answer",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00670",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000008d",
+      "quest_id": "q3_2",
+      "step_id": "q3_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "valid_other_answer",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00671",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000008e",
+      "quest_id": "q3_2",
+      "step_id": "q3_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "valid_other_answer",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00677",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000008f",
+      "quest_id": "q3_2",
+      "step_id": "q3_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "english_only",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "english"
+      }
+    }
+  },
+  {
+    "row_id": "R00681",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000090",
+      "quest_id": "q3_2",
+      "step_id": "q3_2_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "hindi_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "hindi_roman"
+      }
+    }
+  },
+  {
+    "row_id": "R00702",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000091",
+      "quest_id": "q3_3",
+      "step_id": "q3_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_price",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00703",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000092",
+      "quest_id": "q3_3",
+      "step_id": "q3_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_price",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00704",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000093",
+      "quest_id": "q3_3",
+      "step_id": "q3_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_price",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00705",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000094",
+      "quest_id": "q3_3",
+      "step_id": "q3_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_price",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00724",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000095",
+      "quest_id": "q3_3",
+      "step_id": "q3_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00725",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000096",
+      "quest_id": "q3_3",
+      "step_id": "q3_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00726",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000097",
+      "quest_id": "q3_3",
+      "step_id": "q3_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00729",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000098",
+      "quest_id": "q3_3",
+      "step_id": "q3_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "english_only",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "english"
+      }
+    }
+  },
+  {
+    "row_id": "R00732",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "00000000000000000000000000000099",
+      "quest_id": "q3_3",
+      "step_id": "q3_3_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "hindi_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "hindi_roman"
+      }
+    }
+  },
+  {
+    "row_id": "R00757",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000009a",
+      "quest_id": "q3_3",
+      "step_id": "q3_3_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_50",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "detected_form": "digits",
+        "confidence": 1.0
+      }
+    }
+  },
+  {
+    "row_id": "R00763",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000009b",
+      "quest_id": "q3_3",
+      "step_id": "q3_3_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_number",
+        "correction_type": "",
+        "reaction_id": "r_shanthakka_illa_aivattu",
+        "confidence": 0.95,
+        "detected_form": "noise"
+      }
+    }
+  },
+  {
+    "row_id": "R00764",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000009c",
+      "quest_id": "q3_3",
+      "step_id": "q3_3_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_number",
+        "correction_type": "",
+        "reaction_id": "r_shanthakka_illa_aivattu",
+        "confidence": 0.95,
+        "detected_form": "noise"
+      }
+    }
+  },
+  {
+    "row_id": "R00765",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000009d",
+      "quest_id": "q3_3",
+      "step_id": "q3_3_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_number",
+        "correction_type": "",
+        "reaction_id": "r_shanthakka_illa_aivattu",
+        "confidence": 0.95,
+        "detected_form": "noise"
+      }
+    }
+  },
+  {
+    "row_id": "R00772",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000009e",
+      "quest_id": "q3_3",
+      "step_id": "q3_3_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_number",
+        "correction_type": "",
+        "reaction_id": "r_shanthakka_illa_aivattu",
+        "detected_form": "noise",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00773",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "0000000000000000000000000000009f",
+      "quest_id": "q3_3",
+      "step_id": "q3_3_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_number",
+        "correction_type": "",
+        "reaction_id": "r_shanthakka_illa_aivattu",
+        "detected_form": "noise",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00774",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "000000000000000000000000000000a0",
+      "quest_id": "q3_3",
+      "step_id": "q3_3_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_number",
+        "correction_type": "",
+        "reaction_id": "r_shanthakka_illa_aivattu",
+        "detected_form": "noise",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00780",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "000000000000000000000000000000a1",
+      "quest_id": "q3_3",
+      "step_id": "q3_3_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_number",
+        "correction_type": "",
+        "reaction_id": "r_shanthakka_illa_aivattu",
+        "detected_form": "digits",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00783",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "000000000000000000000000000000a2",
+      "quest_id": "q3_3",
+      "step_id": "q3_3_b",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_number",
+        "correction_type": "",
+        "reaction_id": "r_shanthakka_illa_aivattu",
+        "detected_form": "digits",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00808",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "000000000000000000000000000000a3",
+      "quest_id": "q3_4",
+      "step_id": "q3_4_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_where",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00809",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "000000000000000000000000000000a4",
+      "quest_id": "q3_4",
+      "step_id": "q3_4_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_where",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00810",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "000000000000000000000000000000a5",
+      "quest_id": "q3_4",
+      "step_id": "q3_4_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_where",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00811",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "000000000000000000000000000000a6",
+      "quest_id": "q3_4",
+      "step_id": "q3_4_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "accepted",
+        "answer_id": "a_where",
+        "error_category": "",
+        "correction_type": "",
+        "reaction_id": "",
+        "confidence": 0.95,
+        "detected_form": "kanglish"
+      }
+    }
+  },
+  {
+    "row_id": "R00822",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "000000000000000000000000000000a7",
+      "quest_id": "q3_4",
+      "step_id": "q3_4_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00823",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "000000000000000000000000000000a8",
+      "quest_id": "q3_4",
+      "step_id": "q3_4_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00824",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "000000000000000000000000000000a9",
+      "quest_id": "q3_4",
+      "step_id": "q3_4_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "wrong_word",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "detected_form": "kanglish",
+        "confidence": 0.6
+      }
+    }
+  },
+  {
+    "row_id": "R00836",
+    "status": "ok",
+    "response": {
+      "version": 1,
+      "request_id": "000000000000000000000000000000aa",
+      "quest_id": "q3_4",
+      "step_id": "q3_4_a",
+      "status": "ok",
+      "content_revision": "3c1a09978760837bee0bf549e4be50edb2d8470ee381615906194ef7a69d3e0f",
+      "assessment": {
+        "outcome": "not_accepted",
+        "answer_id": "",
+        "error_category": "english_only",
+        "correction_type": "",
+        "reaction_id": "r_puzzled",
+        "confidence": 0.95,
+        "detected_form": "english"
+      }
+    }
+  }
+]

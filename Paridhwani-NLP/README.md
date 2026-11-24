@@ -292,6 +292,25 @@ This repository contains the NLP component of Paridhwani. Its responsibility is 
 
 Integration with the complete game, application-level behavior, and overall project documentation are handled separately by the relevant project team members.
 
+### Structured assessment boundary and verification
+
+The evaluator now loads authored lesson policies alongside the training/spelling
+CSVs, normalizes rule vocabularies consistently, supports reviewed item/name
+templates, and rejects unsupported inputs without character-similarity acceptance.
+An arbitrary bare name needs matching `player.name` context; formatted name answers
+support unfamiliar alphabetic names. The game's progression and saves remain local.
+
+See [assessment v1](docs/ASSESSMENT_V1.md) for the implemented socket-free JSON
+boundary, strict schema, fixtures, validation and a standalone C# consumer. It is
+separate from the game's existing text-only dialogue contract; no live service or
+gameplay integration is claimed. Unknown spellings and general Kannada semantics
+still need reviewed coverage.
+
+Run `python -I -B verification/verify.py` for original tests, new regressions,
+held-out comparisons, authored-policy sweeps and JSON Schema checks. It supports
+direct invocation without pytest; `pandas` and `jsonschema` must already be present.
+No runner downloads dependencies. See [recorded results](verification/RESULTS.md).
+
 ---
 
 **Project:** Paridhwani — NLP Component  

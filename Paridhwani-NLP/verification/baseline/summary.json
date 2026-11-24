@@ -1,0 +1,204 @@
+{
+  "existing_tests": {
+    "total": 26,
+    "passed": 26,
+    "runner": "direct test function invocation; pytest unavailable"
+  },
+  "datasets": {
+    "train": {
+      "rows": 681,
+      "outcome_matches": 681,
+      "all_five_fields_match": 680,
+      "field_mismatch_counts": {
+        "outcome": 0,
+        "answer_id": 0,
+        "error_category": 1,
+        "correction_type": 0,
+        "reaction_id": 0
+      },
+      "by_input_form": {
+        "digits": {
+          "rows": 6,
+          "outcome_matches": 6,
+          "all_fields_match": 6
+        },
+        "english": {
+          "rows": 42,
+          "outcome_matches": 42,
+          "all_fields_match": 41
+        },
+        "hindi_roman": {
+          "rows": 33,
+          "outcome_matches": 33,
+          "all_fields_match": 33
+        },
+        "kanglish": {
+          "rows": 565,
+          "outcome_matches": 565,
+          "all_fields_match": 565
+        },
+        "kannada": {
+          "rows": 22,
+          "outcome_matches": 22,
+          "all_fields_match": 22
+        },
+        "mixed": {
+          "rows": 4,
+          "outcome_matches": 4,
+          "all_fields_match": 4
+        },
+        "noise": {
+          "rows": 9,
+          "outcome_matches": 9,
+          "all_fields_match": 9
+        }
+      }
+    },
+    "test": {
+      "rows": 178,
+      "outcome_matches": 163,
+      "all_five_fields_match": 157,
+      "field_mismatch_counts": {
+        "outcome": 15,
+        "answer_id": 15,
+        "error_category": 21,
+        "correction_type": 0,
+        "reaction_id": 15
+      },
+      "by_input_form": {
+        "digits": {
+          "rows": 3,
+          "outcome_matches": 3,
+          "all_fields_match": 3
+        },
+        "english": {
+          "rows": 17,
+          "outcome_matches": 17,
+          "all_fields_match": 17
+        },
+        "hindi_roman": {
+          "rows": 7,
+          "outcome_matches": 7,
+          "all_fields_match": 7
+        },
+        "kanglish": {
+          "rows": 146,
+          "outcome_matches": 131,
+          "all_fields_match": 125
+        },
+        "mixed": {
+          "rows": 1,
+          "outcome_matches": 1,
+          "all_fields_match": 1
+        },
+        "noise": {
+          "rows": 4,
+          "outcome_matches": 4,
+          "all_fields_match": 4
+        }
+      }
+    }
+  },
+  "content": {
+    "json_files": 23,
+    "parse_errors": [],
+    "duplicate_json_keys": [],
+    "quests": 11,
+    "steps": 17,
+    "step_types": {
+      "respond": 14,
+      "read_word": 2,
+      "collect_word": 1
+    },
+    "topics": 8,
+    "vocabulary": 140,
+    "word_roles": {
+      "say": 23,
+      "understand": 113,
+      "name": 4
+    },
+    "reactions": 8,
+    "error_categories": 11,
+    "corrections": 8,
+    "integrity_issues": [],
+    "steps_missing_npc_reply": [
+      "q1_1_a",
+      "q1_2_a",
+      "q1_2_b",
+      "q1_3_a",
+      "q2_1_a",
+      "q2_1_b",
+      "q2_2_a",
+      "q3_1_a",
+      "q3_2_a",
+      "q3_3_b",
+      "q3_4_a"
+    ],
+    "uncovered_respond_steps": []
+  },
+  "authored": {
+    "expanded_cases": 210,
+    "mismatches": 74,
+    "by_kind": {
+      "accepted": {
+        "cases": 35,
+        "mismatches": 1
+      },
+      "also_accepted": {
+        "cases": 84,
+        "mismatches": 53
+      },
+      "anticipated_error": {
+        "cases": 72,
+        "mismatches": 17
+      },
+      "correction": {
+        "cases": 19,
+        "mismatches": 3
+      }
+    }
+  },
+  "train_normalization_conflicts": 0,
+  "normalized_overlap_keys": 2,
+  "test_rows_with_normalized_train_overlap": 5,
+  "shared_train_test_groups": 0,
+  "source_hashes": {
+    "language-engine\\learning-design\\content\\address_terms.json": "90394c5552a4b4d3cdda5ff59fa9bb273fa0c9665f53ddf79783a2507cf2171f",
+    "language-engine\\learning-design\\content\\feedback.json": "1ecf2fda843c58b801a38d5c14afade3e73fd7428cf5e321d5a570df2c7f5350",
+    "language-engine\\learning-design\\content\\progression.json": "536bea7c0b11ba6bd6491e2d184d60c0ef18baa5e089a52880a07c85f867babe",
+    "language-engine\\learning-design\\content\\vocabulary.json": "c2d16033c6b425acc477345596a3d0400fac56e7ccca11a950856b7d4c5849c0",
+    "language-engine\\learning-design\\content\\quests\\q1_1.json": "24dda24be2a892c9e21f161a292c6d2ba4eac595cabb563863a0984e3e9d097b",
+    "language-engine\\learning-design\\content\\quests\\q1_2.json": "d7e47e35680b330ca8ca6ac12d9d49a81592cf296b53f40d6895800860214d0c",
+    "language-engine\\learning-design\\content\\quests\\q1_3.json": "f6ccdeabea30615163d303176d167a05213db71868c0a11d5cf711352e2dadf3",
+    "language-engine\\learning-design\\content\\quests\\q1_4.json": "26297d182210124549e98d1b66f1097995fc2f69bb351f44017f79536d56a0d9",
+    "language-engine\\learning-design\\content\\quests\\q2_1.json": "58893eb137a13d0c0f34af2692afaa14cf6938af6c210a98f7823ce425adf1cc",
+    "language-engine\\learning-design\\content\\quests\\q2_2.json": "3ab324bf2ebc992cac4ae84981ec57e288c0deb130e73867ab021f40fb967c81",
+    "language-engine\\learning-design\\content\\quests\\q2_3.json": "ac9a2b06b079b5e51937fabc3b0912f166eb36d83fd221a3057bc21d60dc3629",
+    "language-engine\\learning-design\\content\\quests\\q3_1.json": "a56e22211fc6979a9756a9f3648692a4c4e47a7d09b5970b739a0a2a8d1cca34",
+    "language-engine\\learning-design\\content\\quests\\q3_2.json": "9c265e54fccb33f235a686a56d0c9a8716d9cfd9eba668684f3e0dc0806ae12e",
+    "language-engine\\learning-design\\content\\quests\\q3_3.json": "64c0599114c23c5db49118ea67b30c226c4d5f6266aefa543744b317d60e9f99",
+    "language-engine\\learning-design\\content\\quests\\q3_4.json": "e0c4300db315917fec267c07b605a4b3512c84eae41e3a837ca277c66839ccf2",
+    "language-engine\\learning-design\\content\\topics\\asking_the_way.json": "cae5796c01c3cc594346bbc8b420ccde13882f78daea4960f17f7e74176fed71",
+    "language-engine\\learning-design\\content\\topics\\food_at_mess.json": "bf5f03e6771e5f2e7217dea59d3ce39c0f99afb32ffb40e11242606eb45dc5d2",
+    "language-engine\\learning-design\\content\\topics\\greetings_thanks.json": "38540f8a2b7a86426a19aee9610a7f831e57ede104ed6344093dd292dc9b64b0",
+    "language-engine\\learning-design\\content\\topics\\introducing_yourself.json": "62749857ee488924b934da25a1d18902e55646c9878e6ae093f532ddb7bd4141",
+    "language-engine\\learning-design\\content\\topics\\numbers_money.json": "f5967476db15d351396f3149312a77794aac3680748492611cb04a0788878097",
+    "language-engine\\learning-design\\content\\topics\\ordering_at_shop.json": "725efdb56e4da0829c2119215b7cbd77ad5ef46a9b4c91b7a74e8e6b35c40bd6",
+    "language-engine\\learning-design\\content\\topics\\polite_to_elders.json": "bc517eed3b5087d24108cf4002bc782f9412d8f3b6ff028adb51182aa536c049",
+    "language-engine\\learning-design\\content\\topics\\who_is_here.json": "1a13a4192f844aae626f5fc8a71da78f7a3a0dcb7ea10631a2d695ec891df452",
+    "language-engine\\Paridhwani-NLP\\src\\language_detector.py": "7584697f3ead8396e76729718fe25283f82282ec3d392bd5ea761aea0ba904b0",
+    "language-engine\\Paridhwani-NLP\\src\\matcher.py": "9f262f8b54d1e0e9d8aaee62ad1afe7eb0eed46941fcec83008dfbeb68e792fe",
+    "language-engine\\Paridhwani-NLP\\src\\normalizer.py": "5a524a1c78a4e3437ef3f815b47eca84a134f71f7719258a67da28020d1166f8",
+    "language-engine\\Paridhwani-NLP\\src\\spelling_normalizer.py": "cfb5927225d0f6b3fdb838848aca9f5a0a6faa72511a77c678a5512307a5dd19",
+    "language-engine\\Paridhwani-NLP\\src\\structural_rules.py": "dfb65ac715929ae590f041d9d6dbe92e8ac64d477e4a67f3507146b1e88b60b1",
+    "language-engine\\Paridhwani-NLP\\data\\responses_test.csv": "af2de6b241307377d17d76c2221acc4172e52ec0bf20d3ec0d1e7c79cc6f706e",
+    "language-engine\\Paridhwani-NLP\\data\\responses_train.csv": "f8f8c4aeedd9c9252e092bd23f6cceccd414959853eb928c8ba78a5b8de05b90",
+    "language-engine\\Paridhwani-NLP\\data\\spelling_variants.csv": "13c083c2f0cef07cc849bdf61e1f145e10f017350b2228b2521951834d2031ce",
+    "language-engine\\Paridhwani-NLP\\data\\translit_pairs.csv": "0ebf8034078f4ae289335f7d087d92c1dadae7ea2f68e7fac014cea09e9c4bd3",
+    "language-engine\\Paridhwani-NLP\\tests\\test_language_detector.py": "38f8acbb81cb14af1c340670af40869f4b667fd2da60a68a1a1205b0bffbf7c1",
+    "language-engine\\Paridhwani-NLP\\tests\\test_matcher.py": "6a5002b4343439371ee42f0d9014343cd668a74b7e0bff4c1a13831c4d2ba378",
+    "language-engine\\Paridhwani-NLP\\tests\\test_normalizer.py": "c499ad83f474c78690198d1b1c13e24e53f22907d2e878aa1cdf14d7db7c1901",
+    "language-engine\\Paridhwani-NLP\\tests\\test_spelling_normalizer.py": "c23e973d3bd535cfa9c4a8706aa5c2b5b8ccf42fbfd0c92553808b425a8739ff",
+    "language-engine\\Paridhwani-NLP\\tests\\test_structural_rules.py": "4c0e04cb32c6d8b336df56f3dd1685a7b4ae343faacabe4704d83468a87a887d"
+  }
+}

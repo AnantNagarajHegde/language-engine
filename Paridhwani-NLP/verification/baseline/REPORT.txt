@@ -1,0 +1,222 @@
+PARIDHWANI LANGUAGE-ENGINE VERIFICATION - 29 OCTOBER 2026
+
+Scope and method
+----------------
+Audited the current readable language-engine working folder, not a fetched remote
+revision. Production curriculum, evaluator and game files were not edited. No
+packages were installed, servers started, Git state changed or Unity UI used.
+The standalone verification scripts and their outputs live only in this folder.
+
+Read the evaluator and all five test modules before execution. Used the installed
+Python 3.14.3 at:
+C:\Users\amogh\AppData\Local\Python\pythoncore-3.14-64\python.exe
+pandas is available; pytest is not. Ran each of the 26 existing plain test
+functions directly (module import plus test function invocation). All 26 passed.
+This is not a pytest-runner result; no pytest fixtures/plugins are used by those
+functions. -I -B and dont_write_bytecode prevent project cache generation.
+
+Reproduction, from PowerShell:
+& 'C:\Users\amogh\AppData\Local\Python\pythoncore-3.14-64\python.exe' -I -B 'C:\Users\amogh\AppData\Local\Temp\paridhwani-language-audit-20261029\audit.py'
+& 'C:\Users\amogh\AppData\Local\Python\pythoncore-3.14-64\python.exe' -I -B 'C:\Users\amogh\AppData\Local\Temp\paridhwani-language-audit-20261029\extend.py'
+
+Coverage inventory
+------------------
+23 JSON documents: vocabulary, feedback, progression, address terms, 11 quests,
+8 notebook topics. 17 steps: 14 respond, 2 read_word and 1 collect_word.
+140 vocabulary entries: 23 say, 113 understand, 4 names. 114 topic sentence
+occurrences. 8 reactions, 11 error categories and 8 correction types.
+681 training rows; 178 test rows. 173 spelling rows; 304 transliteration rows
+(140 word, 123 sentence, 41 variant_word).
+
+Checks that passed:
+- Strict UTF-8/JSON parsing, duplicate JSON property scan and replacement-character
+  scan. No invalid Unicode or replacement characters found. Console question marks
+  shown by some terminal output are not evidence that Kannada data is corrupted.
+- Required vocabulary/topic/sentence/response-step fields checked; no missing
+  required fields under the audit's explicit shape checks.
+- Quest, step, topic, word, sentence-highlight, reaction, error and correction
+  references checked; no unresolved references in the checked JSON/response CSVs.
+- Quest levels align with progression. No missing/duplicate progression quests.
+- No duplicate vocabulary IDs, step IDs, answer IDs within a step or CSV row IDs.
+- All 14 respond steps have training examples and held-out rows.
+- All 28 authored full-example language forms tested were accepted.
+- No contradictory training labels after evaluator normalization; no conflicting
+  canonical mappings after spelling normalization.
+- Transliteration compound references (step:npc_line and step:answer_id) resolve.
+- 12 sentence IDs are deliberately shared between notebook topics; content agrees
+  except s_dhanyavada has punctuation-only ! versus . differences. This is not a
+  semantic conflict, although a future global sentence-ID store needs a convention.
+
+Measurements (agreement with supplied labels, NOT general language accuracy)
+-------------------------------------------------------------------------
+Existing direct test functions: 26/26 pass.
+Training outcome agreement: 681/681. All five assessment fields: 680/681.
+Test outcome agreement: 163/178 (91.6%). All five assessment fields: 157/178 (88.2%).
+Five fields: outcome, answer_id, error_category, correction_type, reaction_id.
+There are 15 outcome failures and 21 rows with at least one field mismatch.
+All 15 outcome failures are expected accepted answers returned not_accepted.
+All 101 held-out not_accepted labels and 8 accepted_with_correction labels match
+the outcome, but some rejection diagnostics differ.
+
+The test set has 79 group IDs and 79 unique normalized quest/step/input keys.
+75/79 unique normalized inputs match outcomes; four variant families account for
+the 15 row failures. Two normalized keys overlap training, covering five test rows:
+q1_2_a / nanage chaha beku and q3_3_b / 50.
+Group IDs are disjoint between train and test. Excluding overlapping inputs gives
+158/173 outcome matches and 152/173 complete-field matches. The code also contains
+comments/patches explicitly referring to tested expected outputs; this is not a
+blinded evaluation. Do not treat variants as independent learner trials.
+There are NO Kannada-script held-out rows (22 script examples are in training).
+
+Authored-policy sweep:
+Expanded all accepted forms, also_accepted, nested/top-level correction cases and
+anticipated errors/also_matches. For player-name templates used Arun, Aditi and
+Meera in Kanglish; used the supplied script names for Kannada. Expanded {item}
+across all 16 item_words. Expected outcomes come from the authored JSON, including
+top-level correction_type (Beda in q3_2 is correctly treated as correction).
+210 cases, 74 with at least one checked-field mismatch. Of these, 171 Kanglish
+cases have 57 mismatches; 39 Kannada cases have 17. This is a finite contract
+sweep weighted heavily by template combinations, not an accuracy estimate.
+
+PRIORITIZED FINDINGS
+--------------------
+P1. Normalizer and structural-rule vocabulary disagree.
+normalizer.py removes repeated Roman vowels; structural_rules.py then tests
+literal sets still containing kaapi, keeli and oota instead of kapi/keli/ota.
+Exact CSV lookup hides this for known training examples; unseen variants fail.
+Confirmed supplied held-out rows:
+- q1_2_a: Kaapi beku -> expected accepted/a_tea, actual not_accepted/unclear.
+  R00089-R00092 (four format/spelling variants).
+- q2_3_b: Dayavittu keeli ellide? -> expected accepted/a_keeli, actual unclear.
+  R00500-R00503 (four variants).
+- q3_1_a: Nanage oota beku -> expected accepted/a_meal, actual unclear.
+  R00555-R00558 (four variants).
+- q3_3_a: Oota eshtu? -> expected accepted/a_price, actual unclear.
+  R00702,R00703,R00705 (three variants).
+Other held-out failures keep rejection outcome but lose wrong_word diagnosis,
+e.g. Keeli beku and Keeli elli? in inappropriate steps.
+Source: src/normalizer.py; structural_rules.py:5-8, q1_2_a/q2_3_b/q3_1_a/q3_3_a.
+
+P1. Authored {player_name} policy is not implemented for arbitrary names.
+feedback.json says any name is accepted; structural rules use Arun/Aditi/Ravi.
+The evaluate(player=...) argument is passed through but not used for validation.
+Confirmed q1_3_a Nanna hesaru Meera -> not_accepted/incomplete_answer, confidence
+0.95; expected accepted/a_name. Hesaru Meera is rejected instead of receiving
+missing_possessive correction. q2_1_a name-based correction templates also reject
+Meera. Known Arun and Aditi examples pass.
+Source: feedback.json answer_rules.placeholders; quests/q1_3.json;
+structural_rules.py:88 and q2_1_a; matcher.py:62.
+
+P1. Authored {item} generalization is much broader than actual matching.
+feedback.json item_words contains 16 foods/drinks. q1_2_a permits {item} beku and
+Nanage {item} beku; q3_1_a permits {item} kodi and Haudu, {item} kodi. Most such
+combinations are rejected: Nanage haalu beku, chaha kodi at the meal step,
+chapati kodi, dose kodi, and many others. Item expansion accounts for 25 rejected
+also_accepted cases at q1_2_a and 26 at q3_1_a in this sweep. Some combinations
+only pass accidentally through character similarity (Nanage chapati beku scores
+0.889), rather than a reliable item/template parser.
+Source: feedback.json item_words; quests/q1_2.json, q3_1.json; authored-mismatches.csv.
+
+P1/P2. Script error can be promoted to accepted by character similarity.
+The Kannada anticipated error in q1_2_a (copying the NPC's pronoun: the JSON
+e_nimage.kannada field) is explicitly labelled not_accepted/pronoun_mixup but
+returns accepted/a_tea with confidence 0.889. The Roman error is correctly rejected.
+This is an exact authored-policy mismatch, independent of linguistic judgment.
+Source: authored-evaluation.json q1_2_a/anticipated_error/kannada;
+matcher.py fuzzy fallback; structural diagnostics mostly operate on Roman words.
+Current declared answer mode is Kanglish, so decide script-input scope explicitly.
+
+P2. Global language/error rules are not actually global.
+feedback.json says English-only and Hindi input rules apply to every step. Against
+all 14 respond steps, Hello is classified english_only only once (13 unclear),
+Thank you three times (11 unclear), Chai chahiye hindi_word four times (10 unclear).
+All are rejected, so this chiefly loses appropriate pedagogy/NPC reactions.
+LanguageDetector.detect is metadata, not a global dispatch/gating step.
+One training label itself disagrees: R00855 ALL/ALL what expects unclear but gets
+english_only. This is a data/policy decision to review, not an acceptance failure.
+
+P2. Context and negation need semantic review and regression cases.
+Targeted q2_2_a Ananya hatra keeli illa is accepted/a_ananya with confidence 0.95;
+rules match person+key/location tokens before considering negation. Likewise
+Somanna hatra keeli ide Ananya alla is accepted. Review intended meaning and
+handling with a fluent Kannada speaker before calling these linguistically final.
+The token-set approach also drops order information: Ellide granthalaya returns
+accepted, although authored library-first material specifies word_order correction
+for the analogous Ellide library case. These targeted probes are separate from
+the supplied 178-row measurement.
+
+P2. Automated tests are too weak to guard the learner contract.
+Matcher tests assert dict/outcome presence, not that correct answers are accepted.
+Structural tests cover only unknown input. None loads responses_test.csv or tests
+the content templates. This explains 26 passing tests alongside the failures above.
+Script and mixed-language coverage is especially weak: no script held-out rows;
+only one mixed held-out row. Detector labels also have inconsistent definitions:
+CSV mixed includes English+Kanglish, while detector mixed requires script+Latin.
+Ten held-out detected_form labels differ, but this is not used as an accuracy
+metric because those label definitions first need harmonizing.
+
+P2. Mastery credit cannot be derived from target_words alone.
+q1_2_b has mutually exclusive yes/no answers but target_words includes both haudu
+and illa, beku and beda. q3_2 accepts Beda with correction while target_words is
+w_saaku; crediting all targets would award a word not produced. q2_2 is name-based
+comprehension but its targets include illa and keeli, not produced by saying Ananya.
+19/23 say words have target metadata in only one quest. Of four with two-quest
+targets, two rely on that comprehension task. Broadened templates create additional
+actual production opportunities that the old curriculum summary does not count.
+Need response-specific production credit, separate comprehension, and explicit
+policy for corrections/help/replays. No mastery event tracker exists in the NLP
+component or current TeaProgress save fields.
+
+P2/P3. Hints and success transition behavior need a precise content contract.
+feedback.json says a rejected answer gets NPC reaction then quick_hint, whereas
+progression.json automatically shows it after two wrong answers. Define first vs
+second failure behavior. Mastery says without opening notebook, which alone does
+not explain eligibility after viewing full_example or other help. Eleven of 14
+respond steps omit npc_reply while README generically says to show it on success;
+the data needs an agreed fallback/skip convention, not necessarily eleven new lines.
+
+P3. Spelling CSV has 13 incomplete metadata rows.
+Final 13 rows have canonical/variant only; word_id, Kannada, role, rule and verified
+are blank. The runtime only requires canonical and variant, so they load, but cannot
+be traced/checked like earlier rows. No nonblank unknown word IDs found.
+Only two vocabulary entries have variants arrays; broader spelling support lives
+separately in CSV. Both formats need a documented source-of-truth/sync procedure.
+
+INTEGRATION AND STORY GAPS (not regressions introduced by this audit)
+------------------------------------------------------------------
+- No Unity JSON import or references to lesson IDs/AnswerMatcher found in game
+  scripts. Unity still advances hardcoded providers through TeaStallSession.Choose.
+- Existing HTTP v1 returns text only. Python returns assessment fields and expects
+  quest/step identities. The strict current response schema rejects extra fields;
+  a structured assessment contract and stable Unity mapping are still required.
+- NLP has no HTTP route/server, automatic lesson JSON loader, learner persistence,
+  notebook/help tracking, or runtime transliterator. translit_pairs.csv is unused.
+- Curriculum assumes conductor thanks, self-naming, wake/polite-gate and a 50-rupee
+  lunch task. Current Unity dialogue has its own arrival, tea/library/mess flow and
+  longer investigation story; these are not interchangeable quest nodes.
+- Existing game notebook/saves are keyed to story flags, not learner mastery.
+
+What remains unverified
+-----------------------
+Native-speaker grammar, register, transliteration and script shaping/font rendering;
+pedagogical difficulty and engagement with real learners; end-to-end Unity/server
+behavior; performance at realistic concurrency; all possible unseen spellings and
+adversarial inputs. No claim of exhaustive defect discovery is made.
+
+Recommended correction order (not performed): align canonical normalization and
+rules; enforce item/name templates; run held-out and policy sweeps in regression;
+repair script/negation/global-diagnostic behavior; define mastery/help events;
+then map a single reviewed lesson into Unity with a structured assessment contract.
+
+Evidence files
+--------------
+summary.json: inventory, aggregate counts and SHA-256 source/data hashes.
+existing-tests.json: each test function result.
+test-evaluation.json / train-evaluation.json: every row, expected and actual fields.
+authored-evaluation.json: 210 expanded authored-policy cases.
+targeted-evaluation.json: 110 explicit edge/general-policy probes.
+heldout-mismatches.csv / authored-mismatches.csv: convenient review tables.
+normalized-train-test-overlap.json / training-conflicts.json: leakage/conflict checks.
+content-inventory.json / extended-analysis.json: references, shapes, coverage,
+Unicode, spelling metadata, normalization probes and grouping details.
+audit.py / extend.py: reproducible isolated verification harnesses.

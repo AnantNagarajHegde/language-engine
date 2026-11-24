@@ -1,0 +1,16 @@
+{
+  "scope": "source checks only; no rendered controls, input/focus or native session/save lifecycle exercised",
+  "checks": {
+    "authored_fallback_choice_buttons": true,
+    "english_help_toggle": true,
+    "roman_help_toggle": true,
+    "notebook_help_button": true,
+    "optional_text_controls_require_service": true,
+    "notebook_cancels_optional_text": true,
+    "original_line_cancels_optional_text": true,
+    "new_turn_invalidates_optional_text": true,
+    "optional_reply_generation_guard": true,
+    "isolated_example_not_attached_to_game": true,
+    "compiled_source_inputs_unchanged_during_run": true
+  }
+}

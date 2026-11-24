@@ -1,0 +1,161 @@
+{
+  "method": "Declared working-file changes; Git metadata access denied. No staging/commits performed. Compiler outputs under verification/results/Consumer are ignored.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "docs/assessment-v1.schema.json",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "docs/ASSESSMENT_V1.md",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "docs/fixtures/accepted-request.json",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "docs/fixtures/accepted-response.json",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "docs/fixtures/corrected-request.json",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "docs/fixtures/corrected-response.json",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "docs/fixtures/rejected-request.json",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "docs/fixtures/rejected-response.json",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "docs/fixtures/unknown-step-request.json",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "docs/fixtures/unknown-step-response.json",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "integration/AssessmentConsumer.cs",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "README.md",
+      "kind": "modified existing"
+    },
+    {
+      "path": "requirements.txt",
+      "kind": "modified existing"
+    },
+    {
+      "path": "src/assessment.py",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "src/authored_policy.py",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "src/matcher.py",
+      "kind": "modified existing"
+    },
+    {
+      "path": "src/normalizer.py",
+      "kind": "modified existing"
+    },
+    {
+      "path": "src/structural_rules.py",
+      "kind": "modified existing"
+    },
+    {
+      "path": "tests/test_assessment_regressions.py",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "verification/baseline/authored-evaluation.json",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "verification/baseline/REPORT.txt",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "verification/baseline/summary.json",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "verification/baseline/targeted-evaluation.json",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "verification/baseline/test-evaluation.json",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "verification/policy_cases.py",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "verification/results/authored-evaluation.json",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "verification/results/boundary-heldout.json",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "verification/results/consumer-check.txt",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "verification/results/consumer-compile.txt",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "verification/results/existing-tests.json",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "verification/results/summary.json",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "verification/results/test-evaluation.json",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "verification/results/tests.txt",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "verification/results/train-evaluation.json",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "verification/RESULTS.md",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "verification/Verify-Consumer.ps1",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "verification/verify.py",
+      "kind": "new source or evidence"
+    },
+    {
+      "path": "verification/changed-files.json",
+      "kind": "new source or evidence"
+    }
+  ]
+}

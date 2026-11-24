@@ -2,6 +2,11 @@ import re
 import unicodedata
 
 
+def canonical_words(values):
+    """Put rule lexicons in the same representation as normalized input."""
+    return {normalize_text(value) for value in values}
+
+
 def normalize_text(text):
     """Normalize text for matching while preserving Kannada and digits."""
     if text is None:

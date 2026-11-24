@@ -1,0 +1,2 @@
+TEA_MILESTONE_CHECKED: 186 assertions; real Python assessment JSON + current TeaConversation/TeaProgress/TeaSaveStore source; isolated adapter only.
+PENDING: gameplay policy decisions, production attachment, live transport, native UI/help events and native JsonUtility acceptance.

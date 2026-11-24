@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "request_id": "0123456789abcdef0123456789abcdef",
+  "quest_id": "q1_2",
+  "step_id": "q1_2_a",
+  "learner_text": "Nanage chaha beda",
+  "player": {
+    "name": "Meera"
+  }
+}

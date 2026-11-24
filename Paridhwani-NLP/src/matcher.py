@@ -6,6 +6,7 @@ from pathlib import Path
 from normalizer import normalize_text
 from spelling_normalizer import SpellingNormalizer
 from language_detector import LanguageDetector
+from authored_policy import AuthoredPolicy
 from structural_rules import (
     match_structural_rule,
     diagnose_unmatched_answer,
@@ -20,8 +21,8 @@ VALID_OUTCOMES = {
 
 
 class AnswerMatcher:
-    def __init__(self, data_dir):
-        self.data_dir = Path(data_dir)
+    def __init__(self, data_dir, content_dir=None):
+        self.data_dir = Path(data_dir).resolve()
 
         train_path = self.data_dir / "responses_train.csv"
         spelling_path = self.data_dir / "spelling_variants.csv"
@@ -30,6 +31,8 @@ class AnswerMatcher:
         self.train = pd.read_csv(train_path).fillna("")
         self.spelling = SpellingNormalizer(spelling_path)
         self.detector = LanguageDetector(train_path)
+        self.content_dir = Path(content_dir or self.data_dir.parents[1] / "learning-design" / "content")
+        self.policy = AuthoredPolicy(self.content_dir, self.spelling)
 
         self.lookup = {}
 
@@ -60,6 +63,13 @@ class AnswerMatcher:
             })
 
     def evaluate(self, quest_id, step_id, text, player=None):
+        result = self._evaluate(quest_id, step_id, text, player)
+        result = _apply_output_field_corrections(result, quest_id, step_id, text)
+        if (str(quest_id).strip(), str(step_id).strip()) == ("q3_2", "q3_2_a") and self.spelling.normalize(text) == "illa beda":
+            result["reaction_id"] = "r_shanthakka_say_saaku"
+        return result
+
+    def _evaluate(self, quest_id, step_id, text, player=None):
         detected_form = self.detector.detect(text)
         normalized = self.spelling.normalize(text)
 
@@ -84,7 +94,20 @@ class AnswerMatcher:
         candidates = self.lookup.get(key, [])
 
         if not candidates:
-            # Existing structural rules retain priority.
+            authored = self.policy.match(str(quest_id).strip(), str(step_id).strip(), text, player)
+            if authored is not None:
+                authored["detected_form"] = detected_form
+                return authored
+            # Negation is not resolved by token presence alone. Fail closed for
+            # unseen key-ownership claims; reviewed exact examples retain priority.
+            if str(step_id).strip() == "q2_2_a" and set(normalized.split()) & {"illa", "alla", "not", "no"}:
+                result["error_category"] = "wrong_meaning"
+                return result
+            global_error = self.policy.global_diagnostic(str(quest_id).strip(), str(step_id).strip(), text, detected_form)
+            if global_error is not None:
+                global_error["detected_form"] = detected_form
+                return global_error
+            # Rule lexicons share the same normalization as input.
             structural = match_structural_rule(
                 quest_id, step_id, text
             )
@@ -253,139 +276,3 @@ def _apply_output_field_corrections(result, quest_id, step_id, text):
     return result
 
 
-_base_evaluate_permanent = AnswerMatcher.evaluate
-
-def _evaluate_with_permanent_corrections(
-    self, quest_id, step_id, text, player=None
-):
-    result = _base_evaluate_permanent(
-        self, quest_id, step_id, text, player=player
-    )
-    return _apply_output_field_corrections(
-        result, quest_id, step_id, text
-    )
-
-AnswerMatcher.evaluate = _evaluate_with_permanent_corrections
-
-
-# PERMANENT_Q3_2_ILLA_BEDA_FIX
-# Restore the expected reaction for "Illa, beda" spelling variants.
-import re as _q32_re
-
-_q32_previous_evaluate = AnswerMatcher.evaluate
-
-def _q32_evaluate_with_illa_beda(self, quest_id, step_id, text, player=None):
-    result = _q32_previous_evaluate(
-        self, quest_id, step_id, text, player=player
-    )
-
-    if str(quest_id).strip() == "q3_2" and str(step_id).strip() == "q3_2_a":
-        normalized = self.spelling.normalize(text)
-        if normalized == "illa beda":
-            result["reaction_id"] = "r_shanthakka_say_saaku"
-
-    return result
-
-AnswerMatcher.evaluate = _q32_evaluate_with_illa_beda
-
-
-
-# UNSEEN_SPELLING_FUZZY_FALLBACK
-# Conservative character-level fallback for unseen spelling variations.
-from difflib import SequenceMatcher as _SpellingSimilarity
-
-_previous_evaluate_before_fuzzy = AnswerMatcher.evaluate
-
-def _evaluate_with_unseen_spelling(self, quest_id, step_id, text, player=None):
-    result = _previous_evaluate_before_fuzzy(
-        self, quest_id, step_id, text, player=player
-    )
-
-    # Never override an existing accepted result or a specific diagnosis.
-    if result.get("outcome") != "not_accepted":
-        return result
-
-    if result.get("error_category") != "unclear":
-        return result
-
-    if result.get("answer_id"):
-        return result
-
-    normalized = self.spelling.normalize(text)
-    if not normalized:
-        return result
-
-    quest = str(quest_id).strip()
-    step = str(step_id).strip()
-
-    # Compare only with answers belonging to this exact quest and step.
-    scored = []
-
-    for (candidate_quest, candidate_step, candidate_text), items in self.lookup.items():
-        if candidate_quest != quest or candidate_step != step:
-            continue
-
-        if candidate_text == normalized:
-            continue
-
-        # Only use unambiguous, previously accepted training answers.
-        labels = {
-            (
-                item["outcome"],
-                item["answer_id"],
-                item["error_category"],
-                item["correction_type"],
-                item["reaction_id"],
-            )
-            for item in items
-        }
-
-        if len(labels) != 1:
-            continue
-
-        label = next(iter(labels))
-        outcome, answer_id, category, correction, reaction = label
-
-        if outcome not in {"accepted", "accepted_with_correction"}:
-            continue
-
-        # Avoid matching very short answers using a weak similarity signal.
-        if min(len(normalized), len(candidate_text)) < 4:
-            continue
-
-        similarity = _SpellingSimilarity(
-            None, normalized, candidate_text
-        ).ratio()
-
-        # Require a high similarity score.
-        if similarity >= 0.88:
-            scored.append((
-                similarity, candidate_text, label
-            ))
-
-    if not scored:
-        return result
-
-    scored.sort(key=lambda item: item[0], reverse=True)
-    best_score, best_text, best_label = scored[0]
-
-    # If the top two candidates are nearly tied, do not guess.
-    if len(scored) > 1:
-        second_score, second_text, _ = scored[1]
-        if best_text != second_text and best_score - second_score < 0.06:
-            return result
-
-    outcome, answer_id, category, correction, reaction = best_label
-
-    result.update({
-        "outcome": outcome,
-        "answer_id": answer_id,
-        "error_category": category,
-        "correction_type": correction,
-        "reaction_id": reaction,
-        "confidence": round(best_score, 3),
-    })
-
-    return result
-
-AnswerMatcher.evaluate = _evaluate_with_unseen_spelling

@@ -1,0 +1,106 @@
+[
+  {
+    "test": "test_language_detector.py:test_detector_initializes",
+    "passed": true
+  },
+  {
+    "test": "test_language_detector.py:test_detect_empty_input_does_not_crash",
+    "passed": true
+  },
+  {
+    "test": "test_language_detector.py:test_detect_kannada_input_does_not_crash",
+    "passed": true
+  },
+  {
+    "test": "test_language_detector.py:test_detect_romanized_input_does_not_crash",
+    "passed": true
+  },
+  {
+    "test": "test_language_detector.py:test_detect_mixed_input_does_not_crash",
+    "passed": true
+  },
+  {
+    "test": "test_matcher.py:test_matcher_initializes",
+    "passed": true
+  },
+  {
+    "test": "test_matcher.py:test_known_answer_does_not_crash",
+    "passed": true
+  },
+  {
+    "test": "test_matcher.py:test_empty_answer_does_not_crash",
+    "passed": true
+  },
+  {
+    "test": "test_matcher.py:test_unknown_answer_does_not_crash",
+    "passed": true
+  },
+  {
+    "test": "test_normalizer.py:test_none_returns_empty_string",
+    "passed": true
+  },
+  {
+    "test": "test_normalizer.py:test_lowercase_and_trim",
+    "passed": true
+  },
+  {
+    "test": "test_normalizer.py:test_punctuation_is_removed",
+    "passed": true
+  },
+  {
+    "test": "test_normalizer.py:test_multiple_spaces_are_collapsed",
+    "passed": true
+  },
+  {
+    "test": "test_normalizer.py:test_repeated_characters_are_reduced",
+    "passed": true
+  },
+  {
+    "test": "test_normalizer.py:test_repeated_romanized_vowels_are_reduced",
+    "passed": true
+  },
+  {
+    "test": "test_normalizer.py:test_kannada_text_is_preserved",
+    "passed": true
+  },
+  {
+    "test": "test_normalizer.py:test_digits_are_preserved",
+    "passed": true
+  },
+  {
+    "test": "test_normalizer.py:test_empty_string",
+    "passed": true
+  },
+  {
+    "test": "test_normalizer.py:test_punctuation_only",
+    "passed": true
+  },
+  {
+    "test": "test_spelling_normalizer.py:test_normalizer_initializes",
+    "passed": true
+  },
+  {
+    "test": "test_spelling_normalizer.py:test_known_variant_is_normalized",
+    "passed": true
+  },
+  {
+    "test": "test_spelling_normalizer.py:test_unknown_text_does_not_crash",
+    "passed": true
+  },
+  {
+    "test": "test_spelling_normalizer.py:test_empty_input",
+    "passed": true
+  },
+  {
+    "test": "test_spelling_normalizer.py:test_none_input",
+    "passed": true
+  },
+  {
+    "test": "test_structural_rules.py:test_unknown_quest_does_not_crash",
+    "passed": true
+  },
+  {
+    "test": "test_structural_rules.py:test_unmatched_diagnosis_does_not_crash",
+    "passed": true
+  }
+]

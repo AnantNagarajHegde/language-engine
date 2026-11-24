@@ -1,0 +1,6 @@
+__pycache__/
+.pytest_cache/
+verification/results/Consumer/
+verification/tea-milestone/results/Build/
+verification/tea-milestone/results/save-*.json*
+verification/tea-milestone/results/feedback-save-*.json*

@@ -1,0 +1,1652 @@
+[
+  {
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "Nanna hesaru Meera",
+    "expected_outcome": "accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "incomplete_answer",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    }
+  },
+  {
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "Hesaru Meera",
+    "expected_outcome": "accepted_with_correction",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "incomplete_answer",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    }
+  },
+  {
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "Nanna hesaru Arun Meera",
+    "expected_outcome": "review",
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_name",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    }
+  },
+  {
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "Nanage chapati beku",
+    "expected_outcome": "accepted",
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "detected_form": "kanglish",
+      "confidence": 0.889
+    }
+  },
+  {
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "Nanage haalu beku",
+    "expected_outcome": "accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_2",
+    "step_id": "q2_2_a",
+    "text": "Ananya hatra keeli illa",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_ananya",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    }
+  },
+  {
+    "quest_id": "q2_2",
+    "step_id": "q2_2_a",
+    "text": "Somanna hatra keeli ide Ananya alla",
+    "expected_outcome": "review",
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_ananya",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    }
+  },
+  {
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": "Haudu oota kodi beda",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_ask_clarify",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    }
+  },
+  {
+    "quest_id": "q3_2",
+    "step_id": "q3_2_a",
+    "text": "Saaku beda",
+    "expected_outcome": "review",
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_saaku",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "detected_form": "kanglish",
+      "confidence": 1.0
+    }
+  },
+  {
+    "quest_id": "q1_4",
+    "step_id": "q1_4_a",
+    "text": "Ellide granthalaya",
+    "expected_outcome": "accepted_with_correction",
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_library",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    }
+  },
+  {
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "beku chaha",
+    "expected_outcome": "review",
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    }
+  },
+  {
+    "quest_id": "q1_1",
+    "step_id": "q1_1_a",
+    "text": "not dhanyavada",
+    "expected_outcome": "review",
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_thanks",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    }
+  },
+  {
+    "quest_id": "q1_1",
+    "step_id": "q1_1_a",
+    "text": "Hello",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_1",
+    "step_id": "q1_1_a",
+    "text": "Thank you",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 1.0
+    }
+  },
+  {
+    "quest_id": "q1_1",
+    "step_id": "q1_1_a",
+    "text": "Chai chahiye",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "hindi_roman",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_1",
+    "step_id": "q1_1_a",
+    "text": null,
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_1",
+    "step_id": "q1_1_a",
+    "text": "",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_1",
+    "step_id": "q1_1_a",
+    "text": "!!!",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_1",
+    "step_id": "q1_1_a",
+    "text": "<10000 x characters>",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "Hello",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "Thank you",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "Chai chahiye",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "hindi_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "hindi_roman",
+      "confidence": 1.0
+    }
+  },
+  {
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": null,
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "!!!",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "<10000 x characters>",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "Hello",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "Thank you",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.6
+    }
+  },
+  {
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "Chai chahiye",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "hindi_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "hindi_roman",
+      "confidence": 0.6
+    }
+  },
+  {
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": null,
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "!!!",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "<10000 x characters>",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "Hello",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "Thank you",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "Chai chahiye",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "hindi_roman",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": null,
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "!!!",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "<10000 x characters>",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_4",
+    "step_id": "q1_4_a",
+    "text": "Hello",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_4",
+    "step_id": "q1_4_a",
+    "text": "Thank you",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_4",
+    "step_id": "q1_4_a",
+    "text": "Chai chahiye",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "hindi_roman",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_4",
+    "step_id": "q1_4_a",
+    "text": null,
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_4",
+    "step_id": "q1_4_a",
+    "text": "",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_4",
+    "step_id": "q1_4_a",
+    "text": "!!!",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q1_4",
+    "step_id": "q1_4_a",
+    "text": "<10000 x characters>",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_1",
+    "step_id": "q2_1_a",
+    "text": "Hello",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_somanna_ignores",
+      "detected_form": "english",
+      "confidence": 0.6
+    }
+  },
+  {
+    "quest_id": "q2_1",
+    "step_id": "q2_1_a",
+    "text": "Thank you",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_1",
+    "step_id": "q2_1_a",
+    "text": "Chai chahiye",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "hindi_roman",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_1",
+    "step_id": "q2_1_a",
+    "text": null,
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_1",
+    "step_id": "q2_1_a",
+    "text": "",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_1",
+    "step_id": "q2_1_a",
+    "text": "!!!",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_1",
+    "step_id": "q2_1_a",
+    "text": "<10000 x characters>",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_1",
+    "step_id": "q2_1_b",
+    "text": "Hello",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_1",
+    "step_id": "q2_1_b",
+    "text": "Thank you",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_1",
+    "step_id": "q2_1_b",
+    "text": "Chai chahiye",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "hindi_roman",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_1",
+    "step_id": "q2_1_b",
+    "text": null,
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_1",
+    "step_id": "q2_1_b",
+    "text": "",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_1",
+    "step_id": "q2_1_b",
+    "text": "!!!",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_1",
+    "step_id": "q2_1_b",
+    "text": "<10000 x characters>",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_2",
+    "step_id": "q2_2_a",
+    "text": "Hello",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_2",
+    "step_id": "q2_2_a",
+    "text": "Thank you",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_2",
+    "step_id": "q2_2_a",
+    "text": "Chai chahiye",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "hindi_roman",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_2",
+    "step_id": "q2_2_a",
+    "text": null,
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_2",
+    "step_id": "q2_2_a",
+    "text": "",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_2",
+    "step_id": "q2_2_a",
+    "text": "!!!",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_2",
+    "step_id": "q2_2_a",
+    "text": "<10000 x characters>",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_3",
+    "step_id": "q2_3_b",
+    "text": "Hello",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_3",
+    "step_id": "q2_3_b",
+    "text": "Thank you",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_3",
+    "step_id": "q2_3_b",
+    "text": "Chai chahiye",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "hindi_roman",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_3",
+    "step_id": "q2_3_b",
+    "text": null,
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_3",
+    "step_id": "q2_3_b",
+    "text": "",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_3",
+    "step_id": "q2_3_b",
+    "text": "!!!",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q2_3",
+    "step_id": "q2_3_b",
+    "text": "<10000 x characters>",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": "Hello",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": "Thank you",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.6
+    }
+  },
+  {
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": "Chai chahiye",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "hindi_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "hindi_roman",
+      "confidence": 0.6
+    }
+  },
+  {
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": null,
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": "",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": "!!!",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": "<10000 x characters>",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_2",
+    "step_id": "q3_2_a",
+    "text": "Hello",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_2",
+    "step_id": "q3_2_a",
+    "text": "Thank you",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_2",
+    "step_id": "q3_2_a",
+    "text": "Chai chahiye",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "hindi_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "hindi_roman",
+      "confidence": 0.6
+    }
+  },
+  {
+    "quest_id": "q3_2",
+    "step_id": "q3_2_a",
+    "text": null,
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_2",
+    "step_id": "q3_2_a",
+    "text": "",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_2",
+    "step_id": "q3_2_a",
+    "text": "!!!",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_2",
+    "step_id": "q3_2_a",
+    "text": "<10000 x characters>",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_3",
+    "step_id": "q3_3_a",
+    "text": "Hello",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_3",
+    "step_id": "q3_3_a",
+    "text": "Thank you",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_3",
+    "step_id": "q3_3_a",
+    "text": "Chai chahiye",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "hindi_roman",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_3",
+    "step_id": "q3_3_a",
+    "text": null,
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_3",
+    "step_id": "q3_3_a",
+    "text": "",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_3",
+    "step_id": "q3_3_a",
+    "text": "!!!",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_3",
+    "step_id": "q3_3_a",
+    "text": "<10000 x characters>",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_3",
+    "step_id": "q3_3_b",
+    "text": "Hello",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_3",
+    "step_id": "q3_3_b",
+    "text": "Thank you",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_3",
+    "step_id": "q3_3_b",
+    "text": "Chai chahiye",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "hindi_roman",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_3",
+    "step_id": "q3_3_b",
+    "text": null,
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_3",
+    "step_id": "q3_3_b",
+    "text": "",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_3",
+    "step_id": "q3_3_b",
+    "text": "!!!",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_3",
+    "step_id": "q3_3_b",
+    "text": "<10000 x characters>",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_4",
+    "step_id": "q3_4_a",
+    "text": "Hello",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_4",
+    "step_id": "q3_4_a",
+    "text": "Thank you",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_4",
+    "step_id": "q3_4_a",
+    "text": "Chai chahiye",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "hindi_roman",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_4",
+    "step_id": "q3_4_a",
+    "text": null,
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_4",
+    "step_id": "q3_4_a",
+    "text": "",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_4",
+    "step_id": "q3_4_a",
+    "text": "!!!",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  },
+  {
+    "quest_id": "q3_4",
+    "step_id": "q3_4_a",
+    "text": "<10000 x characters>",
+    "expected_outcome": "not_accepted",
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    }
+  }
+]

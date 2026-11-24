@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "request_id": "0123456789abcdef0123456789abcdef",
+  "quest_id": "unknown",
+  "step_id": "unknown",
+  "learner_text": "Hello",
+  "player": {
+    "name": ""
+  }
+}

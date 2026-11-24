@@ -1,0 +1,4096 @@
+[
+  {
+    "row_id": "R00014",
+    "quest_id": "q1_1",
+    "step_id": "q1_1_a",
+    "text": "DHANYAVADA, NAMASKARA",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_thanks",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_thanks",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00015",
+    "quest_id": "q1_1",
+    "step_id": "q1_1_a",
+    "text": "Dhanyavaada, namaskara",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_thanks",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_thanks",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00016",
+    "quest_id": "q1_1",
+    "step_id": "q1_1_a",
+    "text": "Dhanyavada, namaskara",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_thanks",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_thanks",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00017",
+    "quest_id": "q1_1",
+    "step_id": "q1_1_a",
+    "text": "Dhanyawada, namaskara",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_thanks",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_thanks",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00021",
+    "quest_id": "q1_1",
+    "step_id": "q1_1_a",
+    "text": "Thank you dhanyavada",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_thanks",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_thanks",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "english"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00028",
+    "quest_id": "q1_1",
+    "step_id": "q1_1_a",
+    "text": "Haudu",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00029",
+    "quest_id": "q1_1",
+    "step_id": "q1_1_a",
+    "text": "Houdu",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00033",
+    "quest_id": "q1_1",
+    "step_id": "q1_1_a",
+    "text": "Nanage chaha bekku",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00034",
+    "quest_id": "q1_1",
+    "step_id": "q1_1_a",
+    "text": "Nanage chaha beku",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00035",
+    "quest_id": "q1_1",
+    "step_id": "q1_1_a",
+    "text": "Nanage chai beku",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00042",
+    "quest_id": "q1_1",
+    "step_id": "q1_1_a",
+    "text": "Nana hesaru Aditi",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00043",
+    "quest_id": "q1_1",
+    "step_id": "q1_1_a",
+    "text": "Nanna hesaru Aditi",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00044",
+    "quest_id": "q1_1",
+    "step_id": "q1_1_a",
+    "text": "Nanna hesru Aditi",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00047",
+    "quest_id": "q1_1",
+    "step_id": "q1_1_a",
+    "text": "Thank you very much",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "english"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00065",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "Nange chaha beeku",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "detected_form": "kanglish",
+      "confidence": 1.0
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00066",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "Nange chaha beku",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "detected_form": "kanglish",
+      "confidence": 1.0
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00067",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "Nange chaha beku!",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "detected_form": "kanglish",
+      "confidence": 1.0
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00068",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "Nange chaha bekuu",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "detected_form": "kanglish",
+      "confidence": 1.0
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00077",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "CHAHA KODI",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00078",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "Chaa kodi",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00079",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "Chaha kodi",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00080",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "Chahaa kodi",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00089",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "Kaapi  beku",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00090",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "Kaapi bekku",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00091",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "Kaapi beku",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00092",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "Kaapi bekuu",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_tea",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00110",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "Naanu chaha beeku",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "pronoun_mixup",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "pronoun_mixup",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00111",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "Naanu chaha beku",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "pronoun_mixup",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "pronoun_mixup",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00112",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "Naanu chaha bekuu",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "pronoun_mixup",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "pronoun_mixup",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00120",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "Nana hesaru Arun",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00121",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "Nanna hesaru Arun",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00122",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "Nanna hesru Arun",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00128",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "One tea",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "english"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00131",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_a",
+    "text": "Ek chai",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "hindi_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "hindi_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.6,
+      "detected_form": "hindi_roman"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00149",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "Nanage bekku",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_yes",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_yes",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00150",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "Nanage beku",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_yes",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_yes",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00151",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "Nanage beku!",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_yes",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_yes",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00152",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "Nange beku",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_yes",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_yes",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00161",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "ILLA",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_no",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_no",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00162",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "Ila",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_no",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_no",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00163",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "Illa",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_no",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_no",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00172",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "Ila, nanage beda",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_no",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_no",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00173",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "Illa, nanage beda",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_no",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_no",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00174",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "Illa, nanage bedaa",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_no",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_no",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00175",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "illa, nanage beda",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_no",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_no",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00184",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "Haudu ila",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_ask_clarify"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_ask_clarify",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00185",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "Haudu illa",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_ask_clarify"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_ask_clarify",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00186",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "Houdu illa",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_ask_clarify"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_ask_clarify",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00196",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "Nana hesaru Arun",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00197",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "Nanna hesaru Arun",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00198",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "Nanna hesru Arun",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00204",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "Yes please",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "english"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00207",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "No I don't",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "english"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00210",
+    "quest_id": "q1_2",
+    "step_id": "q1_2_b",
+    "text": "Nahi chahiye",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "hindi_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "hindi_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "hindi_roman"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00233",
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "NANNA HESARU RAVI",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_name",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_name",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00234",
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "Nana hesaru Ravi",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_name",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_name",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00235",
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "Nanna hesaru Ravi",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_name",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_name",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00236",
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "Nanna hesru Ravi",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_name",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_name",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00249",
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "Nimage hesaru Arun",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "pronoun_mixup",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "pronoun_mixup",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00250",
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "Nimage hesru Arun",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "pronoun_mixup",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "pronoun_mixup",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00256",
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "Naanu hesaru Aditi",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "pronoun_mixup",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "pronoun_mixup",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00257",
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "Naanu hesru Aditi",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "pronoun_mixup",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "pronoun_mixup",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00258",
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "Nanu hesaru Aditi",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "pronoun_mixup",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "pronoun_mixup",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00264",
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "Nanage cha beku",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00265",
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "Nanage chaha bekku",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00266",
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "Nanage chaha beku",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00272",
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "Nana",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "incomplete_answer",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "incomplete_answer",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00273",
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "Nanna",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "incomplete_answer",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "incomplete_answer",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00276",
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "I am Arun",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "english"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00279",
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "Name Aditi",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "english"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00282",
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "Mera naam Arun hai",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "hindi_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "hindi_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "hindi_roman",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00285",
+    "quest_id": "q1_3",
+    "step_id": "q1_3_a",
+    "text": "Main Aditi",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "hindi_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "hindi_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "hindi_roman",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00299",
+    "quest_id": "q1_4",
+    "step_id": "q1_4_a",
+    "text": "DAYAVITTU LIBRARY ELLIDE?",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_library",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_library",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00300",
+    "quest_id": "q1_4",
+    "step_id": "q1_4_a",
+    "text": "Dayavithu library ellide?",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_library",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_library",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00301",
+    "quest_id": "q1_4",
+    "step_id": "q1_4_a",
+    "text": "Dayavittu library ellide?",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_library",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_library",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00302",
+    "quest_id": "q1_4",
+    "step_id": "q1_4_a",
+    "text": "Dayavittu library yellide?",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_library",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_library",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00321",
+    "quest_id": "q1_4",
+    "step_id": "q1_4_a",
+    "text": "Mane elide?",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00322",
+    "quest_id": "q1_4",
+    "step_id": "q1_4_a",
+    "text": "Mane ellide?",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00323",
+    "quest_id": "q1_4",
+    "step_id": "q1_4_a",
+    "text": "Mane yellide?",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00335",
+    "quest_id": "q1_4",
+    "step_id": "q1_4_a",
+    "text": "Where library",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "english"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00350",
+    "quest_id": "q2_1",
+    "step_id": "q2_1_a",
+    "text": "Naanu archivist",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_intro",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_intro",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00351",
+    "quest_id": "q2_1",
+    "step_id": "q2_1_a",
+    "text": "Nanu archivist",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_intro",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_intro",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00352",
+    "quest_id": "q2_1",
+    "step_id": "q2_1_a",
+    "text": "naanu archivist",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_intro",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_intro",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00365",
+    "quest_id": "q2_1",
+    "step_id": "q2_1_a",
+    "text": "Namaskaara, nanna hesaru Arun",
+    "expected": {
+      "outcome": "accepted_with_correction",
+      "answer_id": "a_intro",
+      "error_category": "",
+      "correction_type": "use_target_pattern",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted_with_correction",
+      "answer_id": "a_intro",
+      "error_category": "",
+      "correction_type": "use_target_pattern",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00366",
+    "quest_id": "q2_1",
+    "step_id": "q2_1_a",
+    "text": "Namaskara, nanna hesaru Arun",
+    "expected": {
+      "outcome": "accepted_with_correction",
+      "answer_id": "a_intro",
+      "error_category": "",
+      "correction_type": "use_target_pattern",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted_with_correction",
+      "answer_id": "a_intro",
+      "error_category": "",
+      "correction_type": "use_target_pattern",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00367",
+    "quest_id": "q2_1",
+    "step_id": "q2_1_a",
+    "text": "Namaskara, nanna hesru Arun",
+    "expected": {
+      "outcome": "accepted_with_correction",
+      "answer_id": "a_intro",
+      "error_category": "",
+      "correction_type": "use_target_pattern",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted_with_correction",
+      "answer_id": "a_intro",
+      "error_category": "",
+      "correction_type": "use_target_pattern",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00368",
+    "quest_id": "q2_1",
+    "step_id": "q2_1_a",
+    "text": "namaskara, nanna hesaru arun",
+    "expected": {
+      "outcome": "accepted_with_correction",
+      "answer_id": "a_intro",
+      "error_category": "",
+      "correction_type": "use_target_pattern",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted_with_correction",
+      "answer_id": "a_intro",
+      "error_category": "",
+      "correction_type": "use_target_pattern",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00389",
+    "quest_id": "q2_1",
+    "step_id": "q2_1_a",
+    "text": "Nanage chaha beeku",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00390",
+    "quest_id": "q2_1",
+    "step_id": "q2_1_a",
+    "text": "Nanage chaha bekku",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00391",
+    "quest_id": "q2_1",
+    "step_id": "q2_1_a",
+    "text": "Nanage chaha beku",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00394",
+    "quest_id": "q2_1",
+    "step_id": "q2_1_a",
+    "text": "Hello",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_somanna_ignores"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_somanna_ignores",
+      "confidence": 0.95,
+      "detected_form": "english"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00412",
+    "quest_id": "q2_1",
+    "step_id": "q2_1_b",
+    "text": "DAYAVITTU SVALPA BAGILU TEGEYIRI",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_open",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_open",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00413",
+    "quest_id": "q2_1",
+    "step_id": "q2_1_b",
+    "text": "Dayavithu svalpa bagilu tegeyiri",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_open",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_open",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00414",
+    "quest_id": "q2_1",
+    "step_id": "q2_1_b",
+    "text": "Dayavittu svalpa bagilu tegeyiri",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_open",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_open",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00415",
+    "quest_id": "q2_1",
+    "step_id": "q2_1_b",
+    "text": "Dayavittu svalpaa bagilu tegeyiri",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_open",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_open",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00428",
+    "quest_id": "q2_1",
+    "step_id": "q2_1_b",
+    "text": "Dayavittu bagilu tegi",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "impolite_form",
+      "correction_type": "",
+      "reaction_id": "r_somanna_frowns"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "impolite_form",
+      "correction_type": "",
+      "reaction_id": "r_somanna_frowns",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00429",
+    "quest_id": "q2_1",
+    "step_id": "q2_1_b",
+    "text": "Dayavitu bagilu tegi",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "impolite_form",
+      "correction_type": "",
+      "reaction_id": "r_somanna_frowns"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "impolite_form",
+      "correction_type": "",
+      "reaction_id": "r_somanna_frowns",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00430",
+    "quest_id": "q2_1",
+    "step_id": "q2_1_b",
+    "text": "Dayawittu bagilu tegi",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "impolite_form",
+      "correction_type": "",
+      "reaction_id": "r_somanna_frowns"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "impolite_form",
+      "correction_type": "",
+      "reaction_id": "r_somanna_frowns",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00436",
+    "quest_id": "q2_1",
+    "step_id": "q2_1_b",
+    "text": "Bagilu kodi",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00441",
+    "quest_id": "q2_1",
+    "step_id": "q2_1_b",
+    "text": "Open gate please",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_somanna_ignores"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_somanna_ignores",
+      "confidence": 0.95,
+      "detected_form": "english"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00461",
+    "quest_id": "q2_2",
+    "step_id": "q2_2_a",
+    "text": "Ananya  hatra keeli ide",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_ananya",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_ananya",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00462",
+    "quest_id": "q2_2",
+    "step_id": "q2_2_a",
+    "text": "Ananya hatra keeli ide",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_ananya",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_ananya",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00463",
+    "quest_id": "q2_2",
+    "step_id": "q2_2_a",
+    "text": "Ananya hatra kili ide",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_ananya",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_ananya",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00468",
+    "quest_id": "q2_2",
+    "step_id": "q2_2_a",
+    "text": "Ila",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.0
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00469",
+    "quest_id": "q2_2",
+    "step_id": "q2_2_a",
+    "text": "Illa",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.0
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00472",
+    "quest_id": "q2_2",
+    "step_id": "q2_2_a",
+    "text": "Bagilu",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00475",
+    "quest_id": "q2_2",
+    "step_id": "q2_2_a",
+    "text": "Manjunatha",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_meaning",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00500",
+    "quest_id": "q2_3",
+    "step_id": "q2_3_b",
+    "text": "Dayavittu keeli ellide!",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_keeli",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_keeli",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00501",
+    "quest_id": "q2_3",
+    "step_id": "q2_3_b",
+    "text": "Dayavittu keeli ellide?",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_keeli",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_keeli",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00502",
+    "quest_id": "q2_3",
+    "step_id": "q2_3_b",
+    "text": "Dayavitu keeli ellide?",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_keeli",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_keeli",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00503",
+    "quest_id": "q2_3",
+    "step_id": "q2_3_b",
+    "text": "Dayawittu keeli ellide?",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_keeli",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_keeli",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00518",
+    "quest_id": "q2_3",
+    "step_id": "q2_3_b",
+    "text": "Keeli beku",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00519",
+    "quest_id": "q2_3",
+    "step_id": "q2_3_b",
+    "text": "Keeli bekuu",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00520",
+    "quest_id": "q2_3",
+    "step_id": "q2_3_b",
+    "text": "Kili beku",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00533",
+    "quest_id": "q2_3",
+    "step_id": "q2_3_b",
+    "text": "Key where",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_somanna_ignores"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_somanna_ignores",
+      "confidence": 0.95,
+      "detected_form": "english"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00555",
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": "Nanage oota beku",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_meal",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_meal",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00556",
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": "Nanage oota beku!",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_meal",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_meal",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00557",
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": "Nanage oota bekuu",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_meal",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_meal",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00558",
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": "Nanege oota beku",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_meal",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_meal",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00566",
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": "Idli kodi",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_meal",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_meal",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00567",
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": "Idli kodi!",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_meal",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_meal",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00580",
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": "Illa, beda",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "valid_other_answer",
+      "correction_type": "",
+      "reaction_id": "r_shanthakka_offers_again"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "valid_other_answer",
+      "correction_type": "",
+      "reaction_id": "r_shanthakka_offers_again",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00581",
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": "Illa, bedaa",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "valid_other_answer",
+      "correction_type": "",
+      "reaction_id": "r_shanthakka_offers_again"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "valid_other_answer",
+      "correction_type": "",
+      "reaction_id": "r_shanthakka_offers_again",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00582",
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": "Illa, beeda",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "valid_other_answer",
+      "correction_type": "",
+      "reaction_id": "r_shanthakka_offers_again"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "valid_other_answer",
+      "correction_type": "",
+      "reaction_id": "r_shanthakka_offers_again",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00595",
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": "Eshtu rupaayi?",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "valid_other_answer",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "valid_other_answer",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00596",
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": "Eshtu rupayi?",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "valid_other_answer",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "valid_other_answer",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00597",
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": "Estu rupayi?",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "valid_other_answer",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "valid_other_answer",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00607",
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": "Namaskaara",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00608",
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": "Namaskar",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00609",
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": "Namaskara",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00612",
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": "Yes, a meal please",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "english"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00617",
+    "quest_id": "q3_1",
+    "step_id": "q3_1_a",
+    "text": "Khana chahiye",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "hindi_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "hindi_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "hindi_roman"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00637",
+    "quest_id": "q3_2",
+    "step_id": "q3_2_a",
+    "text": "Saakku saaku",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_saaku",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_saaku",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00638",
+    "quest_id": "q3_2",
+    "step_id": "q3_2_a",
+    "text": "Saaku saakku",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_saaku",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_saaku",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00639",
+    "quest_id": "q3_2",
+    "step_id": "q3_2_a",
+    "text": "Saaku saaku",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_saaku",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_saaku",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00640",
+    "quest_id": "q3_2",
+    "step_id": "q3_2_a",
+    "text": "Saaku saaku!",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_saaku",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_saaku",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00657",
+    "quest_id": "q3_2",
+    "step_id": "q3_2_a",
+    "text": "Ila, beda",
+    "expected": {
+      "outcome": "accepted_with_correction",
+      "answer_id": "a_beda",
+      "error_category": "",
+      "correction_type": "saaku_vs_beda",
+      "reaction_id": "r_shanthakka_say_saaku"
+    },
+    "actual": {
+      "outcome": "accepted_with_correction",
+      "answer_id": "a_beda",
+      "error_category": "",
+      "correction_type": "saaku_vs_beda",
+      "reaction_id": "r_shanthakka_say_saaku",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00658",
+    "quest_id": "q3_2",
+    "step_id": "q3_2_a",
+    "text": "Illa, beda",
+    "expected": {
+      "outcome": "accepted_with_correction",
+      "answer_id": "a_beda",
+      "error_category": "",
+      "correction_type": "saaku_vs_beda",
+      "reaction_id": "r_shanthakka_say_saaku"
+    },
+    "actual": {
+      "outcome": "accepted_with_correction",
+      "answer_id": "a_beda",
+      "error_category": "",
+      "correction_type": "saaku_vs_beda",
+      "reaction_id": "r_shanthakka_say_saaku",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00659",
+    "quest_id": "q3_2",
+    "step_id": "q3_2_a",
+    "text": "Illa, bedaa",
+    "expected": {
+      "outcome": "accepted_with_correction",
+      "answer_id": "a_beda",
+      "error_category": "",
+      "correction_type": "saaku_vs_beda",
+      "reaction_id": "r_shanthakka_say_saaku"
+    },
+    "actual": {
+      "outcome": "accepted_with_correction",
+      "answer_id": "a_beda",
+      "error_category": "",
+      "correction_type": "saaku_vs_beda",
+      "reaction_id": "r_shanthakka_say_saaku",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00660",
+    "quest_id": "q3_2",
+    "step_id": "q3_2_a",
+    "text": "illa, beda",
+    "expected": {
+      "outcome": "accepted_with_correction",
+      "answer_id": "a_beda",
+      "error_category": "",
+      "correction_type": "saaku_vs_beda",
+      "reaction_id": "r_shanthakka_say_saaku"
+    },
+    "actual": {
+      "outcome": "accepted_with_correction",
+      "answer_id": "a_beda",
+      "error_category": "",
+      "correction_type": "saaku_vs_beda",
+      "reaction_id": "r_shanthakka_say_saaku",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00669",
+    "quest_id": "q3_2",
+    "step_id": "q3_2_a",
+    "text": "Haudu, innu beeku",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "valid_other_answer",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "valid_other_answer",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00670",
+    "quest_id": "q3_2",
+    "step_id": "q3_2_a",
+    "text": "Haudu, innu beku",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "valid_other_answer",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "valid_other_answer",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00671",
+    "quest_id": "q3_2",
+    "step_id": "q3_2_a",
+    "text": "Haudu, inu beku",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "valid_other_answer",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "valid_other_answer",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00677",
+    "quest_id": "q3_2",
+    "step_id": "q3_2_a",
+    "text": "No thanks",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "english"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00681",
+    "quest_id": "q3_2",
+    "step_id": "q3_2_a",
+    "text": "Nahi chahiye",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "hindi_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "hindi_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "hindi_roman"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00702",
+    "quest_id": "q3_3",
+    "step_id": "q3_3_a",
+    "text": "Oota eshtu?",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_price",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_price",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00703",
+    "quest_id": "q3_3",
+    "step_id": "q3_3_a",
+    "text": "Oota yestu?",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_price",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_price",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00704",
+    "quest_id": "q3_3",
+    "step_id": "q3_3_a",
+    "text": "Uta eshtu?",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_price",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_price",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00705",
+    "quest_id": "q3_3",
+    "step_id": "q3_3_a",
+    "text": "oota eshtu?",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_price",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_price",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00724",
+    "quest_id": "q3_3",
+    "step_id": "q3_3_a",
+    "text": "Nanage oota beku",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00725",
+    "quest_id": "q3_3",
+    "step_id": "q3_3_a",
+    "text": "Nanage uta beku",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00726",
+    "quest_id": "q3_3",
+    "step_id": "q3_3_a",
+    "text": "Nange oota beku",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00729",
+    "quest_id": "q3_3",
+    "step_id": "q3_3_a",
+    "text": "What is the price?",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "english"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00732",
+    "quest_id": "q3_3",
+    "step_id": "q3_3_a",
+    "text": "Kitna hua?",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "hindi_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "hindi_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "hindi_roman"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00757",
+    "quest_id": "q3_3",
+    "step_id": "q3_3_b",
+    "text": "₹50",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_50",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_50",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "detected_form": "digits",
+      "confidence": 1.0
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00763",
+    "quest_id": "q3_3",
+    "step_id": "q3_3_b",
+    "text": "Aravattu",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_number",
+      "correction_type": "",
+      "reaction_id": "r_shanthakka_illa_aivattu"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_number",
+      "correction_type": "",
+      "reaction_id": "r_shanthakka_illa_aivattu",
+      "confidence": 0.95,
+      "detected_form": "noise"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00764",
+    "quest_id": "q3_3",
+    "step_id": "q3_3_b",
+    "text": "Aravatu",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_number",
+      "correction_type": "",
+      "reaction_id": "r_shanthakka_illa_aivattu"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_number",
+      "correction_type": "",
+      "reaction_id": "r_shanthakka_illa_aivattu",
+      "confidence": 0.95,
+      "detected_form": "noise"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00765",
+    "quest_id": "q3_3",
+    "step_id": "q3_3_b",
+    "text": "Arawattu",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_number",
+      "correction_type": "",
+      "reaction_id": "r_shanthakka_illa_aivattu"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_number",
+      "correction_type": "",
+      "reaction_id": "r_shanthakka_illa_aivattu",
+      "confidence": 0.95,
+      "detected_form": "noise"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00772",
+    "quest_id": "q3_3",
+    "step_id": "q3_3_b",
+    "text": "Nooru",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_number",
+      "correction_type": "",
+      "reaction_id": "r_shanthakka_illa_aivattu"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_number",
+      "correction_type": "",
+      "reaction_id": "r_shanthakka_illa_aivattu",
+      "detected_form": "noise",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00773",
+    "quest_id": "q3_3",
+    "step_id": "q3_3_b",
+    "text": "Noru",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_number",
+      "correction_type": "",
+      "reaction_id": "r_shanthakka_illa_aivattu"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_number",
+      "correction_type": "",
+      "reaction_id": "r_shanthakka_illa_aivattu",
+      "detected_form": "noise",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00774",
+    "quest_id": "q3_3",
+    "step_id": "q3_3_b",
+    "text": "Nuru",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_number",
+      "correction_type": "",
+      "reaction_id": "r_shanthakka_illa_aivattu"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_number",
+      "correction_type": "",
+      "reaction_id": "r_shanthakka_illa_aivattu",
+      "detected_form": "noise",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00780",
+    "quest_id": "q3_3",
+    "step_id": "q3_3_b",
+    "text": "10",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_number",
+      "correction_type": "",
+      "reaction_id": "r_shanthakka_illa_aivattu"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_number",
+      "correction_type": "",
+      "reaction_id": "r_shanthakka_illa_aivattu",
+      "detected_form": "digits",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00783",
+    "quest_id": "q3_3",
+    "step_id": "q3_3_b",
+    "text": "100",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_number",
+      "correction_type": "",
+      "reaction_id": "r_shanthakka_illa_aivattu"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_number",
+      "correction_type": "",
+      "reaction_id": "r_shanthakka_illa_aivattu",
+      "detected_form": "digits",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00808",
+    "quest_id": "q3_4",
+    "step_id": "q3_4_a",
+    "text": "Dayavittu  Ananya elli?",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_where",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_where",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00809",
+    "quest_id": "q3_4",
+    "step_id": "q3_4_a",
+    "text": "Dayavittu Ananya eli?",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_where",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_where",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00810",
+    "quest_id": "q3_4",
+    "step_id": "q3_4_a",
+    "text": "Dayavittu Ananya elli?",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_where",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_where",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00811",
+    "quest_id": "q3_4",
+    "step_id": "q3_4_a",
+    "text": "Dayavitu Ananya elli?",
+    "expected": {
+      "outcome": "accepted",
+      "answer_id": "a_where",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": ""
+    },
+    "actual": {
+      "outcome": "accepted",
+      "answer_id": "a_where",
+      "error_category": "",
+      "correction_type": "",
+      "reaction_id": "",
+      "confidence": 0.95,
+      "detected_form": "kanglish"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00822",
+    "quest_id": "q3_4",
+    "step_id": "q3_4_a",
+    "text": "Keeli eli?",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00823",
+    "quest_id": "q3_4",
+    "step_id": "q3_4_a",
+    "text": "Keeli elli?",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00824",
+    "quest_id": "q3_4",
+    "step_id": "q3_4_a",
+    "text": "Kili elli?",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "wrong_word",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "kanglish",
+      "confidence": 0.6
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00836",
+    "quest_id": "q3_4",
+    "step_id": "q3_4_a",
+    "text": "Ananya where",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "confidence": 0.95,
+      "detected_form": "english"
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00841",
+    "quest_id": "ALL",
+    "step_id": "ALL",
+    "text": "zzzz",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00844",
+    "quest_id": "ALL",
+    "step_id": "ALL",
+    "text": "hmm",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00847",
+    "quest_id": "ALL",
+    "step_id": "ALL",
+    "text": "ok",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00850",
+    "quest_id": "ALL",
+    "step_id": "ALL",
+    "text": "<SPACES>",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00853",
+    "quest_id": "ALL",
+    "step_id": "ALL",
+    "text": "idk",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00856",
+    "quest_id": "ALL",
+    "step_id": "ALL",
+    "text": "hint",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "unclear",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "noise",
+      "confidence": 0.0
+    },
+    "differences": {}
+  },
+  {
+    "row_id": "R00859",
+    "quest_id": "ALL",
+    "step_id": "ALL",
+    "text": "this is difficult",
+    "expected": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled"
+    },
+    "actual": {
+      "outcome": "not_accepted",
+      "answer_id": "",
+      "error_category": "english_only",
+      "correction_type": "",
+      "reaction_id": "r_puzzled",
+      "detected_form": "english",
+      "confidence": 0.6
+    },
+    "differences": {}
+  }
+]
